@@ -1,0 +1,455 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%2345678901234567890123456789012345678901234567890123456789012345678901234567890
+%        1         2         3         4         5         6         7         8
+% DOCUMENT CLASS
+\documentclass[oneside,12pt]{Classes/RoboticsLaTeX}
+
+% USEFUL PACKAGES
+% Commonly-used packages are included by default.
+% Refer to section "Book - Useful packages" in the class file "Classes/RoboticsLaTeX.cls" for the complete list.
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{multirow}
+\usepackage{colortbl}
+\usepackage{color}
+\usepackage[table]{xcolor}
+\usepackage{epigraph}
+\usepackage{graphicx}
+%\usepackage{subfigure}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{float}
+\usepackage{longtable}
+\usepackage[pdftex]{graphicx}
+\usepackage{pdfpages}
+%\usepackage{tabularx}
+\usepackage{pdflscape}
+\usepackage[acronym,toc]{glossaries}
+\usepackage{setspace}
+\usepackage[utf8]{inputenc}
+\usepackage[table]{xcolor}
+\setstretch{1.5}
+%\onehalfspacing
+% SPECIAL COMMANDS
+% correct bad hyphenation
+\hyphenation{op-tical net-works semi-conduc-tor}
+\hyphenation{par-ti-cu-lar mo-du-le ge-stu-re}
+% INTERLINEA 1.5
+%\renewcommand{\baselinestretch}{1.5}
+
+%% ignore slightly overfull and underfull boxes
+%\hbadness=10000
+%\hfuzz=50pt
+% declare commonly used operators
+%\DeclareMathOperator*{\argmax}{argmax}
+%\ word count -> texcount Thesis_Eoghan.tex -inc -incbib -sum -1
+
+
+% HEADER
+\title{\Large{An Investigation into Biased Language in the American Sport Industry}}
+
+  \author{Eoghan Ó Gallchóir (16339936)}
+  \collegeordept{School of Computer Science}
+  \university{National University of Ireland, Galway}
+  \crest{\includegraphics[width=75mm]{Figures/logo_NUI.png}}
+  
+
+% Supervisors
+\supervisor{Dr. Peter Paul Buitelaar, \ Dr. Mihael Arcan}
+%\supervisor{Dr. Mihael Arcan}	
+
+
+% text before "In partial fulfillment of the requirements for the degree of" in .cls file/line 153\
+% replace PROGRAMME with Data Analytics, Artificial Intelligence, or Artificial Intelligence - Online
+\degree{MSc in Artificial Intelligence}
+\degreedate{August 17, 2021}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% uncomment if glossary needed, see examples in file
+%\makeglossaries
+%\loadglsentries{glossary}
+
+\begin{document}
+\begin{spacing}{1}
+\maketitle
+\end{spacing}
+
+% add an empty page after title page
+\newpage\null\thispagestyle{empty}\newpage
+
+% set the number of sectioning levels that get number and appear in the contents
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+\frontmatter
+
+% replace PROGRAMME with Data Analytics, Artificial Intelligence, or Artificial Intelligence - Online
+\textbf{DECLARATION} 
+
+I, Eoghan Ó Gallchóir, do hereby declare that this thesis entitled {\it An Investigation into Biased Language in the American Sport Industry},
+ is a bonafide record of research work done by me for the award of MSc in Artificial Intelligence from National University of Ireland, Galway. 
+ It has not been previously submitted, in part or whole, to any university or institution for any degree, diploma, or other qualification. 
+\newline
+
+\begin{tabular}{@{}p{.5in}p{4in}@{}}
+Signature: & ~~\hrulefill \\
+\end{tabular}
+\newpage
+
+
+%%%% uncomment if acknowledgements needed
+%\textbf{Acknowledgement}
+%
+%
+%\newpage\textbf{}
+
+
+% THESIS ABSTRACT
+\begin{abstracts}
+%The abstract should summarize the substantive results of the work and not merely list topics to be discussed. An abstract is an outline/brief summary of your paper and your whole project ... 
+To do after results have been determined
+%It should be terse and usually written in the present tense and impersonal style: "A new graph community detection algorithm is proposed based on spectral features. It is compared against several strong baselines ...".
+
+\textbf{Keywords: } Sentiment Analysis, Text Classification, Machine Learning, Natural Language Processing, Harvard General Inquirer
+\end{abstracts}
+
+
+\tableofcontents
+\listoffigures
+\listoftables
+\printglossary[title=List of Acronyms,type=\acronymtype]
+
+\mainmatter
+
+\chapter{Introduction}
+\label{chap:introduction}
+\setcounter{page}{7}
+The work carried out in this project involves classifying sentiment towards white and non-white
+American football players. This is done through machine learning models.
+
+\section{Background}
+When players first enter any of the 4 major American sports (baseball, basketball, football and hockey) they are
+drafted from colleges (or overseas) rather than signed or brought up from youth squads as commonly seen in
+European sports like soccer or rugby. The National Football League (NFL) draft consists of 7 rounds, with each team
+having 1 pick per round. With 32 teams in the league, that is a total of 224 selections to be made. Teams choose players in order based on performance, with worse performing teams 
+receiving a higher pick in the draft. This is seen as a way to increase the competitiveness in the league, theoritically the worse the 
+team is, the higher selection they have so they will get a better player. Also, the team with the 1st pick in the first round (no.1 overall), also 
+receive the 1st pick in the second round (no.33 overall), and so on and on. It is however extremely difficult to evaluate college-level players,
+for example 45\% of quarterbacks taken in the first round of the NFL draft were no longer on a team 5 years after they were drafted \citep{qbSuccess}.
+Currently there are 350 Division 1 universities in America \citep{NCAA}, this status
+essentially describes the standard their sports programmes are at, Division 1 being the highest. This is where most
+NFL players come from. Due to this size, it is unrealistic to expect that every NFL coach can assess every player of
+interest to him to draft onto his team, so teams rely on scouting reports, from scouts they either hire or trust, to
+help inform them in deciding on who to draft. These scouting reports describes a players physical and cognitive
+attributes in the form of a short paragraph, also describing his strengths and weaknesses. Most prospective players also attend a draft combine, which essentially
+is a standardized workout and assessment used to quantify their abilities. American sports media also produces
+similar player analysis \citep{KellyRinger}, as well as game previews and post-game reports.
+
+\begin{figure}[hb]
+  \centering
+  \begin{minipage}{.5\textwidth}
+    \centering
+    \includegraphics[width=.8\linewidth]{Figures/Bateman_Strengths.png}
+    \captionof{figure}{Example of a players strengths}
+    \label{fig:bateman_s}
+  \end{minipage}%
+  \begin{minipage}{.5\textwidth}
+    \centering
+    \includegraphics[width=.8\linewidth]{Figures/Bateman_Weaknesses.png}
+    \captionof{figure}{Example of a players weaknesses}
+    \label{fig:bateman_w}
+  \end{minipage}
+  \end{figure}
+
+\section{Context}
+Studies done on the American sports industry and its media has been time and time again shown that racism exists in sports media. One study by \citet{Viklund2009}
+showed that racial bias still exists in NFL commentary, with the problem persisting across serveral different television network coverages.
+The NFL is in a unique position for analysis as there is a huge
+discrepancy in both players of colour and people of colour not only in team coaching and executive positions \citep{Lapchick2020}, but in
+reporting roles in mainstream media \citep{Lapchick2018}. In the 2020/2021 season of the NFL, players of colour accounted for 69.4\% of 
+all players, while there were only 4 head coaches of colour in the league in that same season (12.5\% of all head coaches). Similarily, it was found by \citet{Lapchick2018} that 85\% of sports editors were white, and 80.3\% and 82.1\% of columnists and reporters were white, respectively.
+
+\begin{figure}[hb]
+  \centering
+  \begin{minipage}{1\textwidth}
+    \centering
+    \includegraphics[width=1\linewidth]{Figures/Female_Enrolled_v_Disciplined.png}
+    \captionof{figure}{Comparison of Racial Representation Among Enrolled Vs. Disciplined Females \citep{WrightRobin}}
+    \label{fig:Female_Rep}
+  \end{minipage}%
+\end{figure}
+
+
+\section{Bias}
+\subsection{Implicit Bias}
+Implicit bias has been described by \citet{imp_bias} as attitudes that subconsciously affect our actions and decisions. These attitudes can be either
+positive or negative, and are activated unintentionally. This is the opposit of explicit(or conscious) bias, where attitudes are intentionally affecting our
+actions. Given how implicit bias is present in every one of us, it can take many different forms in many different areas of life. For example in education, 
+a study by \citet{WrightRobin} examined the rates of disciplinary actions in the Ohio education system faced not only by students of different races but also compared those rates on a per gender 
+basis. It was found that:
+\begin{itemize}
+  \item black students received a disproportionate amount of discipline compared to their percentage of enrollment.
+  \item black female students experienced the highest level of overrepresentation.
+\end{itemize}
+This clearly shows how prevalent and damaging bias can be.
+\subsection{Bias in Media}
+Media has long played a role in shaping how some people view minority groups and race at large \citep{Greenberg2002Minorities}.
+\citet{mediastudy} found the existence of both gender and racial stereotyping on television. Viewing women and minority
+through this lens provides those who watch with conventional idealogical views about them \citep{mediastudy}. This study used code
+to gather network televsion data over a period of nine years. The same coding schemes, and validity testing was used year-on-year. 
+This study is relevant not only because of its subject matter but also due to its aforementioned methodology. The paper does however
+fall short in several categories.
+\begin{itemize}
+  \item No popular paid channels like HBO were tracked during this time.
+  \item The coders who implemented the research were only given a few weeks of training. Could lead to inconsistencies too as a different group oversaw each year.
+\end{itemize}
+With television being some peoples only interaction with ethnic groups outside their own, some authors have examined the effect that this stereotyping has on those who consume these programmes. 
+As long as mainstream media continues to reproduce racial and ethnic stereotypes, these false characteristics will continue to exist, and viewers will see it as 
+how people truly are \citep{Castaneda}.
+
+
+\section{Thesis Structure}
+This thesis is divided into seven chapters.
+\begin{itemize}
+  \item Chapter 1 provides background information and puts the investigation into context.
+  \item Chapter 2 reviews current work in this domain, as well as literature review of papers on media bias, classification algoritms, and sentiment analysis techniques.
+  \item Chapter 3 is a detailed look at the models created to both analyse player sentiment and classify player ethicity.
+  \item Chapter 4 describes the data created for and during the experiments.
+  \item Chapter 5 details the experimental settings.
+  \item Chapter 6 provides the experiment results and interpretation.
+  \item Chapter 7 gives a final review of the results in the context of the aim of this paper.
+\end{itemize}
+
+
+\chapter{Literature Review}
+\label{chap:lit_review}
+This chapter covers existing literature that relate to the core topics of this thesis.
+\section{Sentiment Analysis}
+\subsection{Basic Classification}
+Sentiment analysis is the process in which the attitude or emotion expressed by a text is classified. This is done through natural language processing techniques. The rise of social media applications, Twitter in particular, 
+has only increased interest in sentiment analysis. As NFL scouting reports are subjective, opinion-based documents, it is important to understand current classification methods of textual reviews. Experiments conducted by 
+\citet{SentiAnalysis} showed that sentiment analysis of textual (in their case movie reviews) reviews could be classified at a document level. The research conducted does prove that large scale sentiment analysis of documents can
+produce concrete results due to its use of the Cornell movie-review corpora. However, documents were not classified beyond positive and negative sentiment. While this binary classification is somewhat useful,
+no specific information can be obtained from this, which is why Inquirer dictionaries shall be utilised in experiments conducted in later chapters of this paper.
+
+\subsection{Using an Inquirer Dictionary}
+Inquirer dictionaries are essentially tools to map words to dictionary-supplied categories. The General Inquirer (GI) dictionary is the most widely used in semantic analysis research, containing over 182 categories in all \citep{stone66}, 
+far surpassing simple positive or negative sentiment that we have seen before. Currently, this dictionary is a combination of the Harvard IV-4, the Lasswell dictionaries, as well as contributions based on the social cognition work of 
+Semin and Fiedler. A study by \citet{SentiGI} uses this GI dictionary to perform computer-assisted semantic analysis on product reviews on consumer opinion web sites. Outside of the positive and negative tags, 11 categories 
+were found relevant to their research. Pollach's findings corroborated earlier experiments pertaining to word frequencies, causing them to conclude that these product reviews follow ``implicit genre rules regarding content, format 
+and language''. This analysis shows that using an Inquirer dictionary yields results beyond simple positive or negative sentiment. It is also highly relevant because of the specificity of the corpus it analyses. The scope of the corpus analysed
+in the Experiments chapter of this paper will have a similar corpus scope, and it is promising that multiple Inquirer categories were still discovered. A similar or higher number of categories should be found in the subject of NFL scouting reports.
+
+\section{Text Classification with Machine Learning Algorithms}
+Text classification is one of the core topics of this paper, and shall be the subject of one of the experiments performed in the experiments chapter. \citet{Chinese_textC} showed that the Support Vector Machine (SVM) algorithm was the most accurate for 
+multi-label classification, albeit only slightly more accurate than the much quicker Naive Bayes (NB) algorithm. Due to this the SVM algorithm is only seen as appropriate for use with smaller datasets. The experiment is relevant to this paper due to the fact
+that both the SVM algorithm and Naive Bayesian algorithm was implemented by the scikit-learn package and produced desirable results. More information on scikit-learn can be found in \hyperref[sec:sci-kit_label]{section 3.3}. Another one of its strengths
+is the use of precision and recall in addition to the F1-score. This gives context to the F1-score. A weakness of this paper is that the smaller classes have better results than the big classes, which would lead to a reducution in expected accuracy under
+practical circumstances.
+\paragraph{}
+\citet{Dharmadhikari2011EmpiricalSO} also posited that SVM is one of the most effective text classification algorithms due to its ability to manage large spaces of features. The two papers also agree its unwieldy comptuational 
+demands.The papers findings also takes into account NLP techniques and how it can be used to improve classification results. A major weakness of this paper is the lack of experiments showing its findings, focusing entirely on existing literature. Another
+algorithm that can be used for text classification is Stochastic Gradient Descent (SGD). It performs well with sparse and high dimensional data \citep{SVM_SGD}. \citet{Arabic_SGD_LR} found that on large, multi-label datasets, both SGD and Logistic Regression
+had the highest F1-score in comparison to SVM and NB approaches.
+
+\section{Dataset Imbalance}
+Data imbalance occurs in many real world domains. Given that 70\% of NFL players are non-white, this applies to the problem domain of this paper. \citet{imbalanced_data} shows that imbalanced data affects the performance of normal classification, with balanced 
+datasets achieving a higher average F1-score. It was found that the difference in classification performance between balanced and imbalanced data grew as the degree of imbalance distribution grew. One weakness of the experiments by \citet{imbalanced_data} 
+is that it did not involve any text classification, something that is a core component of the experiments proposed in later in this paper. Oversampling the minority class, especially in datasets with a large discrepancy provided good results \citep{BalancingMethods}.
+Furthermore, \citet{BalancingMethods} also found that random over-sampling was less computationally expensive than other methods to balance datasets. 
+
+\section{Existing Work on Sports Media}
+American sports, with American Football and the National Basketball League (NBA) specifically, are in a unique position, with the majority
+of their players being non-white but other positions, beit coaching positions, executive positions or media positions being of a white majority \citep{Lapchick2020}.
+This has caused the two sports to be scrutinized more than most for bias in their respective media.
+Studies have been conducted into the language used by television announcers or commentators. They give play-by-play description of what is happening at any given
+time during the game. More often than not they are paired with an analyst, whose role is to provide expert analysis and background information about a player or team. 
+An article by \citep{ColorCoded} analysed comments made by both the play-by-play commentator and the commentator tasked with analysis in American Football and Basketball collegiate games.
+To sample the American Football it took only a quarter of each game over a period of weeks as their data sampling method.
+For the basketball it used a Division 1 Men's Championship basketball tournament, obtaining over 55 hours of basketball coverage. 
+They hypothesized that black players would receive:
+\begin{itemize}
+  \item a higher portion of negative comments than white players.
+  \item more comments on their physical attributes than white players.
+  \item more negative comments regarding both their intellect on and off the field.
+  \item both more negative statements about their character and would recieve more negative personal interest stories than their white counterparts.
+\end{itemize}
+In each case the hypothesis was supported by their experiments.
+This article's strength lies in how thorough it is despite its small sample size. The study would have however benefitted from a larger dataset, perhaps over
+several years. In this paper it has been established the effect this implicit bias can have on viewers, discussion which is missing from \citet{ColorCoded}'s article.
+\paragraph{}
+There are instances of overcoming the problem of a small dataset. It was shown by \citep{CommentatorBias} that large scale analysis of American sports media was not only possble, 
+but produced coherent results. 1,445 American football (both collegiate and NFL) games were automatically annotated with mentions of players and linked with metadata. To reduce
+susceptibility to noise ARK TweetNLP was used as it is more robust than conventional part-of-speech tagging methods. One of the outputs of this study was their {\it FOOTBALL} dataset,
+a large scale sports commentary corpus annotated with the race of the player, which is useful for any future work in bias of American football media. This paper is included here due to its
+sound technical foundations, and how it is possible to produce definitive results from processing the language associated with sport. It also only furthers the need to analyse
+scouting in this manner.
+
+
+
+\chapter{Methodology}
+\label{chap:methodology}
+In this chapter, the method of sourcing the data is described. The classification and sentiment analysis experiments are also explained here ahead of their use in \hyperref[chap:experiments]{Chapter 5}.
+\section{Data Gathering}
+The data needed to perform the experiments proposed was not available from any resource online. Thus, web scraping techniques had to be implemented. It was decided upon that player data should
+be obtained from the official NFL.com website \footnote{\url{https://www.nfl.com/draft/tracker/picks?year=2021}}. Beautiful Soup \footnote{\url{https://beautiful-soup-4.readthedocs.io/en/latest/}} (BS)
+was used to obtain all player information from the most recent (2021) draft. Here is where the player in-depth profile URL link was also captured, which will also be parsed to find information to
+make up the scouting report column of the datasets. As the web page in question uses Javascript to load its content, Chromium and Selenium was used to connect to the web page and allow the content to load before obtaining the information
+needed to create the datasets. The page's Javascript loaded every player name, player position and player profile URL link under the same CSS tag, allowing for functions to iteratively grab the data.
+The player scouting report was was obtained in a similar manner, using the aforementioned URL link with BS to get the player strength and weaknesses. The final column of the dataset, player race, 
+was manually added, as there is no record of it on the web pages parsed. Each row in the dataset consists of many sentences pertaining to one player. To test the the different machine learning algorithms 
+on how much information they need, the master dataset was split into 1-sentence, 2-sentence, and 5-sentence datasets. For more information on all the datasets created, see \hyperref[sec:class_data]{Chapter 4}.
+
+\begin{figure}[hb]
+  \centering
+  \begin{minipage}{1\textwidth}
+    \centering
+    \includegraphics[width=1\linewidth]{Figures/NFLcom_example.png}
+    \captionof{figure}{NFL.com's 2021 draft table}
+    \label{fig:NFL_draft}
+  \end{minipage}%
+\end{figure}
+
+\section{Using the Harvard General Inquirer to produce data}
+\label{sec:GI_dict}
+The Harvard General Inquirer dictionary is available to download for use from the harvard.edu website \footnote{\url{http://www.wjh.harvard.edu/~inquirer/spreadsheet_guide.htm}}. Using this file, a Python
+dictionary of key-value pairs was created, the key being a stemmed word from the GI dictionary file and the values being each sentiment associated with it. With this dictionary, new datasets were created by 
+applying the dictionary to the datasets created in the section above. This created a GI tagged version of the 1-sentence, 2-sentence, 5-sentence, and master dataset. The 1 sentence GI tagged 
+dataset is what shall be used to perform the sentiment analysis experiment described later in the chapter.
+
+
+\section{Classification}
+\label{sec:sci-kit_label}
+This section decribes what machine learning tools were used to implement the classification experiment. The experiment's aim is to use different algorithms on the different datasets created to try and to
+correctly classify between white and non-white instances. From this we can see what level of accuracy we can achieve, a higher score insinuating that language used can separate players by their ethnicity.
+FLOWCHART
+\subsection{Pre-processing}
+Text pre-processing was performed on the scouting report sentences in each dataset before this experiment was performed.
+Specifically:
+\begin{itemize}
+  \item stopword removal with the Natural Language Toolkit (NLTK) library.
+  \item removal of any punctuation with NLTK.
+  \item the stemming of words also with NLTK.
+\end{itemize}
+After this pre-processing, each report instance was then converted to a matrix of token counts through vectorization.
+
+\subsection{Data Imbalance}
+The data imbalance in the datasets in this thesis was rectified through oversampling of the minority, in this case white player, class. To do this, the imbalanced-learn libary \citep{imb-learn} is used.
+Imbalanced-learn is an MIT-licensed library that uses scikit-learn that provided tools to deal with imbalanced classes during classification problems. It is an open source library that has
+both under-sampling and over-sampling methods. It is also fully compatible with scikit-learn features. In this experiment, an imbalanced-learn pipeline was used.
+
+\subsection{Algorithms}
+To explore how many sentences are needed to produce the most accurate result, different ML algorithms were used. All algorithms were implemented with scikit-learn \citep{scikit-learn} 
+due to its accessibility. It has a huge library of classification, regression, and clustering algorithms. The four algorithms used are:
+\begin{itemize}
+  \item {\it Logistic Regression}: In the case of this experiment, this classifier models the probability whether a scouting sentence(s) instance is either a white player or a non-white player.
+  \item {\it Naive Bayes}: This is a simple classifier that assumes strong independence between features. However in this experiment, models are created on one feature, the scouting report sentence(s).
+  \item {\it Stochastic Gradient Descent}: This algorithm works well for text classification due to the sparse nature of text classification \citep{SVM_SGD}.
+  \item {\it Support Vector Machine}: Similar to SGD, SVM also works well for text classification.
+\end{itemize}
+Each of these algorithms were applied to all datasets created for classification. For details of the settings for each of these algorithms, see the chapter on \hyperref[chap:experiments]{experiment settings}.
+
+\subsection{Evaluation}
+Due to the fact that the data collected was small (\hyperref[chap:data]{see Data chapter}), evaluation techniques are used to combat this. 10-fold cross-validation was used over hold-out validation
+as {\it k}-fold cross-validation produces more accuracte results \citep{k-fold_cross}. F1-scores are implemented as part of the accuracy evaluator. It was chosen over accuracy due to how important
+precision and recall are in ML problems. The average F1-score was taken from the output of the {\it k}-fold cross-validation to produce results for each algorithm.
+
+\section{Sentiment Analysis}
+The second experiment proposed in this paper is to perform sentiment analysis on sentences cateogized by the Harvard GI. This include the Harvard IV-4 dicitonary and the Lasswell value dictionary.
+The 1-sentence dataset shall be tagged with the sentence's GI category and the players race that the sentence pertains to. There are several steps involved in this method, described below.
+FLOWCHART
+\subsection{Obtaining all GI Tags}
+Firstly, the aforementioned \hyperref[sec:GI_dict]{GI Python dictionary} of key-value pairs is used. A dataset is then parsed through and each key occurence for both white and non-white player reports
+causes its value (its sentiment) to be kept track of. It is important to note that one word can have multiple GI tags. For example, {\it Confident} has 7 unique GI tags associated with it:
+\begin{itemize}
+  \item Positive - Positive words.
+  \item Strong - Words implying strength.
+  \item Power - Subset of strong, indicating a concern with power, control, or authority.
+  \item Pleasure - Words indicating the enjoyment of a feeling, including words indicating confidence, interest, and commitment.
+  \item EMOT - Words related to emotion.
+  \item Ovrst - "Overstated", Words indicating emphasis in realms of speed, frequency, causality, inclusiveness, quantity or 
+                  quasi-quantity, accuracy, validity, scope, size, clarity, exceptionality, intensity, likelihood, certainty and extremity.
+  \item WlbTot - Words in well-being, relating to the health and safety of the player.
+\end{itemize}
+For each of these GI tags in both ethnicities, the percentage of their occurence was then calculated, and these figures were made into a dataset.
+\subsection{Tagging the dataset}
+From the dataset created above, GI tags deemed irrelevant were removed from the dataset. Using this dataset, the 1-sentence dataset, and the GI python dictionary, every row in the 1-sentence dataset was parsed through and all GI 
+sentiments for that sentence was found and added to a new dataset, consisting of the player sentence, the GI tag, and player ethnicity. With this new data, the sentiment for each GI tag for both white and non-white players can be found,
+as well as the difference between them. For more information on all datasets created for sentiment analysis see \hyperref[sec:senti_data]{Chapter 4}.
+
+\chapter{Data}
+\label{chap:data}
+To do before monday
+\section{Classification Data}
+\label{sec:class_data}
+How many sentences, players, datasets, etc.
+*** Lots of R tables to show data ***
+\section{Sentiment Analysis Data}
+\label{sec:senti_data}
+
+
+\chapter{Experiments}
+\label{chap:experiments}
+Your goal is to give a complete description of your experiments, sufficient for 
+another researcher to read your document and reproduce your results.
+
+\section{Classification Settings}
+can also talk about what and how preprocessing was done
+\subsection{Data Imbalance}
+imb pipeline settings
+
+\subsection{Algorithms}
+\label{sec:algor}
+75/25 split, vectorization,
+\subsection{Evaluation}
+eval settings - f1 score, cross Val Score settings, stratified fold settings
+
+\section{Sentiment Analysis Settings}
+
+
+\chapter{Results}
+\label{chap:results}
+Results first, using figures and tables, with little commentary and no interpretation.
+Then analysis and interpretation.
+
+\section{Classification}
+\subsection{Experiment Results}
+\subsection{Interpretation}
+Remember to show examples
+
+\section{Sentiment Analysis}
+\subsection{Experiment Results}
+\subsection{Interpretation}
+Remember to show examples
+
+\chapter{Conclusion}
+\label{chap:conclusion}
+Here you must zoom back out to evaluate the thesis. Mention limitations and weaknesses as well as contributions.
+
+\section{Thesis Evaluation}
+What i wanted to do, and what i learned
+\subsection{Contributions}
+\subsection{Weaknesses}
+what is a significant difference for sentiment analysis score?
+\section{Future Work}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\bibliographystyle{plainnat}                  % to give author-year style
+\renewcommand{\bibname}{References}           % change default name Bibliography to References
+\bibliography{references}                     % References file, references.bib
+\addcontentsline{toc}{chapter}{References}    % add References to TOC
+
+
+%%% uncomment if Appendix needed
+\appendix
+\chapter{Code} 
+\label{chap:Code}
+
+%\chapter{Appendix-B-Title} 
+%\label{chap:appendix_b}
+
+\end{document}
