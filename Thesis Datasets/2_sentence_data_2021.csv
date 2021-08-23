@@ -76,7 +76,7 @@ ID,Position,Scouting Report Sentence(s),Race
 6,WR," 19, 3-yard career punt return average with two touchdowns",NW
 6,WR," Coming off ankle injury,  Never really tested by coverage in 2020",NW
 6,WR," Will default to body catches on occasion,  Had drops when ball was on top of him quickly out of breaks",NW
-6,WR,""" Hasnt faced too much press"", ",NW
+6,WR,""" Hasnt faced too much press"", "" Hasnt faced too much press""",NW
 7,OT,"Twenty years old with potential for growth Considered vocal game day leader in 2019 Exceptionally gifted athlete Explodes out of stance and into lateral angles/blocks that others can’t make Always going to find top positioning as move blocker Springs into action to seal play-side edge on outside zone Change-of-direction talent for rare second-level radar and connect rate Can be a very violent striker on second level, Helped spring long touchdowns with blocks in space Hip torque to displace defender and widen off-tackle rushing lanes Fleet feet to greet edge burners at the turn Flashes above-average short-set potential Has hips and feet to make challenging recovery blocks when beaten Keeps hands active with punch and re-set Hitches a ride and redirects rush beyond his quarterback Average body type and play strength",NW
 7,OT," Pad level and outside hands diminish his drive power,  Tendency to pop and fall off rather than clinch up and control with hands",NW
 7,OT," Would like to see him run feet through contact and finish consistently,  Needs to improve upper-body strength",NW
@@ -93,7 +93,7 @@ ID,Position,Scouting Report Sentence(s),Race
 8,CB," Hips get sticky in transition, causing minor delays to accelerate,  Too much blatant grabbing and holding during the route",NW
 8,CB,""" Flags will fly if he doesnt learn to trust his feet and technique"",  Average directional change when shadowing route",NW
 8,CB," Tunnel vision caused issues for him in coverage near goal line in 2020,  Too content to let others do dirty work in run support",NW
-8,CB," Needs more consistent approach and technique as tackler, ",NW
+8,CB," Needs more consistent approach and technique as tackler,  Tunnel vision caused issues for him in coverage near goal line in 2020",NW
 9,CB,"Father was Pro Bowl cornerback and is now a coach,  Finished with 38 consecutive starts at Alabama",NW
 9,CB," Elite physical traits with prototypical athleticism,  Technically proficient and trusts that technique",NW
 9,CB," Unwilling to flinch or overextend through press fakes and release, "" Feet and length to punch and widen receivers departure""",NW
@@ -140,7 +140,7 @@ ID,Position,Scouting Report Sentence(s),Race
 12,LB," Runs himself out of position with unnecessary early charges,  Quick to run rather than scrape with square pads",NW
 12,LB," Has issues battling downhill rushing attacks coming right at him,  Loses gap leverage side-stepping lead blocks",NW
 12,LB," Takes on blocks with shoulder over punch and separation,  Needs to run feet through the strike as tackler",NW
-12,LB," Stiff hands missed out on easy interceptions, ",NW
+12,LB," Stiff hands missed out on easy interceptions,  Twitch for lateral gap-to-gap peek-a-boo looking for ball-carrier",NW
 13,OT,"Frame is compact and muscular with good lean mass,  Starter since his freshman season and played both tackle spots",NW
 13,OT," Reps against Ohio State’s Chase Young were very impressive,  Confident in claiming his turf in heads-up battles",NW
 13,OT," Possesses excellent core strength and contact balance,  Big paws can snatch into opponent’s frame",NW
@@ -152,7 +152,7 @@ ID,Position,Scouting Report Sentence(s),Race
 13,OT," Has all kinds of recovery athleticism,  Some teams might see him as an inside player only because of arm length",NW
 13,OT," Allows some separation at the punch point due to lack of length,  Needs to play with better knee bend in space",NW
 13,OT," Slight inconsistencies maintaining inside hands in pass pro,  Hands ride a little too high on down blocks, causing him to lose some power",NW
-13,OT," Has some issues getting pad level low in short-yardage situations, ",NW
+13,OT," Has some issues getting pad level low in short-yardage situations,  Some teams might see him as an inside player only because of arm length",NW
 14,G,"Wide, thick frame with burly lower body and plus upper-body and core strength,  Able to step out and play tackle effectively if a team needs it",NW
 14,G," Adequate athletic talent to pull and trap,  Big man with impressive reactive adjustments on second level",NW
 14,G," Hip-to-hip on double-team blocks, "" Displays his recovery talent when hes cross-faced""",NW
@@ -174,7 +174,7 @@ ID,Position,Scouting Report Sentence(s),Race
 15,QB," Average release quickness,  Locks in on a target rather than honoring the progressions",W
 15,QB,""" Doesnt play with the desired poise of an NFL starter"", "" Antsy when reads dont quickly come together""",W
 15,QB," Play can be panicky and rushed in the face of pressure,  Has trouble locating open targets in direction where heat is coming from",W
-15,QB," Would like to see him play with more grit, ",W
+15,QB," Would like to see him play with more grit,  Can climb into a rhythmic drive throw",W
 16,LB,"Three-year starter and winner of Bronco Nagurski Award,  Consistent, impact production in all three seasons",NW
 16,LB," Freaky combination of size and athleticism for linebacker,  Range to make plays all over the field",NW
 16,LB," Sees opportunities to swoop downhill and attack holes in blocking scheme,  Size and knock-back power to take on blocks",NW
@@ -196,7 +196,7 @@ ID,Position,Scouting Report Sentence(s),Race
 17,OT," Needs to improve play strength contact balance, "" Doesnt play with consistent fire and passion as finisher""",NW
 17,OT," Punch needs to punish and not push the enemy,  Would benefit from attacking rushers earlier with his length",NW
 17,OT," Slows feet prematurely against speed rushers,  Needs better hand positioning in general",NW
-17,OT," Disappointing power to separate and redirect when rush hits his edge, ",NW
+17,OT," Disappointing power to separate and redirect when rush hits his edge,  Can bend and leverage at point of attack",NW
 18,EDGE,"Former five-star recruit with high-impact physical attributes,  Has shown flexibility with weight he can carry",NW
 18,EDGE," Heated up over final four games with 11 tackles for loss and 6, 5 sacks",NW
 18,EDGE," Accelerates into the edge,  Adjusts rush track quickly according to the pass set",NW
@@ -225,7 +225,7 @@ ID,Position,Scouting Report Sentence(s),Race
 20,WR,""" Battled injuries and missed chunks of action in both 2017 and 19"",  Route speed looks turned down at times",NW
 20,WR," Route inefficiencies will need to be corrected,  Too much freestyling and wasted motion in and out of breaks",NW
 20,WR," Can play with better strength against tight man at the top of the route,  Might have issues handling contested catch duties underneath",NW
-20,WR," More quick than speedy, ",NW
+20,WR," More quick than speedy,  Very good open-field vision for run after catch",NW
 21,EDGE,"Team captain who leads with great work ethic and determined effort,  Explosive, twitched-up ball of power",NW
 21,EDGE," Possesses rare short-area quickness and agility,  Excellent flexibility playing low and firm into the block",NW
 21,EDGE," Leverage and leg drive to work across the block post-contact,  Quick hands should help batter blocks on the next level",NW
@@ -248,7 +248,7 @@ ID,Position,Scouting Report Sentence(s),Race
 22,CB," Plays too tall, creating turbulent transitions to chase route breaks,  More reactive than instinctive from off-man at this time",NW
 22,CB," Could struggle staying connected with complex routes,  Average click-and-close from the top of his drop",NW
 22,CB," Interference penalties pop up when he doesn’t work to find the football,  Inconsistent balance and form as run-support tackler",NW
-22,CB," Some missed tackles ended up costing his team points, ",NW
+22,CB," Some missed tackles ended up costing his team points,  Stalls the release with effective one- or two-hand punch",NW
 23,OT,"Split low with optimal center of gravity, "" Natural bender whos able to keep his pad level right""",NW
 23,OT," Silky-smooth feet in pass slides,  Strong hands help him lock in after punch has landed",NW
 23,OT," Athletic feet to mirror and move in all directions,  Ability to quick-set wide rushers and short-circuit their angles",NW
@@ -272,7 +272,7 @@ ID,Position,Scouting Report Sentence(s),Race
 24,RB," Runs with inconsistent feel for tempo,  Lacks speed to threaten for the big play",NW
 24,RB," Gets in a hurry, hindering his ability to find developing blocks,  Runs with low knee action and average burst between tackles",NW
 24,RB," Average acceleration out of his cuts,  Takes on heavy contact on a consistent basis",NW
-24,RB," Running style could lead to challenges with durability, ",NW
+24,RB," Running style could lead to challenges with durability,  Plus balance to keep run on track through first contact",NW
 25,RB,"Very capable of excelling on all three downs,  Put it in the paint throughout career with 78 total touchdowns in four years",NW
 25,RB," Rabid determination to beat tacklers with ""fast"" or ""force, "" Had 16 career touchdowns of 44-plus yards",NW
 25,RB," Patient creeper, allowing power blocks to develop,  Excellent read-and-cut timing behind wash-down blocks",NW
@@ -284,7 +284,7 @@ ID,Position,Scouting Report Sentence(s),Race
 25,RB," Long strider in short spaces,  Wide base limits lateral balance at times",NW
 25,RB," Running style is aggressive but somewhat segmented,  Lacks finesse along the interior at times",NW
 25,RB," Drops easy throws on swing passes,  Needs to square rushers and keep them centered",NW
-25,RB," Has taken some tread off the tire with running style, ",NW
+25,RB," Has taken some tread off the tire with running style,  Put it in the paint throughout career with 78 total touchdowns in four years",NW
 26,CB,"Good strength and physicality from press,  Nimble feet with smooth backpedal to gain depth",NW
 26,CB," Talented mirror-and-match technique versus early release,  Plays under balanced platform for easier transitions",NW
 26,CB," Has shown the ability to recover with feet, not hands,  Allowed 31",NW
@@ -296,7 +296,7 @@ ID,Position,Scouting Report Sentence(s),Race
 26,CB," Needs to do a better job of trusting eyes and instincts,  Lateral transition burst is just average in route match",NW
 26,CB," Some tardiness to open hips and run with the post route,  Room for improvement with pattern and set-point recognition of WR/QB",NW
 26,CB," Response to cross-face routes was inconsistent,  Fifteen career penalties, including seven pass interference penalties in his last 14 games",NW
-26,CB," Needs to get off blocks sooner and could use more tackle strength, ",NW
+26,CB," Needs to get off blocks sooner and could use more tackle strength,  Plays under balanced platform for easier transitions",NW
 27,WR,"Possesses NFL size as an outside target,  Uses a diverse set of release moves",NW
 27,WR," Works with crisp route stems,  Instinctive to scramble and uncover when plays come off schedule",NW
 27,WR," Limber upper body for mid-air adjustments,  Build-up speed to challenge over the top",NW
@@ -306,7 +306,7 @@ ID,Position,Scouting Report Sentence(s),Race
 27,WR,""" Had issues dealing with Nebraska cornerback Lamar Jacksons play strength in 2019"",  Hip tightness could limit complexity of routes asked of him",NW
 27,WR," Average burst through change of direction in his routes,  Below-average tracking and adjusting to the deep throw",NW
 27,WR," Too content allowing defenders to crowd/eliminate his catch space,  Lacked consistency against top cornerback competition",NW
-27,WR," Not asked to help much as blocker in the run game, ",NW
+27,WR," Not asked to help much as blocker in the run game, "" Extends to meet the ball and can pluck it cleanly when its outside the frame""",NW
 28,DE,"Overwhelming size and length for a 4-3 end,  Plenty of upside left for continued development",NW
 28,DE," Impressive reaction time and athleticism,  Twitchy get-off for his size",NW
 28,DE," Generates explosion into contact,  Good strain to dislodge from blocks and ruin sustains",NW
@@ -339,7 +339,7 @@ ID,Position,Scouting Report Sentence(s),Race
 30,EDGE," Not overly twitchy or fleet in attacking the corner with upfield charge, "" Struggled to dislodge tackles punch against Virginia in 2019""",NW
 30,EDGE," Conversion of speed to power is below average,  Needs heavier hands at point of attack",NW
 30,EDGE," Height limits natural leverage in attacking run blocks,  Absorbs more than he doles out in initial contact",NW
-30,EDGE," Balance through contact is erratic, ",NW
+30,EDGE," Balance through contact is erratic,  Two-hand swipe is concise and accurate",NW
 31,EDGE,"Shredded athletic build with tapered waist,  Straight out of central casting for ""explosive edge defender"" character",NW
 31,EDGE," Dynamite-infused quick-twitch explosiveness,  Very much a strength/speed prospect",NW
 31,EDGE," Added 30 pounds to his frame since arriving at Penn State,  Weight-room strength translates on the tape",NW
@@ -351,7 +351,7 @@ ID,Position,Scouting Report Sentence(s),Race
 31,EDGE,""" Outside shoulder gets covered and hell lose contain duties"",  Lacks feel and experience to decipher run-blocking schemes",NW
 31,EDGE," Needs to work on attacking blocks from balanced platform,  Disappointing lack of sacks in 2020",NW
 31,EDGE," Skilled hand usage would help open doors that currently close on him, "" Doesnt attack with consistent swipe power to batter the tackles outside hand""",NW
-31,EDGE," Will lose ball awareness on play-action, ",NW
+31,EDGE," Will lose ball awareness on play-action,  Dynamite-infused quick-twitch explosiveness",NW
 32,EDGE,"Long, athletic frame,  Has just about every trait teams look for along the edge",NW
 32,EDGE," Decent play strength and is tough enough at the point of attack,  Ability to punch and shed tight ends quickly when hands are right",NW
 32,EDGE," Hand skills flash when battling run blockers,  Glides and moves with proper knee base in lateral movements",NW
@@ -380,7 +380,7 @@ ID,Position,Scouting Report Sentence(s),Race
 34,WR," Excellent spatial awareness against zone,  Average to below-average size for a slot",NW
 34,WR," Has tendency to use elongated step into route breaks,  Limited catch radius dealing with tall throws",NW
 34,WR," Could struggle fighting against NFL length when working downfield,  Focus drops in 2019 with linebackers closing in",NW
-34,WR," Elusiveness after the catch is average, ",NW
+34,WR," Elusiveness after the catch is average,  Leverages defenders away from route breaks",NW
 35,RB,"Build is broad, powerful and rugged,  Plenty of tread left on the tires with just 366 career carries",NW
 35,RB," Quality feel for development and flow of the run lane,  Good creativity for a power back",NW
 35,RB,""" Runs a tight track off the blockers hip on cuts"",  Wide base with feet under him for A+ contact balance",NW
@@ -432,7 +432,7 @@ ID,Position,Scouting Report Sentence(s),Race
 39,OT," Very short arms for tackle position,  Lack of length shows up when trying to hit redirect block at the top of rush",NW
 39,OT," Longer defenders can stab and separate from him,  Could struggle to gain enough depth against speed rush",NW
 39,OT," Displays slight inconsistencies with weight dispersal,  Loses contact with run blocks, showing occasional leaning",NW
-39,OT," Some scouts voiced concerns about football character, ",NW
+39,OT," Some scouts voiced concerns about football character,  Lack of length shows up when trying to hit redirect block at the top of rush",NW
 40,SAF,"Field demeanor of a player looking to make an impact,  Had 10 interceptions over his last 34 games and five career forced fumbles",NW
 40,SAF," Recognizes repeated plays and tendencies from tape,  Smooth backpedal with ability to accelerate pace and gain depth",NW
 40,SAF," Reads quarterback from high safety and gets early take-offs on the throw,  Attacks high point with excellent timing",NW
@@ -441,7 +441,7 @@ ID,Position,Scouting Report Sentence(s),Race
 40,SAF," Average hip fluidity for directional change in space,  Plays with just average speed and length in man coverage",NW
 40,SAF," Lacks recovery burst to make up lost coverage distance,  Too many busts from the UCF secondary as back-end leader",NW
 40,SAF," Fell victim to coverage confusion near goal line,  Runs into too many blocks when operating as down safety",NW
-40,SAF," Needs more consistent hustle to the ball from backside, ",NW
+40,SAF," Needs more consistent hustle to the ball from backside,  Reads and attacks receiver screens before they can take off",NW
 41,DT,"Explodes into neutral zone with his first step,  Punishing initial pop",NW
 41,DT," Rips quick hands into shoulders of opponents for early control,  Upper-body power to punch, press and extend in setting an edge",NW
 41,DT," Will use brute force to power his way into the backfield,  Very difficult to cross-face him as a blocker",NW
@@ -461,7 +461,7 @@ ID,Position,Scouting Report Sentence(s),Race
 42,OT," Timing, hand placement and body control all need work in pass sets,  High hands easily swatted and discarded",W
 42,OT," Punch is monotonous and predictable,  Needs to eliminate punch hitch and diversify his attacks on rushers",W
 42,OT," Reaches looking for two-hand contact rather than sitting back and ripping it,  Has a tendency to play too far forward when seeking moving targets",W
-42,OT," One-pop hitter, allowing rushers secondary opportunities, ",W
+42,OT," One-pop hitter, allowing rushers secondary opportunities,  Timing, hand placement and body control all need work in pass sets",W
 43,SAF,"Good size and plays with some alpha qualities,  Desires to set a tone when stepping downhill to tackle",NW
 43,SAF," Plus overall ball production as a starter, "" Smooth hips to drive for depth and transition with quarterbacks progressions""",NW
 43,SAF,""" Quick study of quarterbacks intentions from deep safety"",  Outstanding transition to plant and spring forward without hanging up",NW
@@ -482,7 +482,7 @@ ID,Position,Scouting Report Sentence(s),Race
 44,CB," Completely unnecessary personal fouls against Auburn and Florida,  Feet are a little jittery and uncertain from press",NW
 44,CB," Tall backpedal with a hitch when opening to sprint,  Gives in way too quickly to route fakes",NW
 44,CB,""" Doesnt find the football near the goal line"",  Fails to read receiver and phase the route",NW
-44,CB," Gives away too much separation to quality route runners, ",NW
+44,CB," Gives away too much separation to quality route runners,  Latch-on tackler with aggressive finish",NW
 45,OT,"Athletic, proportional frame,  Smooth into his kick-sets and slides",W
 45,OT," Able to find speed rushers at the top of the arc, "" Good feel for quarterbacks drop point""",W
 45,OT," Has feet and recovery athleticism to run rushers up past the pocket,  Quality redirection quickness against inside counters",W
@@ -506,7 +506,7 @@ ID,Position,Scouting Report Sentence(s),Race
 46,G," Needs to bring feet with him into down blocks,  Struggles finding his way to back-side block",NW
 46,G," Benefited from shallow drop points from his quarterback,  Lunges, leaving hands extended for rushers to swipe and chop",NW
 46,G,""" Doesnt clamp in with hands to control rusher"",  Could struggle with edge speed and inside counters at tackle",NW
-46,G," Had weight management and accountability issues early in his career, ",NW
+46,G," Had weight management and accountability issues early in his career,  Adequate reactive agility to adjust in space",NW
 47,CB,"Well-built with above-average lower-body strength,  Controls footwork from pedal for quicker click-and-close",NW
 47,CB," Good body balance for sudden change of direction against intermediate routes,  Very physical when closing distance and crowding receiver",NW
 47,CB," Makes sure to feel the receiver before turning to find the football,  Twitch for more plays on the football if he squeezes routes a little tighter from off-man",NW
@@ -528,7 +528,7 @@ ID,Position,Scouting Report Sentence(s),Race
 48,G," Waist-bender as drive blocker,  Will have issues protecting gaps with lateral slide quickness",NW
 48,G," Recovery against twists will be very challenging for him,  Punch placement is a little erratic",NW
 48,G," Grabby when he panics,  Missing snap quickness for reach blocks",NW
-48,G," Very limited range as one-on-one pass protector, ",NW
+48,G," Very limited range as one-on-one pass protector, ""Power teams will love the way hes put together""",NW
 49,WR,"Gets off the snap in a hurry,  Races to top speed and maintains it through the route",NW
 49,WR," Keeps route intentions on private mode,  Talented in manipulating coverage out of position",NW
 49,WR," Sudden with smooth acceleration into speed cuts,  Above-average play strength for his size",NW
@@ -622,7 +622,7 @@ ID,Position,Scouting Report Sentence(s),Race
 57,WR," Lacks committed effort working into the middle of the field,  Below-average adjusting routes to traffic and redirection attempts",NW
 57,WR," Can improve working to softest spots of zone for his quarterback,  Poor play strength to create enough contested catch space",NW
 57,WR," Will struggle to secure the catch through contact,  Needs to play to his best speed on a consistent basis",NW
-57,WR," Very little special teams background, ",NW
+57,WR," Very little special teams background,  Lacks committed effort working into the middle of the field",NW
 58,LB,"Very tough with a physical edge,  Plays with demeanor teams look for in the middle",NW
 58,LB," Field-savvy with instincts to diagnose misdirection,  Identifies and communicates",NW
 58,LB," Heavy hands with good pop to take on blocks,  Pursues ball-carrier with patience and leverage",NW
@@ -633,7 +633,7 @@ ID,Position,Scouting Report Sentence(s),Race
 58,LB," Inconsistent to strike and separate from blockers,  Needs to improve angles to elude box traffic",NW
 58,LB," Might need to take a few more chances as a pro,  Top-end speed appears below average",NW
 58,LB," Loses ground when pursuit flows wide,  Below-average lateral agility as open-field tackler",NW
-58,LB," Will have to play quicker to deal with NFL slashers, ",NW
+58,LB," Will have to play quicker to deal with NFL slashers,  Loses ground when pursuit flows wide",NW
 59,WR,"Expected to be a big-time tester,  Exciting height, weight, speed combination",NW
 59,WR," Averaged over 104, 4 yards per game in 2020",NW
 59,WR," Playmaker who averaged a touchdown every four catches over last two years,  Size to bang on undersized corners down the field",NW
@@ -674,7 +674,7 @@ ID,Position,Scouting Report Sentence(s),Race
 62,C," Feet are more choppy than drive-oriented through contact,  Average success rate as outside zone blocker",W
 62,C," Inconsistent use of hands to help capture lateral positioning,  Needs to maintain better posture in pass sets",W
 62,C," Hands got washed away by active, well-schooled opponents,  Will need to punch and reset to prevent rush leakage at his edge",W
-62,C," Slow reaction time to recover and redirect, ",W
+62,C," Slow reaction time to recover and redirect,  Plays too straight-legged into block engagement",W
 63,C,"Three-year starter and two-year team captain,  Undeniable team leader and tough individual",W
 63,C," Wrestling background is evident in core strength,  Strong hands help maintain base block",W
 63,C," Looks to work hands into position after losing battle early,  Swings hips into position to seal the block",W
@@ -695,7 +695,7 @@ ID,Position,Scouting Report Sentence(s),Race
 64,QB," Will miss blitz recognition and basic reads at times,  Threw into bracketed coverage multiple times against LSU",W
 64,QB," Deliberate release will not tolerate slow reads through progressions,  Below-average functional mobility to extend the play",W
 64,QB,""" Unlikely to improvise and beat defense if hes not well-protected"",  Appeared to favor left knee, affecting follow-through",W
-64,QB," Runs targets into traffic and collisions with late-ball delivery, ",W
+64,QB," Runs targets into traffic and collisions with late-ball delivery, * Fairly accurate even when feet are not set Pocket setup is slower and labored",W
 65,SAF,"Possesses pro frame with good overall size and length,  Soft hands and takes aggressive routes on the throw",NW
 65,SAF," Finished college career with 13 interceptions,  Sees and responds to passing game much better as split safety",NW
 65,SAF," Attacks crossing routes like a heat-seeking missile,  Quality athlete with good straight-line speed",NW
@@ -704,7 +704,7 @@ ID,Position,Scouting Report Sentence(s),Race
 65,SAF," Doesn’t play with proper leverage or come to balance quickly enough as tackler,  Needs better navigation of pursuit angles",NW
 65,SAF," Frequently caught up in traffic jams and rub routes,  Throws body around but doesn’t knock runner backward",NW
 65,SAF," Below-average route recognition in man coverage,  Aggressiveness exploited by play fakes",NW
-65,SAF," Bogs down through transitions and gets beat deep, ",NW
+65,SAF," Bogs down through transitions and gets beat deep,  Frequently caught up in traffic jams and rub routes",NW
 66,QB,"Four-year starter with growing confidence,  Improved game management and ball placement in 2020",NW
 66,QB," Touchdown-to-interception ratio jumped from 2:1 to 6:1 in 2020,  Has become willing pocket passer who trusts his protection",NW
 66,QB," Quiet lower body when working through progressions,  Delivers most throws from balanced platform",NW
@@ -759,7 +759,7 @@ ID,Position,Scouting Report Sentence(s),Race
 70,OT," Needs to be first with inside hands more often with his punch,  Hard time redirecting weight back inside to catch inside counter",W
 70,OT," Occasional waist-bending through mirror needs to be smoothed out,  Oversteps and gets beat inside",W
 70,OT," Pad level rises high in lateral movements,  Needs more attention to secure block duties in zone",W
-70,OT," Labors to make reactive change of direction at second level, ",W
+70,OT," Labors to make reactive change of direction at second level,  Choppy, quick slide steps in pass pro",W
 71,CB,"Combination of size and speed as a nickel,  Operates with effective punch when allowed to press",NW
 71,CB," Good foot quickness and agility,  Desired short-area burst on lateral transitions",NW
 71,CB," Very aware of traffic on rub routes and crossing routes,  Good angles to the football in coverage and post-catch",NW
@@ -778,7 +778,7 @@ ID,Position,Scouting Report Sentence(s),Race
 72,DT," Strong but sawed-off, with stubby arms,  Slow diagnosis will get him reached by blocks",NW
 72,DT," Unable to quickly shed and rid blocks due to lack of length,  Occasionally swallowed by size on double teams",NW
 72,DT," Limited range to tackle working off of blocks,  Not much secondary rush when initial attack stalls",NW
-72,DT," Needs to find go-to move for quicker wins as rusher, ",NW
+72,DT," Needs to find go-to move for quicker wins as rusher,  Unable to quickly shed and rid blocks due to lack of length",NW
 73,DT,"Tapered chest with dense, muscular frame and no bad weight,  Quick and powerful with above-average leverage",NW
 73,DT," Former high school basketball player with capable footwork,  Lifts with accurate hands and upward thrust into opponent",NW
 73,DT," Absorbs contact and keeps eyes into backfield,  Works with quick-win twitch against single blocks",NW
@@ -788,7 +788,7 @@ ID,Position,Scouting Report Sentence(s),Race
 73,DT," Lack of length and mass could be a concern,  Average first-step quickness up the field",NW
 73,DT," Effort expended versus big blockers delays his tackle readiness,  Needs to keep his feet near the ground to keep from getting bounced",NW
 73,DT," Reach blocks often find him,  Too far off the track when rush is widened out",NW
-73,DT," Needs to develop a go-to move, ",NW
+73,DT," Needs to develop a go-to move,  Too far off the track when rush is widened out",NW
 74,CB,"Elite size and length for the outside,  Has potential for great physical challenges from press",NW
 74,CB," Experienced in a variety of coverage schemes,  Quick to close and tackle on first- and second-level catches",NW
 74,CB," Forceful closing through the catch point,  Tilts jump-ball odds in his favor with physical traits",NW
@@ -807,7 +807,7 @@ ID,Position,Scouting Report Sentence(s),Race
 75,DT," Body type feels like it is caught between positions, "" Isnt going to push NFL offensive linemen around""",NW
 75,DT," Urgent pass rush lacks focus and control,  Gets ahead of himself and rarely sets up his counters",NW
 75,DT," Will end up on the ground too often,  Knocked around while doing battle at point of attack",NW
-75,DT," Not able to rid himself of blocks very quickly, ",NW
+75,DT," Not able to rid himself of blocks very quickly,  Bursts out of stance and is usually into blocker first",NW
 76,CB,"Tall, angular body type with intimidating length,  Size and strength to beat up the press release",NW
 76,CB," Short-area footwork to phase up on comeback routes,  Plays with leverage to limit options for receivers",NW
 76,CB," Flashes second-gear burst to close out throws on all three levels,  Recognizes route timing like a receiver",NW
@@ -819,7 +819,7 @@ ID,Position,Scouting Report Sentence(s),Race
 76,CB,""" Doesnt have desired stop-start acceleration"", "" Had a rough day against double moves by UCFs Gabriel Davis in 2019""",NW
 76,CB," Fails to play with consistent route phase and positioning at times,  Body control and balance get away from him at times",NW
 76,CB," Gives offenses too many big-play opportunities,  Flies in at full speed, causing whiffs as tackler",NW
-76,CB," Needs to retool and reschool for run-support duties, ",NW
+76,CB," Needs to retool and reschool for run-support duties,  Flashes second-gear burst to close out throws on all three levels",NW
 77,WR,"Nearly 70 percent of his catches went for a first down,  Uses pad and hip sink for quicker breaks",NW
 77,WR," Will give what he gets against physical corners inside route,  Comes out of turns with tight angles",NW
 77,WR," Partitions defender away from the catch point,  Catches the point of the football with adequate hand extension",NW
@@ -859,7 +859,7 @@ ID,Position,Scouting Report Sentence(s),Race
 80,SAF," Coverage can be frenetic in man to man,  Feet stuck in neutral when forced into stop-start",NW
 80,SAF," Change-of-direction fluidity is very average,  Delays in his transitions laterally and downhill",NW
 80,SAF," Timing to open and run with the route needs improvement,  Needs better take-on technique as box defender",NW
-80,SAF," Will out-run tackle positioning rather than coming to balance, ",NW
+80,SAF," Will out-run tackle positioning rather than coming to balance,  Delays in his transitions laterally and downhill",NW
 81,TE,"Picks up his play speed as route progresses,  Able to attack the seam and potentially all three levels",W
 81,TE," Uses hand fighting to clear handsy coverage at top of the route,  Made first downs on 60 percent of his catches in 2020",W
 81,TE," Gains some separation out of his turns,  Scrambles open for his quarterback",W
@@ -889,7 +889,7 @@ ID,Position,Scouting Report Sentence(s),Race
 83,TE," Just 35 career catches for 401 yards,  Gives away short routes with altered initial speed",NW
 83,TE," Needs quicker sink and open versus short zone,  Double catches and drops are a concern",NW
 83,TE," Had more drops than touchdowns at Notre Dame,  Still learning to fit up block with proper platform and pad level",NW
-83,TE," Needs quiet, efficient hands at the point of attack, ",NW
+83,TE," Needs quiet, efficient hands at the point of attack,  Talent and athleticism for some pass protection asks",NW
 84,DE,"Named to 2020 Iowa Leadership Group,  Added 40 pounds of good weight during his time at Iowa",NW
 84,DE," Long wingspan with enormous hands,  Has opportunity to elevate his play with quicker hands",NW
 84,DE," Shows ability to turn and skinny-up into the B-gap,  Uses stab-and-slap move around the edge",NW
@@ -908,7 +908,7 @@ ID,Position,Scouting Report Sentence(s),Race
 85,WR," Needs to prove he can deal with NFL press,  Inconsistent early vertical push off the snap",NW
 85,WR," Has a tendency to rush through route fakes,  Average foot agility getting in and out of breaks",NW
 85,WR," Shorter arms with some tightness in upper body,  Loss of catch concentration at times in 2018 and 2020",NW
-85,WR," Needs to keep working to find softest spots in zone for quarterback, ",NW
+85,WR," Needs to keep working to find softest spots in zone for quarterback,  Needs to prove he can deal with NFL press",NW
 86,G,"Loves the physicality of the position,  Pops defensive tackles with stiff inside hand",NW
 86,G," Very powerful lower body,  Unrolls his hips into angle blocks, creating drive momentum",NW
 86,G," Strains and can overtake one-on-one blocks in test of strength,  Slides feet and hips into secure position post-contact",NW
@@ -936,7 +936,7 @@ ID,Position,Scouting Report Sentence(s),Race
 88,RB," Stepped up with huge efforts when it was most needed for Buckeyes,  Most consistent in-season tape was back in 2018",NW
 88,RB," Tends to run too upright,  Slow to process moving pieces in tight quarters",NW
 88,RB,""" Indecisive and didnt crank up as much aggression into contact"",  Lacks vision and burst to make a living between the tackles",NW
-88,RB," Uncreative runner for much of his time in an Ohio State jersey, ",NW
+88,RB," Uncreative runner for much of his time in an Ohio State jersey,  Run after catch was impressive and effective in 2018 and 2020",NW
 89,WR,"Possesses quality speed for such a big target,  Vertical build-up helped him average nearly 20 yards per catch in 2019",NW
 89,WR," Aggressive hand-fighter from the time the ball is snapped,  Powerful drive strides into his routes",NW
 89,WR," Above-average stacking and tracking on deep throws,  Highly competitive with winning, jump-ball traits",NW
@@ -956,7 +956,7 @@ ID,Position,Scouting Report Sentence(s),Race
 90,EDGE,""" Has tendency to lay on blocks if play isnt coming his way"",  Needs quicker diagnosis of blocker movement off snap",NW
 90,EDGE," Gets outside shoulder covered and loses contain duties at times,  Pads too easily turned by blockers at point of attack",NW
 90,EDGE,""" Doesnt win with his hands enough in run or pass"",  Below-average speed-to-power conversion",NW
-90,EDGE," Lacks suddenness and fluidity in twist game, ",NW
+90,EDGE," Lacks suddenness and fluidity in twist game,  Impressive two-year run with 25 tackles for loss and 17",NW
 91,WR,"World class sprinter with game-changing speed, "" Requires additional coverage attention when hes on the field""",NW
 91,WR," Useful weapon or decoy with jet sweeps or ghost motion,  Blows right by confident man coverage in getting deep",NW
 91,WR," Threat of long speed creates easy throw and catch underneath,  Able to change route direction while maintaining scary speed",NW
@@ -965,7 +965,7 @@ ID,Position,Scouting Report Sentence(s),Race
 91,WR," Routes are unfocused and often ineffective underneath,  More quick-game gadget guy than true receiver at this time",NW
 91,WR," Disappointing effort in scramble mode,  Consistent issues tracking and adjusting to the long ball",NW
 91,WR," Instincts as a pass catcher are below par,  Needs to become catch-ready more quickly",NW
-91,WR," Focus and hand strength have been consistent issues, ",NW
+91,WR," Focus and hand strength have been consistent issues, World class sprinter with game-changing speed",NW
 92,LB,"Instinctive with good feel for play direction, "" Anticipates the runners cuts and lane choices""",NW
 92,LB," Rarely overcommits into unnecessary traffic,  Possesses short-area burst",NW
 92,LB," Above-average feel for angles in defeating climbing blocks,  Early diagnosis of play-action and counters",NW
@@ -974,7 +974,7 @@ ID,Position,Scouting Report Sentence(s),Race
 92,LB," Not a big chance-taker, leading to lower number of TFLs,  Looked more upright and tight in his 2020 tape than he did in 2019",NW
 92,LB," Not very twitchy or explosive between the tackles,  Foot injury that slowed him in 2020 will need to be examined",NW
 92,LB," Very average speed for one-on-one coverage,  Lacked much ball production",NW
-92,LB," Tight hips limit stop-start balance as open-field tackler, ",NW
+92,LB," Tight hips limit stop-start balance as open-field tackler, "" Anticipates the runners cuts and lane choices""",NW
 93,OT,"Excellent lean mass despite adding nearly 100 pounds since high school,  Proportionally built with room for additional mass",W
 93,OT," Loyal, team-first mentality,  Natural bender with impressive athletic ability",W
 93,OT," Foot agility and explosiveness to make all the move blocks,  Works at coming off with good pad level despite his height",W
@@ -986,7 +986,7 @@ ID,Position,Scouting Report Sentence(s),Race
 93,OT," Missed blocks usually due to footwork issues,  Narrow drive base can get him tossed by power",W
 93,OT," Second-level climbs can lack control at times,  Oversets really hurt him against James Madison",W
 93,OT," Width of pass slides can get uneven,  Needs to eliminate forward lean into punch to avoid push-pull moves",W
-93,OT,""" Doesnt stay square for as long as he needs to in pass sets"", ",W
+93,OT,""" Doesnt stay square for as long as he needs to in pass sets"",  Basketball feet to mirror in all directions",W
 94,G,"Massive human with well-distributed mass,  Big, powerful and well-proportioned",W
 94,G," Adequate athleticism for a guard with his build,  Smooth coming out of his stance and into run fits",W
 94,G," Hip flexion and bend help with pad level,  Lays a big pop with hip and flipper on secure blocks",W
@@ -1014,7 +1014,7 @@ ID,Position,Scouting Report Sentence(s),Race
 96,EDGE," Unable to widen base and set a strong edge,  Very average foot quickness and lateral movement",NW
 96,EDGE," Too easy to reach and secure on the move,  Hand usage is below par when taking on blocks",NW
 96,EDGE," Face-up, short-striding upfield rush,  Unable to turn and flip the corner with hips/shoulders",NW
-96,EDGE," Lacks leverage to generate effective speed-to-power conversion, ",NW
+96,EDGE," Lacks leverage to generate effective speed-to-power conversion,  Physical tackles knock him around",NW
 97,TE,"Looked fairly athletic and fluid as a pass catcher when at Florida State,  Athleticism and toughness to work the deep middle",NW
 97,TE," Hands appear fairly natural catching on the move,  Adequate speed and wiggle to add yards after catch",NW
 97,TE," Adjusts to moving bodies in space when blocking on perimeter,  Reworks hands back into frame during block sustain",NW
@@ -1022,7 +1022,7 @@ ID,Position,Scouting Report Sentence(s),Race
 97,TE," Throws too many shoulders and not enough hands,  Needs to become tougher block-finisher as a pro",NW
 97,TE," Routes can be easily redirected in space,  Inconsistent hitting true play speed in routes",NW
 97,TE," Needs to become more aggressive shedding defenders at top of the route,  A little slow getting in and out of breaks underneath",NW
-97,TE," Very average catch focus in the midst of traffic, ",NW
+97,TE," Very average catch focus in the midst of traffic,  Throws too many shoulders and not enough hands",NW
 98,C,"Above-average length and hand size as a center,  Strong week of Senior Bowl practices",W
 98,C," Former wrestler with premium core strength,  Operates with good knee bend and wide, sturdy base",W
 98,C," Leverage and leg drive to push flesh around,  Outstanding improvement as block finisher from 2019 tape",W
@@ -1031,7 +1031,7 @@ ID,Position,Scouting Report Sentence(s),Race
 98,C," Adequate lateral movement to mirror the rush,  Needs to improve footwork into block fits",W
 98,C," A little too much forward lean off the snap and into first contact,  Can improve bringing feet with him in settle steps",W
 98,C," Level of speed and competition could create adjustment period,  Average getting to proper landmarks on the second level",W
-98,C," Plays power game but will need to add a level of finesse and patience, ",W
+98,C," Plays power game but will need to add a level of finesse and patience,  A little too much forward lean off the snap and into first contact",W
 99,CB,"Learned lessons from 2019 and improved in 2020,  Instinctive with plus route recognition",NW
 99,CB," Sits down and squeezes routes underneath,  Fast feet help him pounce on top of throws",NW
 99,CB," Tracks and attacks the 50-50 ball,  Long and athletic in the air",NW
@@ -1069,7 +1069,7 @@ ID,Position,Scouting Report Sentence(s),Race
 102,CB," Small delay to trigger on throws from off coverage,  Average drive explosion on the throw",NW
 102,CB," Would get pushy and grabby on downfield routes when it wasn’t necessary,  Below-average high-point challenger",NW
 102,CB," Gets outmuscled on 50/50 balls at times,  Had throws picked off of his helmet by then-Notre Dame WR Chase Claypool",NW
-102,CB," Has tendency to stop feet before firing off to tackle, ",NW
+102,CB," Has tendency to stop feet before firing off to tackle,  Average drive explosion on the throw",NW
 103,LB,"""Brings a bangers mentality to the field"",  Good football IQ",NW
 103,LB," Stacks up tackles and is always near the football,  Plays with consistent pad level throughout the rep",NW
 103,LB," Reads keys and feels the blocking scheme to find the runner,  Takes diagonal steps downhill to squeeze B-gaps on combo blocks",NW
@@ -1114,7 +1114,7 @@ ID,Position,Scouting Report Sentence(s),Race
 107,RB," Overthinks the run and pulls it off-track unnecessarily,  Average creativity in eluding at the second level",NW
 107,RB," Top-end speed appears to be very average,  Tendency to gear down into interior contact",NW
 107,RB," Tough runner but could see yards after contact shrink in NFL,  Arm-tackle tries effective in slowing his momentum",NW
-107,RB," Gets a little bogged down when stacking cuts at times, ",NW
+107,RB," Gets a little bogged down when stacking cuts at times,  Runs low to the ground with plus balance and knee bend",NW
 108,CB,"Has built up his body during time at SDSU,  Adjusts lateral slides to the release",NW
 108,CB," Studies quarterback and plays with anticipation,  Choppy, short-area feet for sudden change of direction",NW
 108,CB,""" Sinks into receivers chest when phasing route downfield"",  Opportunistic from zone and competitive on 50-50 balls",NW
@@ -1131,7 +1131,7 @@ ID,Position,Scouting Report Sentence(s),Race
 109,WR," Average foot quickness to elude press,  Consistently pounded by route redirection",NW
 109,WR," Fails to gain separation out of breaks underneath,  Tight hips put him on skates getting into deep comebacks",NW
 109,WR,""" Didnt make same read as quarterback several times"", "" Wont be able to slip many tackles after the catch""",NW
-109,WR," Too many focus drops with inconsistent catch radius, ",NW
+109,WR," Too many focus drops with inconsistent catch radius,  Consistently pounded by route redirection",NW
 110,OT,"Enticing blend of agility and athleticism,  Sweet feet take him to the toughest angles as a zone blocker",NW
 110,OT," Moves like a tight end on linebacker cut-offs and pulling blocks,  Patient and natural climbing to second level",NW
 110,OT," Above-average radar to find and seal the edge on play-side runs,  Displays hand strength to snatch and secure throughout tape",NW
@@ -1151,7 +1151,7 @@ ID,Position,Scouting Report Sentence(s),Race
 111,EDGE," Tight hips restrict change of direction,  Allows blockers to close the distance on him",NW
 111,EDGE," Head-ducker into first contact as run defender,  Slow to separate from clenches",NW
 111,EDGE," Lacks agility and acceleration as open-field tackler,  Struggles to anchor once angle blocks start moving him",NW
-111,EDGE," Would like to see him gain consistent control at the point of attack, ",NW
+111,EDGE," Would like to see him gain consistent control at the point of attack,  Can physically batter weaker opponents",NW
 112,WR,"Crafted a variety of release techniques,  Smooth athlete with plus body control",NW
 112,WR," Adjusts routes and scrambles open when quarterback extends play,  Uses eyes effectively to manipulate coverage near goal line",NW
 112,WR," Runs routes to create tilt and lean from defenders,  Smooth acceleration through route stems",NW
@@ -1171,7 +1171,7 @@ ID,Position,Scouting Report Sentence(s),Race
 113,LB," Can be a step slow flowing with the pace of outside zone,  Gets trapped behind climbing blockers in space",NW
 113,LB," Allows lead blockers to get into his play-side shoulder,  Will need to play off blocks more quickly",NW
 113,LB," Plodding feet when changing direction, "" Doesnt play to his best speed on a consistent basis""",NW
-113,LB," Struggles coming to balance as open-field tackler, ",NW
+113,LB," Struggles coming to balance as open-field tackler,  Handles his interior linebacker work with play strength and tough demeanor",NW
 114,C,"""Hard to get his hands off you once hes in"", "" Bends and lifts to work under opponents pads""",W
 114,C," Good leg drive through down blocks,  Smooth second-level climbs with wide, controlled base",W
 114,C," Natural bender with good adjustments as pull-blocker,  Excellent positioning and flipper usage on double teams",W
@@ -1216,7 +1216,7 @@ ID,Position,Scouting Report Sentence(s),Race
 118,EDGE," Thin hips with lack of mass in his legs,  Plays tall with narrow base affecting contact balance",NW
 118,EDGE," Too many mistimed snaps and offside penalties,  Landed punch discombobulates rush plan",NW
 118,EDGE," Needs better strength to get to his power counters,  Below-average hand force to grease the edge",NW
-118,EDGE," Lost sacks due to lack of finishing strength, ",NW
+118,EDGE," Lost sacks due to lack of finishing strength,  Burst to walk down wide-flowing run plays",NW
 119,RB,"Elite testing numbers for a running back,  Rocked-up physique with desirable size",NW
 119,RB," Excellent worker with high-end intelligence,  Uses size and strength to create push into the pile",NW
 119,RB," Adequate open-field speed to hit the chunk play,  Finishes with pad drop to drive through the tackler",NW
@@ -1225,7 +1225,7 @@ ID,Position,Scouting Report Sentence(s),Race
 119,RB," Takes forever to gather and cut on wide stretch plays,  Dances up toward the line when trying to read the front",NW
 119,RB," Lacks instincts and vision to see a move ahead,  Inside runs are missing feel for run lanes",NW
 119,RB," Drops head and finishes when moves are still available,  Clunky, mechanical footwork when cutting",NW
-119,RB," Awkward as route-runner and rarely a third-down option, ",NW
+119,RB," Awkward as route-runner and rarely a third-down option,  Dances up toward the line when trying to read the front",NW
 120,RB,"Very little wear and tear with 165 carries at Oklahoma,  Running style is willful and belligerent",NW
 120,RB," Adequate burst for lateral cuts from downhill track,  Requires legitimate run support from cornerbacks to slow him",NW
 120,RB," Carries first tackle try with him as he falls forward,  Potential late-game option to help close out games",NW
@@ -1244,7 +1244,7 @@ ID,Position,Scouting Report Sentence(s),Race
 121,EDGE,"* Spindly base offers little help for contact balance, * Ends up on the ground too often",NW
 121,EDGE,"* Runners can break away from tackle attempts, * Leggy pass rusher with segmented approach",NW
 121,EDGE,"""* Tackles firm outside hand will end his edge rush attempts"", ""* Doesnt set up rush moves and pops up tall on inside counters""",NW
-121,EDGE,"* Unable to play through blocks * Lacks hand strength and skill for consistent rush success, * Suspended by Florida in 2017 after credit card fraud allegations surfaced",NW
+121,EDGE,"* Unable to play through blocks * Lacks hand strength and skill for consistent rush success, * Unable to play through blocks * Lacks hand strength and skill for consistent rush success",NW
 122,DT,"Excellent power and hard worker in the weight room,  Legitimate space-saving size and toughness",NW
 122,DT," Early to capture space in neutral zone off the snap,  Quick recognition of pressure from down blocks",NW
 122,DT," Able to hold off guards with his flipper,  Good technique to corkscrew in and grow roots against double teams",NW
@@ -1270,7 +1270,7 @@ ID,Position,Scouting Report Sentence(s),Race
 124,TE," One-speed routes are easier for defenders to read,  Below-average foot quickness and hip sink for quick breaks underneath",W
 124,TE," Lacks instinctive route-running qualities,  Allows coverage to crowd catch space and bother his focus",W
 124,TE," Tossed around at the point of attack by Washington in 2019, "" Hands arent into block quickly enough""",W
-124,TE," Needs to find balanced platform into run fit, ",W
+124,TE," Needs to find balanced platform into run fit,  One-speed routes are easier for defenders to read",W
 125,CB,"Rare four-year starter and two-time captain,  Scouts rave about his personal character",NW
 125,CB," Good field intelligence and high football IQ,  Disciplined playing with spatial balance against high-low concepts",NW
 125,CB," Good read and react from short zone and Cover 3,  Size to disrupt the catch point",NW
@@ -1296,7 +1296,7 @@ ID,Position,Scouting Report Sentence(s),Race
 127,TE," Hands too wide into the block,  Tightness into breaks allows recovery time for coverage",NW
 127,TE," Slow gather-and-open to quarterback on short routes,  Needs to block out coverage more effectively at catch point",NW
 127,TE,""" Doesnt find optimal sweet spots when working zone beaters"",  Hand-eye coordination is problematic",NW
-127,TE," Had four drops in big game against Cincinnati, ",NW
+127,TE," Had four drops in big game against Cincinnati,  Works proper angles in the run game",NW
 128,OT,"Three-year starter,  Play was much more consistent in 2020",NW
 128,OT," Pass pro movements are athletic,  Decent patience against rush counters",NW
 128,OT," Adequate recovery anchor against the bull rush,  Quality ability as cut-blocker",NW
@@ -1305,7 +1305,7 @@ ID,Position,Scouting Report Sentence(s),Race
 128,OT," A bit of a heel-clicker at times in pass slides,  Needs to pick a target and fully commit when faced with blitz",NW
 128,OT,""" Doesnt feel long enough to control point of attack and execute kick outs"",  Would like to see more aggression into first contact as run blocker",NW
 128,OT," Inconsistent body control and positioning to consistently secure his block,  Rarely controls the action with strong hands",NW
-128,OT," Below-average demeanor as block finisher, ",NW
+128,OT," Below-average demeanor as block finisher,  Needs to pick a target and fully commit when faced with blitz",NW
 129,WR,"Set a slew of all-time North Texas receiving records,  Had 31 receiving touchdowns over last 21 games",NW
 129,WR," Averaged 132 yards per game in 2020,  Offers instant gadget-package potential",NW
 129,WR," Loose hips for tight cuts and breaks,  Turbo boosted acceleration and long speed",NW
@@ -1313,7 +1313,7 @@ ID,Position,Scouting Report Sentence(s),Race
 129,WR," Has wiggle and juice to pile on yards after catch,  Very slightly built with small hands",NW
 129,WR," Frequently faced single coverage against slower corners in college,  Leans into breaks, giving away pathways to the coverage",NW
 129,WR," Not a fan of working into the middle with safeties lurking,  Unable to overcome size liability in contested catches",NW
-129,WR," Not much of a catch radius in any direction, ",NW
+129,WR," Not much of a catch radius in any direction,  Frequently faced single coverage against slower corners in college",NW
 130,CB,"Highly coveted physical and athletic traits,  Explosive leaper with long arms and tremendous straight-line speed",NW
 130,CB," Legitimate ball-hawking talent with 12 career takeaways,  Speed to stay in phase down the sideline",NW
 130,CB," Recovery speed jumps off the tape,  Shadows and crowds any outside release",NW
@@ -1323,7 +1323,7 @@ ID,Position,Scouting Report Sentence(s),Race
 130,CB," Inconsistent slowing the release from press,  Upright pedal causes delays with lateral and vertical transitions",NW
 130,CB," Average plant-and-drive to the throw from the top of his drop, "" Forgets to find the football when hes in trail position""",NW
 130,CB," Can do a better job of smothering routes underneath,  Loses contain duties at times",NW
-130,CB," Occasional imbalance when changing direction, ",NW
+130,CB," Occasional imbalance when changing direction,  Inconsistent slowing the release from press",NW
 131,WR,"Fearless competitor and plays bigger than his size,  Fights back against physical coverage",NW
 131,WR," Rock-steady production for three straight seasons,  Attentive route runner, featuring sharp angles and crisp cuts in his work",NW
 131,WR," Has bend and footwork to get in and out of complex routes with quickness,  Squares shoulders to quarterback as presentable target on slants",NW
@@ -1334,7 +1334,7 @@ ID,Position,Scouting Report Sentence(s),Race
 131,WR," Shorter arms for the position,  Can be detoured by press coverage",NW
 131,WR," Upright initial charge lacks instant gas, "" Inconsistent route effort when hes not the intended target""",NW
 131,WR," Average acceleration out of stems,  Occasionally opts to look for circus catch rather than working earlier for positioning",NW
-131,WR," Failed to finish a few would-be grabs, ",NW
+131,WR," Failed to finish a few would-be grabs,  Failed to finish a few would-be grabs",NW
 132,DT,"Dense, thickly muscled arms,  Much better hand usage in 2020",NW
 132,DT," Low pad level off the snap and into contact, "" Plays through blockers edge with strength and force""",NW
 132,DT,""" Keeps fighting back against a block and doesnt give in"",  Gets into crevice of combination blocks and looks to split it",NW
@@ -1344,7 +1344,7 @@ ID,Position,Scouting Report Sentence(s),Race
 132,DT," Sawed off frame with short arms,  Rarely see transition of quick punch into block control",NW
 132,DT," Tight hips compromise base on lateral engagements,  Has trouble getting unglued from sustained blocks",NW
 132,DT," Below-average rush talent,  Hustle rusher but lacks ability to upend pass pro effectively",NW
-132,DT," Lacks lateral quickness for twists between defensive tackles, ",NW
+132,DT," Lacks lateral quickness for twists between defensive tackles,  Gets into crevice of combination blocks and looks to split it",NW
 133,QB,"Three-year starter and two-time team captain, "" Leadership is important to him and hes highly respected by teammates""",W
 133,QB," Feet are quick in his setup on play-action,  Climbs pocket when he feels the edge caving in",W
 133,QB," Footwork and ball-handling for RPOs,  Expedites his operation process when he reads hot",W
@@ -1372,7 +1372,7 @@ ID,Position,Scouting Report Sentence(s),Race
 135,DE," Keeps hands active in the passing lane when rush stalls,  * Plays almost straight up and down at point of attack",NW
 135,DE,"* Pad level and narrowing base lead to imbalances, * Slow twitch for a 4-3 defensive end",NW
 135,DE,"* Lacks desired coordination * Inconsistent bracing against strong angle blocks, * Unable to pose a serious threat to the edge with get-off",NW
-135,DE,"* Lethargic, upright inside-counter quickness, * Below-average reactive athleticism as tackler in space",NW
+135,DE,"* Lethargic, upright inside-counter quickness,  Sneaky efficient punching and working around the block",NW
 136,CB,"One of four true freshmen to start at cornerback in Florida history,  Brother of NFL defensive back Quincy Wilson",NW
 136,CB," Good size with plenty of play strength,  Athletic, with smooth hips in transitions",NW
 136,CB," Willing to attack and jump the slant route,  Sees route progressions clearly from zone",NW
@@ -1401,7 +1401,7 @@ ID,Position,Scouting Report Sentence(s),Race
 138,OT," Needs to work with better inside/out leverage,  Opens himself up to inside counters",W
 138,OT," Late weight shift to outside foot at the top of his sets,  Could use more diversity in his punch approach",W
 138,OT," Weight gets too far forward in pass sets, "" Doesnt always center up when fitting into first contact""",W
-138,OT," Could use better play strength at point of attack, ",W
+138,OT," Could use better play strength at point of attack,  Loose hips to recover and run rushers past the pocket",W
 139,OT,"Tremendously long,  Has 85-inch wingspan and 35-inch arms",NW
 139,OT," Punch is well-timed and has some snap on it,  Keeps scrambling in recoveries and will find wins",NW
 139,OT," Lateral foot quickness to make back-side/play-side reach blocks,  Good rhythm as a work-up blocker to second level",NW
@@ -1410,7 +1410,7 @@ ID,Position,Scouting Report Sentence(s),Race
 139,OT," Way too much lean and reach in his play,  Needs to trust his length and foot quickness more often",NW
 139,OT," Upper-body strength is way below par,  Struggles to press, extend and separate at point of attack",NW
 139,OT," Gets tossed around by powerful opponents,  Overreacts in pass pro, creating easy counter shots",NW
-139,OT,""" Doesnt have the body control or block sustain teams look for"", ",NW
+139,OT,""" Doesnt have the body control or block sustain teams look for"",  Narrow through waist, hips and chest",NW
 140,LB,"Team leader through actions and words,  Good size, definition and aggression",NW
 140,LB," Durable and tough with experience inside and outside,  Took big leap forward with feel for inside linebacker position in 2020",NW
 140,LB,""" Careful not to overshoot running backs entry point"",  Works hard to recover from missteps to get back into the play",NW
@@ -1426,7 +1426,7 @@ ID,Position,Scouting Report Sentence(s),Race
 141,WR," Good effort to engage and sustain on receiver screens,  Needs to become more willful with his size",W
 141,WR," Hits route turns without enough fake at the top,  Below-average suddenness and physicality underneath",W
 141,WR,""" Doesnt have natural feel for positioning in space"",  Needs to post better win percentage on contested catches",W
-141,WR," Hands were a mess at times in 2020, as he dropped two would-be touchdowns on deep throws, ",W
+141,WR," Hands were a mess at times in 2020, as he dropped two would-be touchdowns on deep throws,  Good effort to engage and sustain on receiver screens",W
 142,G,"Has starting experience at guard and tackle,  Comes off ball with choppy settle step in run-up to contact",W
 142,G," Accurate, strong hands give him early advantages,  Strikes with good base width and balance",W
 142,G," Strains into arm extension and works to sustain blocks,  Above-average reactive athleticism versus stunts",W
@@ -1452,7 +1452,7 @@ ID,Position,Scouting Report Sentence(s),Race
 144,DE," Looked as though he were favoring left ankle at times,  Play tends to be segmented and lacks athletic fluidity",NW
 144,DE,""" Doesnt use size traits to command the rep"",  Below-average rush with only one sack in his last 11 games",NW
 144,DE," Inaccurate hand slaps fail to open outside rush lanes,  Not enough bend to dip below punch at top of the rush",NW
-144,DE," Runs out of gas during chase, ",NW
+144,DE," Runs out of gas during chase,  Inaccurate hand slaps fail to open outside rush lanes",NW
 145,TE,"Size and strength to create some pop into first contact,  Comes out of his stance with good pad level",W
 145,TE," Uses hands and hips to fire upward punch for leverage,  Adequate feel for positional blocking duties",W
 145,TE," Has operated in-line and as move blocker in space,  Will leverage man coverage away from his breaks",W
@@ -1468,7 +1468,7 @@ ID,Position,Scouting Report Sentence(s),Race
 146,SAF," Below-average short-area twitch to shade route breaks,  Takes time to mash the gas after opening to run",NW
 146,SAF," Could have trouble with pass-catching tight ends who can get vertical,  Occasional confusion against route combinations and bunch sets",NW
 146,SAF," Lacks athletic talent or speed to play over the top,  Ineffective hand placement taking on the block",NW
-146,SAF," Needs to learn to slip blocks to avoid taking rides, ",NW
+146,SAF," Needs to learn to slip blocks to avoid taking rides,  Takes time to mash the gas after opening to run",NW
 147,TE,"Three-year starter with adequate size,  Highly decorated as in-line and slot option",NW
 147,TE," Appeared to play with an elevated level of confidence,  Improved route work and quickness out of breaks in 2020",NW
 147,TE," Takes tight angles on out-breaking routes,  Stems and creates openings for quarterback on short slant",NW
@@ -1485,13 +1485,13 @@ ID,Position,Scouting Report Sentence(s),Race
 148,DT," Engages with blocks and loses sight of the football,  Heavy feet lack play range and closing burst",NW
 148,DT," Needs earlier attack with his hands,  Below-average strength as pure interior player",NW
 148,DT," Slow-twitch tackling mechanism,  Head-first rusher with no true go-to moves",NW
-148,DT," Sluggish movements in twist game, ",NW
+148,DT," Sluggish movements in twist game,  Heavy hands taking on blocks",NW
 149,K,"Connected on 85 percent of his career field goals,  Made 94",W
 149,K,"5 percent from inside 40 yards during career,  Kicks with short, controlled follow through",W
 149,K," Uses drive kick when he needs extra on it,  Consistent trajectory and end-over-end balls",W
 149,K," Adequate hang-time on kickoffs,  Smaller than average build",W
 149,K," Saw field goal percentage drop to 77 percent in 2020,  Missed on his last three field goal tries of 50 yards or more",W
-149,K," Kicked off out of bounds twice in 2020, ",W
+149,K," Kicked off out of bounds twice in 2020, Connected on 85 percent of his career field goals",W
 150,RB,"Heavy workload with big production in 2019,  Calm in the face of early penetration",NW
 150,RB," Lateral change of direction is sudden with wide first stride,  Will press zone carries deep before cutting it back",NW
 150,RB," Simultaneously reads blocker and defensive movements,  Fluid field vision allowing for sudden alterations of run track",NW
@@ -1509,7 +1509,7 @@ ID,Position,Scouting Report Sentence(s),Race
 151,G," More mauler than controlled blocker,  Slippery hands slide off his target",NW
 151,G,""" Doesnt spend enough time connected to his blocks"",  Lumbering lateral movement prohibits cut-off blocks",NW
 151,G," Too stiff-legged when blocking on the move,  Unable to find proper range in pass sets as tackle",NW
-151,G," Inability to get feet set properly leads to inconsistent anchor, ",NW
+151,G," Inability to get feet set properly leads to inconsistent anchor,  Size creates natural movement as down blocker",NW
 152,SAF,"Much-improved open-field tackling in 2020,  Breaks down in space and gets tackle-ready",NW
 152,SAF," Mirrors sudden lateral cuts and springs into the tackle,  Aggressive hitter and wrap-up tackler",NW
 152,SAF," Possesses straight-line speed to range over the top,  Sudden and explosive leaper at high point",NW
@@ -1518,7 +1518,7 @@ ID,Position,Scouting Report Sentence(s),Race
 152,SAF," Short-area movement is labored,  Unable to flip hips and run with smoothness",NW
 152,SAF," Sees field through a straw and falls prey to misdirection,  Not a natural deep safety, allowing receivers behind him",NW
 152,SAF," Ball-tracking appears below average,  Questionable angles to the ball",NW
-152,SAF," Needs better downhill urgency to limit open-field options for runners, ",NW
+152,SAF," Needs better downhill urgency to limit open-field options for runners,  Uses length to help make plays on the football",NW
 153,LB,"Good patience in diagnosing run play development,  Rarely makes ill-advised charges into traffic",NW
 153,LB," Scrapes with pads squared to the action,  Reads and anticipates cut-back lanes from second level",NW
 153,LB," Able to sidestep blocks and work back to the ball-carrier,  Productive tackler in all four seasons",NW
@@ -1533,7 +1533,7 @@ ID,Position,Scouting Report Sentence(s),Race
 154,CB,""" No match for Alabamas Jerry Jeudy and Jaylen Waddle in 2019"",  Pulled out of press position by release fakes",NW
 154,CB," Occasionally loses his route leverage,  Inconsistent balance and break timing from off-man",NW
 154,CB," Has trouble finding positioning against downfield throws,  Needs to trust his technique and get head around",NW
-154,CB," Can be delayed in getting off the block, ",NW
+154,CB," Can be delayed in getting off the block,  Needs to trust his technique and get head around",NW
 155,OT,"Three-year starter,  Rockets out of stance as run and pass blocker",NW
 155,OT," Pass slides are quick but quiet,  Foot quickness to handle mirror duties against active rushers",NW
 155,OT,""" Heavy hands with pinpoint placement when hes first"", "" Possesses massive 11-inch hands to clamp into opponents frame""",NW
@@ -1542,7 +1542,7 @@ ID,Position,Scouting Report Sentence(s),Race
 155,OT," Sets up narrow in his pre-snap stance,  Needs to work on keeping feet under his pads",NW
 155,OT," Defaults to forward leaning to brace against the rush,  Falls forward and out of the play when hands get wiped out early",NW
 155,OT," Results much more erratic against stronger foes,  Power players display ability to dislodge him with leverage",NW
-155,OT," Would like to see more consistency as block finisher, ",NW
+155,OT," Would like to see more consistency as block finisher, Three-year starter",NW
 156,DE,"Activates sumo hand fighting for interior pass rush,  Efficient footwork and movement on twists",NW
 156,DE," Reads quarterback and looks to bat down passes,  Keeps pad level at optimal level and thumps into first contact",NW
 156,DE," Potential to extend and separate through his punch,  Hands are fairly heavy",NW
@@ -1550,7 +1550,7 @@ ID,Position,Scouting Report Sentence(s),Race
 156,DE,""" Rock em, sock em attack down the middle"",  Shorter arms will create disadvantage in the league",NW
 156,DE," Goes along for the ride on lateral block engagements,  Unable to sit down firmly and anchor as an edge setter",NW
 156,DE," Lacks foot quickness to work quickly around a block,  Below-average hands to open a rush lane for himself",NW
-156,DE," Way too tall on rush counters and is easily punched and stalled, ",NW
+156,DE," Way too tall on rush counters and is easily punched and stalled,  Hands are fairly heavy",NW
 157,WR,"Has potential to operate as gadget guy,  Created yards and touchdowns from a variety of looks",NW
 157,WR," Plants and cuts with good sharpness,  Used out-and-up as leverage mechanism to open deep ball",NW
 157,WR," Deep speed builds additional cushion underneath,  Possesses decent after-the-catch talent",NW
@@ -1559,7 +1559,7 @@ ID,Position,Scouting Report Sentence(s),Race
 157,WR," Small deceleration coming out of route stem,  Long, skinny legs are slower to change direction",NW
 157,WR,""" Doesnt have short-area wiggle to elude traffic in routes"",  Inconsistent working back to the ball",NW
 157,WR," Below average when tracking and fighting for football,  Catch radius and hands are both below average",NW
-157,WR," Used on jet sweeps, but usually only gets what is blocked, ",NW
+157,WR," Used on jet sweeps, but usually only gets what is blocked,  Created yards and touchdowns from a variety of looks",NW
 158,DT,"Has experience at three-technique and slant nose,  Maintains knee bend and pad level off the snap",NW
 158,DT," Slippery with efficient slide-and-go shots into the gap,  Knives in and shoots upfield to disrupt blocking scheme",NW
 158,DT," Above-average lateral movement for reactive tackles in his gap, "" Speedy big man whos able to range way outside home base""",NW
@@ -1580,7 +1580,7 @@ ID,Position,Scouting Report Sentence(s),Race
 159,OT," Base will narrow out on move blocks,  Sustain would benefit from better reset of hands and post-block footwork",W
 159,OT," Below-average length diminishes opportunity to cinch up after punch,  Plays with nose out past toes a little too often",W
 159,OT," Would benefit from better weight distribution to prevent falling forward,  Upper body gets ahead of his feet at times on lateral movements",W
-159,OT," Rush anchor is below average, ",W
+159,OT," Rush anchor is below average,  Able to set out on top of rushers when he needs to",W
 160,CB,"Big body with long frame,  Has starting experience inside and outside",NW
 160,CB," Above-average play strength,  Tools and traits to become more disruptive from press",NW
 160,CB," Puts body on body and swipes around receiver into passing lane underneath,  Uses length to effectively finish at the catch point",NW
@@ -1591,7 +1591,7 @@ ID,Position,Scouting Report Sentence(s),Race
 160,CB," Leggy in his transitions,  Pursues patterns with forward lean and a lack of balance",NW
 160,CB," Lacks speed to phase routes of true speedsters,  Backpedal is very tall and very bumpy",NW
 160,CB," Unable to plant and drive with efficient movement,  Needs to own his piece of the catch space",NW
-160,CB," Misses interception opportunities with lack of eye balance, ",NW
+160,CB," Misses interception opportunities with lack of eye balance,  Above-average play strength",NW
 161,OT,"Has started at both tackle spots,  Multiple kick-slide depths available to him depending on ground to gain",W
 161,OT," Shows potential to mirror active rushers on two-way goes,  Flips hips around opponent to wall off and secure base blocks",W
 161,OT," Unlocks hips to turn and redirect rusher past pocket,  Instinctive hands reset and find their way as run and pass blocker",W
@@ -1626,7 +1626,7 @@ ID,Position,Scouting Report Sentence(s),Race
 164,SAF," Rarely out of position,  Top-end speed appears to be average",NW
 164,SAF," Delay in downfield trigger coming out of his pedal,  Run pursuit might need more patience as a safety",NW
 164,SAF," Tackling will need more work,  Inconsistent to break down and center up",NW
-164,SAF," Wrap-up tackle strength is very average, ",NW
+164,SAF," Wrap-up tackle strength is very average,  Top-end speed appears to be average",NW
 165,SAF,"Loves to be around the action,  Plays with urgency and passion in everything he does",NW
 165,SAF," Has quick twitch to rush in with his response,  Fast and very physical as a striker",NW
 165,SAF," Improved with his responses to play-action in 2020,  Able to play deep half with leverage and range over the top",NW
@@ -1636,7 +1636,7 @@ ID,Position,Scouting Report Sentence(s),Race
 165,SAF," Below-average anticipation to squeeze routes underneath,  Feet stick in neutral when transitioning from top of his drop",NW
 165,SAF," Allows feet to operate outside the frame, causing some balance issues,  Can improve at locating and tracking earlier from high safety",NW
 165,SAF," Races downhill to tackle without coming to balance,  Steep track leaves him at tough angle to finish the job",NW
-165,SAF," Stops feet and lunges rather than running through his target in open field, ",NW
+165,SAF," Stops feet and lunges rather than running through his target in open field,  Improved with his responses to play-action in 2020",NW
 166,CB,"Slender, long frame,  Can be tough to elude from press",NW
 166,CB," Will widen out and slow the release with his punch,  Drives into space in coverage with easy movement",NW
 166,CB," Finds the deep ball and crowds into chest of target,  Long arms can pry throws free when challenging catch point",NW
@@ -1644,7 +1644,7 @@ ID,Position,Scouting Report Sentence(s),Race
 166,CB," No career interceptions and unimpressive ball production,  Has a tendency to declare hips a little too early",NW
 166,CB," Has hitch in his change of direction when transitioning,  Slow to accelerate when chasing route breaks",NW
 166,CB,""" Cant catch up in recovery mode deep"",  Made crucial mistakes from zone that cost his team touchdowns in 2019",NW
-166,CB," Instincts and awareness are an issue, ",NW
+166,CB," Instincts and awareness are an issue,  Will widen out and slow the release with his punch",NW
 167,CB,"Hits the NFL marks for size, speed and quickness,  40",NW
 167,CB,"5-inch vertical leap tracks with his high school high jump background,  Short choppy steps provide controlled movements underneath",NW
 167,CB," Very athletic with good feet,  Bursts into the route breaks from top of his drop",NW
@@ -1653,7 +1653,7 @@ ID,Position,Scouting Report Sentence(s),Race
 167,CB," Inconsistent approach in run support,  Needs to be quicker to read and challenge blockers",NW
 167,CB," Tries to read receiver rather than turning to locate football,  Sluggish getting back on track when route crosses his face",NW
 167,CB," Had a very poor outing against Purdue,  Allowed top positioning to get away from him in 2020",NW
-167,CB,""" Doesnt take optimal playmaking angles to play the ball"", ",NW
+167,CB,""" Doesnt take optimal playmaking angles to play the ball"", "" Doesnt take optimal playmaking angles to play the ball""",NW
 168,TE,"Crushed it in 2019 with 894 receiving yards and 15 touchdowns,  Gets out of his stance with good quickness",W
 168,TE," Plays with forward lean into early stages of route,  Able to work over the top of linebackers across the field",W
 168,TE," Hips allow him to sink and scoot on short routes,  Hands catcher with above-average athletic ability and catch radius",W
@@ -1670,7 +1670,7 @@ ID,Position,Scouting Report Sentence(s),Race
 169,SAF," Hiccups when transitioning hips,  Below-average long speed and shows fear of getting burned",NW
 169,SAF," Played so deep he was a non-factor against Alabama in 2020,  Spotty angles to the ball lead to occasional big plays",NW
 169,SAF," Takes the brunt of blow against bigger backs as tackler,  Below-average man-cover talent",NW
-169,SAF,""" Hasnt played much special teams"", ",NW
+169,SAF,""" Hasnt played much special teams"",  Had seven interceptions over his last 14 games",NW
 170,LB,"Tackle collector with plenty of solo finishes,  Good football IQ with time at both safety and linebacker",W
 170,LB," Team captain and undisputed leader of the defense,  Good patience and pace when scraping",W
 170,LB,""" Steps downhill and doesnt wait for blocks to find him"",  Possesses NFL-caliber pursuit range",W
@@ -1687,7 +1687,7 @@ ID,Position,Scouting Report Sentence(s),Race
 171,EDGE," Pedestrian overall production,  Below-average length at his position",NW
 171,EDGE," Small stays when changing direction,  Not much flash to work off of for pro projection",NW
 171,EDGE," Upfield rush lacks threat to the edge, "" Doesnt have defined rush plan to earn the rep win""",NW
-171,EDGE," Non-factor in College Football Playoff loss to Alabama, ",NW
+171,EDGE," Non-factor in College Football Playoff loss to Alabama,  Stays active to punch and separate at point of attack",NW
 172,CB,"Compact frame with plus play strength,  Durable and always out on the field",NW
 172,CB," Default mode is purely physical,  Pounds on the outside release and runs them into the boundary",NW
 172,CB," Ball skills like a wideout with leaping high-point and one-handed grabs,  Drives body through catch point, hindering success rate for opponents",NW
@@ -1713,7 +1713,7 @@ ID,Position,Scouting Report Sentence(s),Race
 174,DE," Wide-open chest gets punched and clinched, "" Doesnt keep feet under him during the rush""",NW
 174,DE," Inside counter is gradual and telegraphed,  Sacks usually come when plays extend",NW
 174,DE," Needs better attention to his pad level,  Can improve at leveraging the gap",NW
-174,DE," Pursuit range tends to run out of gas, ",NW
+174,DE," Pursuit range tends to run out of gas,  Never content to be blocked and strains to come off",NW
 175,CB,"Physical specimen with prototypical size and length,  Hand quickness and accuracy to jam up the release",NW
 175,CB," Plus athleticism and agility on display,  Makes smooth adjustments when routes cross his face",NW
 175,CB," Good decision-maker against high-low route concepts,  Able to contort and adjust body in mid-air",NW
@@ -1721,7 +1721,7 @@ ID,Position,Scouting Report Sentence(s),Race
 175,CB," Average recognition of play-action and misdirection,  Tends to lose balance when opening hips to sprint in pursuit",NW
 175,CB," Allowed six touchdowns of 25-plus yards since 2019,  Panics and loses his bearings with back to the ball",NW
 175,CB," Needs to improve timing at catch point,  Below average finding proper positioning at times",NW
-175,CB," Very average ball instincts and hand accuracy to play the football, ",NW
+175,CB," Very average ball instincts and hand accuracy to play the football,  Can sky and pick the interception over top of the receiver",NW
 176,LB,"Member of SEC Student-Athlete Leadership Council and team captain,  Muscular, dense build",NW
 176,LB," Alpha in his work between the tackles,  Downhill attitude, making every attempt to constrict the run lane",NW
 176,LB," Strength to take on and stuff the lead blocks,  Played with pain through most of the Georgia game",NW
@@ -1730,7 +1730,7 @@ ID,Position,Scouting Report Sentence(s),Race
 176,LB," Below-average speed and range,  Will struggle to chase and tackle to the perimeter",NW
 176,LB," Premature downhill shots end up getting him trapped, eliminating ability to chase bounce-outs,  Will need to slip some blocks rather than engage in all the fist fights",NW
 176,LB," Feet look stuck in the mud in short-area, lateral movements,  Fairly quick to lose coverage duties",NW
-176,LB,""" Cant stay with running backs in man-to-man"", ",NW
+176,LB,""" Cant stay with running backs in man-to-man"",  Fairly quick to lose coverage duties",NW
 177,LB,"Proportional build and musculation,  Reads keys and understands blocking schemes",NW
 177,LB," Good understanding of attack angles,  Willing to take chances to make plays behind the line",NW
 177,LB," Adequate upper-body strength to unglue from blocks,  Subtle level changes to keep blockers guessing",NW
@@ -1748,7 +1748,7 @@ ID,Position,Scouting Report Sentence(s),Race
 178,CB," Lacks desired NFL build and traits as outside cornerback, "" Doesnt play with needed consistency against the run""",NW
 178,CB," Too easily walled-off away from the action,  Can be jostled around by big wideouts when in press",NW
 178,CB," Needs a little longer runway to gear down from shuffle against comebacks,  Loses track of the football when back is to the passer",NW
-178,CB," Grabby and physical, leading to unnecessary pass interference penalties, ",NW
+178,CB," Grabby and physical, leading to unnecessary pass interference penalties,  Grabby and physical, leading to unnecessary pass interference penalties",NW
 179,WR,"Highly coveted blend of height, weight and speed,  Expected to test well with speed and explosion",NW
 179,WR," Football runs throughout branches of family tree,  Used outside and from the slot",NW
 179,WR," Creates ""big slot"" matchup issues for smaller corners,  Speed to climb past cornerbacks",NW
@@ -1758,7 +1758,7 @@ ID,Position,Scouting Report Sentence(s),Race
 179,WR," Needs to get into press release without dancing,  Very average sink-and-break hips/feet on second level",NW
 179,WR," Trudges through break points underneath,  Needs saltier response to physicality at top of the route",NW
 179,WR," Fails to use ball-tracking as mechanism for proper positioning,  Below-average feel for feet near the boundary",NW
-179,WR," Possesses good size as run blocker but had missed opportunities, ",NW
+179,WR," Possesses good size as run blocker but had missed opportunities,  Below-average feel for feet near the boundary",NW
 180,SAF,"Has size of an NFL box safety,  Eye-popping production in COVID-shortened 2020 season",NW
 180,SAF," Forces blockers to account for him near the line of scrimmage,  Rarely false steps when reading and reacting to the play",NW
 180,SAF," Flows to the football with good leverage,  Shows ability to dip under offensive line blocks",NW
@@ -1768,7 +1768,7 @@ ID,Position,Scouting Report Sentence(s),Race
 180,SAF," Durability will be a major concern due to aggressive style,  Athletic limitations could make him scheme-dependent",NW
 180,SAF," Overly concerned looking for misdirection and gets behind on the play,  Forced to take long angles of pursuit to make up for lack of speed",NW
 180,SAF,""" Doesnt gain depth quickly enough with his pedal and swerve"",  Will struggle to carry vertical routes down the field",NW
-180,SAF,""" Sees breaks coming but cant find the burst to cover them"", ",NW
+180,SAF,""" Sees breaks coming but cant find the burst to cover them"",  Durability will be a major concern due to aggressive style",NW
 181,WR,"Moves around the field with smooth gait,  Leverages route turns against tight man coverage",NW
 181,WR," Sneaky hand fighting to create separation,  Clears out catch space at the top of his routes",NW
 181,WR," Showed and proved as downfield ball-tracker and body-stacker,  Athletic in air with outstanding body control and catch instincts",NW
@@ -1779,7 +1779,7 @@ ID,Position,Scouting Report Sentence(s),Race
 181,WR," High-cut with limited wiggle in his movements,  Expect average release success against press",NW
 181,WR,""" Drive gear doesnt seem to generate panic in cornerbacks"",  Route fakes lack salesmanship",NW
 181,WR," Below-average separation burst,  Route asks were rather basic at Clemson",NW
-181,WR," Dropped easy would-be touchdown catch headed into end zone against Virginia Tech, ",NW
+181,WR," Dropped easy would-be touchdown catch headed into end zone against Virginia Tech, "" Drive gear doesnt seem to generate panic in cornerbacks""",NW
 182,DE,"Added over 60 pounds of mass/muscle since arriving on campus,  Play and production has shown steady improvement",NW
 182,DE," Arm length could become a bigger problem for tackles with more work,  Usually lands first punch off the snap",NW
 182,DE," Traits to punch, extend and hold the point of attack,  Bull-rush potential could be in his future",NW
@@ -1788,7 +1788,7 @@ ID,Position,Scouting Report Sentence(s),Race
 182,DE," Inability to bend and drop pads impacts anchor consistency,  Slow in his shed-and-tackle technique",NW
 182,DE,""" Hasnt displayed enough instincts to key on certain blocks"",  Lacks functional agility and change of direction as tackler",NW
 182,DE," Plodding feet attacking with upfield rush, "" Hes long but hands are too slow within pass-rush engagement""",NW
-182,DE," Too content being pushed well beyond rush track, ",NW
+182,DE," Too content being pushed well beyond rush track,  Too content being pushed well beyond rush track",NW
 183,CB,"Burner with impressive 10-yard split (1, 55 seconds)",NW
 183,CB," Put through running back and receiver drills at pro day,  Productive high school running back before making switch to corner",NW
 183,CB," Smooth and athletic transitioning with routes,  Fluid movements backward, forward and laterally",NW
@@ -1797,7 +1797,7 @@ ID,Position,Scouting Report Sentence(s),Race
 183,CB," Rockets off the snap and bends the corner tight to block kicks,  Below-average length as a corner",NW
 183,CB," Picked on near the goal line with top-shelf throws over his head,  Tends to lose ground in coverage races downfield",NW
 183,CB," Not much ball production over the last two seasons,  Could struggle to tackle against NFL size as a defender",NW
-183,CB," No college experience at receiver or running back, ",NW
+183,CB," No college experience at receiver or running back,  Smooth and athletic transitioning with routes",NW
 184,FB,"Built like an old-school linebacker,  Did everything coaches asked of him",W
 184,FB," Used as short-yardage banger in 2018, rushing for seven touchdowns,  Hands to catch what is thrown his way in the flat",W
 184,FB," Decent athlete in space with ability to alter and adjust as blocker,  Dominant blocking effort against Minnesota",W
@@ -1837,7 +1837,7 @@ ID,Position,Scouting Report Sentence(s),Race
 188,SAF," Tight hips show up in his man cover transitions,  Gets crossed up by route-runners from off coverage",NW
 188,SAF," Speed will lose him and he struggles to close the distance,  Below-average high-point attacker as deep safety",NW
 188,SAF," Burned for too many touchdowns,  Lacks the length to be a consistent wrap-up tackler",NW
-188,SAF," Will get banged around in run support near the box, ",NW
+188,SAF," Will get banged around in run support near the box,  Communicates well pre- and post-snap",NW
 189,DT,"Three-year starter who was highly recruited out of high school,  Thick-boned from ankles to shoulders, carrying weight proportionally",NW
 189,DT," Known for being accountable, reliable and tough,  Burly base with decent feet",NW
 189,DT," Appeared to play stronger and faster in 2020,  Quick hands off the snap with upward, leverage strike",NW
@@ -1847,7 +1847,7 @@ ID,Position,Scouting Report Sentence(s),Race
 189,DT," Has tendency to wear down as the game progresses,  Very average size by NFL standards",NW
 189,DT," Lacks stout anchor teams want from run stuffer,  Feel for the game is slightly below average",NW
 189,DT," Allows pad level to get away from him on lateral engagements, "" Doesnt have loaded toolbox as a pass rusher""",NW
-189,DT," Lack of agility shows up with missed sack attempts, ",NW
+189,DT," Lack of agility shows up with missed sack attempts,  Burly base with decent feet",NW
 190,C,"Has experience at center and guard,  Uses mass and girth to his advantage at point of attack",NW
 190,C," Adequate snap-to-step quickness as lateral blocker,  Powerful flipper able to stuff and tee up block for his guard on combos",NW
 190,C," Generally under control working up to Mike linebackers,  Adequate athleticism for a big man getting into space",NW
@@ -1866,7 +1866,7 @@ ID,Position,Scouting Report Sentence(s),Race
 191,DE," Restricted agility due to tightness in hips and knees impacts ability to tackle,  Easy target for cut blocks",NW
 191,DE," Lacks upper-body suddenness to quickly rip away from blocks,  Struggles to change direction and hound moving targets",NW
 191,DE," Face-up rusher missing hand skill and athletic talent to flip the edge,  Strong punch-and-clinch tackles end his rush party",NW
-191,DE," Rush plan consists of just power and inside swim, ",NW
+191,DE," Rush plan consists of just power and inside swim,  Restricted agility due to tightness in hips and knees impacts ability to tackle",NW
 192,DT,"Space-eater with wide hips,  Potential to explode and knock center off the ball",NW
 192,DT," Quick punch and separation to read and react,  Maintains lateral leverage when he takes the lead",NW
 192,DT," Power to swallow runner with one arm fighting off a block,  Plays with some violence challenging blocks",NW
@@ -1874,7 +1874,7 @@ ID,Position,Scouting Report Sentence(s),Race
 192,DT," Body type lacks proportion and will need to keep weight in check,  Marginal production over four-year period",NW
 192,DT," Only makes plays one gap over, "" Cant get back across blockers face when reached""",NW
 192,DT,""" Moves feet but doesnt gain much ground as a rusher"",  Heavy feet slow twist-game effectiveness",NW
-192,DT," Possesses relatively small sphere of playmaking influence, ",NW
+192,DT," Possesses relatively small sphere of playmaking influence,  Able to gather and balance despite big contact",NW
 193,G,"Very wide, thick and powerful,  Adequate initial quickness into the neutral zone",NW
 193,G," Lower-body drive to push defenders off their marks,  Able to match power on power as a base blocker",NW
 193,G,""" Held his own against Auburns Derrick Brown in 2019"",  Choppy, disciplined feet as run blocker",NW
@@ -1905,7 +1905,7 @@ ID,Position,Scouting Report Sentence(s),Race
 196,RB," Running style is charged but lacking rhythm,  Would benefit from better patience to keep play-side runs on track",NW
 196,RB," Feel for running lanes is average,  Lacks desired short-area burst to rocket past second level",NW
 196,RB," Below-average balance into and through contact to stay upright,  Small delay in catch-to-run transition",NW
-196,RB," Shows some confusion over blitz assignments, ",NW
+196,RB," Shows some confusion over blitz assignments,  Below-average balance into and through contact to stay upright",NW
 197,OT,"Loose hips and plus timing for work-up blocks,  Chops feet into block fit and rolls hips",NW
 197,OT," Accelerates feet through contact and drives from insteps,  Works his positioning wall off block",NW
 197,OT," Stays after it in phase two (sustain phase) as a run blocker,  Resets and re-punches if he gets beat with long-arm",NW
@@ -1914,7 +1914,7 @@ ID,Position,Scouting Report Sentence(s),Race
 197,OT," Upper-body strength will need substantial improvement,  Unable to prevent defenders from driving through his base block",NW
 197,OT," Issues with body control can keep him in catch-up mode throughout the rep,  Too much grab-and-hugging to shortcut the work needed",NW
 197,OT," Caught up in excessive lunging/leaning at the top of the rush,  Needs to snap a stronger punch and keep feet mirroring",NW
-197,OT," Inability to protect his edges is a recurring concern, ",NW
+197,OT," Inability to protect his edges is a recurring concern,  Works his positioning wall off block",NW
 198,RB,"* Has frame and body type for the league, * Passionate, aggressive runner",NW
 198,RB,"* Quick, bounding feet allow for sudden change of direction, * Able to stack moves",NW
 198,RB,"* Accelerates quickly after a cut, * Drops pads and mashes the gas near goal line",NW
@@ -1933,7 +1933,7 @@ ID,Position,Scouting Report Sentence(s),Race
 199,DT," Needs to play with better explosiveness into first contact,  Can be slow to locate where pressure is coming from",NW
 199,DT," Below-average bend and agility for leverage,  Struggles to hold the point and restrict the gap",NW
 199,DT," Can be too content to just lay on blocks as run defender,  Turns into an upright rusher at times",NW
-199,DT," Bull-rush potential is very average, ",NW
+199,DT," Bull-rush potential is very average,  Turns into an upright rusher at times",NW
 200,CB,"Elite athletic talent with 4, 35-second 40-yard dash and 42",NW
 200,CB,"5-inch vertical jump at his pro day,  Plays with adequate discipline from zone",NW
 200,CB," Effective from side-shuffle with outside leverage,  Reads and anticipates route turns",NW
@@ -1950,7 +1950,7 @@ ID,Position,Scouting Report Sentence(s),Race
 201,CB," Might not have the patience or agility for NFL press man,  Lacks short-area agility to smother routes from off man",NW
 201,CB," Delayed burst gear when driving on throws,  Tends to lose feel for routes at times",NW
 201,CB," Slow in finding football on downfield throws,  Inconsistent eye-balance between the receiver and quarterback",NW
-201,CB," Passive angles attacking catch point, ",NW
+201,CB," Passive angles attacking catch point,  Below-average feet/hips in adjusting to clever press release",NW
 202,RB,"Possesses NFL size with adequate top-end speed,  Mental toughness to overcome adversity and make it back on team",NW
 202,RB," Excellent knee bend and pad level through the hole,  Vision to recognize bounce-wide opportunities",NW
 202,RB," Has lateral-cut quickness and burst to get to the edge,  Weaponizes stiff-arm to extend his run",NW
@@ -1968,7 +1968,7 @@ ID,Position,Scouting Report Sentence(s),Race
 203,WR,""" Doesnt always play to his real speed when getting into patterns"",  Routes are rounded, dull and lack salesmanship",NW
 203,WR," Struggles to track and stack effectively downfield,  Below-average upper-body and hand strength to win 50-50 balls",NW
 203,WR," Poor batting average in contested catch situations,  Pass-catching hands are passive and he lacks focus at times",NW
-203,WR," Needs to become much more physical and competitive, ",NW
+203,WR," Needs to become much more physical and competitive,  Poor batting average in contested catch situations",NW
 204,WR,"Unspectacular but rock-steady production throughout career,  Has shown ability to handle high volume of targets",NW
 204,WR," Able to slip press fairly consistently,  Improved elements of his route-running in 2020",NW
 204,WR," Did a much better job of disguising slants and overall route intentions,  Maintains play speed through cuts and stems",NW
@@ -1985,7 +1985,7 @@ ID,Position,Scouting Report Sentence(s),Race
 205,WR," Very limited production,  Usually last receiver off the line of scrimmage",NW
 205,WR," Easy to punch and disrupt from press,  Tight hips limit ability to get in and out of breaks",NW
 205,WR," Disheveled routes are easy for corners to read,  Looks lost at times as a ball-tracker",NW
-205,WR," Needs to learn when to sit down in space, ",NW
+205,WR," Needs to learn when to sit down in space,  Will need to develop fundamentals at his position",NW
 206,OT,"Good overall size with adequate length,  Has core strength to get after opponents in man-on-man battles",W
 206,OT," Adequate lateral movement to compete on cut-off blocks,  Quiet hands in his pass sets",W
 206,OT," Fires with a quick, stiff punch,  Good toughness in playing through the whistle",W
@@ -1994,7 +1994,7 @@ ID,Position,Scouting Report Sentence(s),Race
 206,OT," Excessive waist-bender at point of attack,  Plays too far out in front of his feet and will fall off blocks",W
 206,OT," Tends to become too straight-legged as drive blocker,  Speed rushers will give him trouble",W
 206,OT," Shows panic at the top of the rush and lunges, "" Footwork becomes erratic and base gets too narrow when hes on the move""",W
-206,OT," Crossed up by inside rush counters, ",W
+206,OT," Crossed up by inside rush counters,  Adequate lateral movement to compete on cut-off blocks",W
 207,DT,"Team captain praised for high character,  Quick and explosive with good lean mass",NW
 207,DT," First-step quickness off the ball,  Nimble lateral bounce takes him inside the gaps",NW
 207,DT," Skinny into gaps with shoulder turn and slap,  Generated pocket pressure",NW
@@ -2003,7 +2003,7 @@ ID,Position,Scouting Report Sentence(s),Race
 207,DT," Bullied around by double teams,  Struggles to control blocks and maintain base on the move",NW
 207,DT," Just 1, 5 career sacks",NW
 207,DT,""" Doesnt have a go-to counter to turn a pressure into a sack"",  Needs to stay lower in his edge-to-edge rush challenges",NW
-207,DT," Pocket attack loses steam over second half of the game, ",NW
+207,DT," Pocket attack loses steam over second half of the game,  Generated pocket pressure",NW
 208,OT,"Big, long and strong,  Wears weight proportionally for being so tall",NW
 208,OT," Adequate fluidity in his pass slides as left tackle,  Times punch to make rusher feel his length",NW
 208,OT,""" Firm outside hand is a challenge to dislodge once hes in"",  Core power and hand strength to cinch up and mirror the rush",NW
@@ -2013,7 +2013,7 @@ ID,Position,Scouting Report Sentence(s),Race
 208,OT," * Very high center of gravity slows change of direction, * Not physically possible to get pads low enough at point of attack",NW
 208,OT,"* Average hand quickness into first contact, * Will need to improve angles up to linebackers",NW
 208,OT,"* Plays too far forward as run blocker * Average instincts in pass protection, * Needs to improve power slide to cut off B-gap",NW
-208,OT,"* Needs to alter punch approach to keep rushers guessing, * Occasional oversets and chases rushers out wide at times",NW
+208,OT,"* Needs to alter punch approach to keep rushers guessing,  Adequate fluidity in his pass slides as left tackle",NW
 209,WR,"Rare combination of height, weight and explosiveness,  Posted 40-inch vertical leap with ridiculous total of 30 reps on bench press at pro day",NW
 209,WR," Plus hand-eye coordination with natural hands,  Flashed incredible body control and catch radius against Florida State",NW
 209,WR," At his best when allowed to explore the field on second and third levels,  Exciting upside with traits to mismatch certain cornerbacks downfield",NW
@@ -2031,7 +2031,7 @@ ID,Position,Scouting Report Sentence(s),Race
 210,EDGE," Will need to develop a go-to rush counter,  Average closing burst to the quarterback",NW
 210,EDGE," Telegraphs inside move and makes it with tall pad level,  Length from tackles will give him problems",NW
 210,EDGE,""" Glued to blocks when hes not in quick with his hands"",  Below-average pursuit speed if he loses contain",NW
-210,EDGE," Has trouble playing through lateral engagements, ",NW
+210,EDGE," Has trouble playing through lateral engagements,  Will need to develop a go-to rush counter",NW
 211,WR,"Hybrid potential as running back and receiver,  Loose and limber to slip around traffic as runner",NW
 211,WR," Plays with unbridled energy and urgency,  Looked very smooth and natural as receiver at Senior Bowl",NW
 211,WR," Displays adequate foot quickness and hand fighting to counter press,  Gains ground on coverage out of route stems",NW
@@ -2049,7 +2049,7 @@ ID,Position,Scouting Report Sentence(s),Race
 212,SAF," Vertical speed will rush by him,  Modest burst to chase the route",NW
 212,SAF," Panics when his back is to the ball,  Gets turned around tracking deep routes",NW
 212,SAF," Flies downhill way too hot as a tackler,  Will default to risky leg dives at off angles",NW
-212,SAF," Indecisive with sticky feet as open-field tackler, ",NW
+212,SAF," Indecisive with sticky feet as open-field tackler,  Gets turned around tracking deep routes",NW
 213,CB,"Feet for early mirror of release,  Gives out rough rides for the first five yards",NW
 213,CB," Quick to close distance on receiver early in route,  Extremely physical and flusters the catch space",NW
 213,CB," Reads eyes and times his scrapes,  Displays adequate feel for route from trail",NW
@@ -2057,7 +2057,7 @@ ID,Position,Scouting Report Sentence(s),Race
 213,CB," Is often too early in declaring and opening hips, "" Doesnt trust technique and positioning""",NW
 213,CB," 13 career pass interference/defensive holding penalties,  Weight is too far forward when transitioning with the stem",NW
 213,CB," Below-average burst to stay connected at break points,  Needs to finish plays",NW
-213,CB," Below-average length to attack the catch, ",NW
+213,CB," Below-average length to attack the catch,  Displays adequate feel for route from trail",NW
 214,G,"Built with sturdy, Midwestern mass,  Hands are little charged up into first contact",W
 214,G," Upper-body power to generate turn in kick-out blocks,  Lower-body drive on ""gotta have it"" short-yardage blocks",W
 214,G," Above-average understanding of hand placement,  Quick eyes in adjusting blocks when appropriate",W
@@ -2084,7 +2084,7 @@ ID,Position,Scouting Report Sentence(s),Race
 216,EDGE," Not very explosive in race to the top of the rush,  Unable to really sink and bend the edge",NW
 216,EDGE," Looked ineffective and dull against Virginia Tech OT Christian Darrisaw,  Body control sabotages balance at times",NW
 216,EDGE," Below-average reactive athleticism,  Not as fluid in movements as desired for 3-4 linebacker",NW
-216,EDGE," No access to tight turns or sudden change of direction, ",NW
+216,EDGE," No access to tight turns or sudden change of direction,  Strength in upper body to battle tight ends at point of attack",NW
 217,RB,"""Received teams Williams-Moss Award for highest quality of leadership and character"",  Well-built with muscular, strong legs",NW
 217,RB," Runs with easy tempo and good decisiveness,  Able to gas it through line of scrimmage when hole develops",NW
 217,RB," Instant, clear processing of run lanes while on the move,  Maintains speed with smooth change of direction",NW
@@ -2121,7 +2121,7 @@ ID,Position,Scouting Report Sentence(s),Race
 220,LB," Must learn to slip blocks and stay clean,  Too small to separate quickly once block gets into him",NW
 220,LB," Needs discipline to play his role and not search for every single tackle,  Momentum gets away from him as open-field tackler",NW
 220,LB," Off-balance tackle tries turn into broken arm tackles,  Overestimates speed on extended pursuit angles",NW
-220,LB," Ineffective playing pass from zone, ",NW
+220,LB," Ineffective playing pass from zone,  Pursues with leverage but has burst to find his prey",NW
 221,WR,"Makes himself faster through speed variations in his routes,  Finds his top gear quickly",NW
 221,WR," Choppy feet feed body control and directional change in routes,  Instinctive body positioning and gear down to stack coverage",NW
 221,WR,""" Wont back down and willing to work into the middle of the field"",  Runs with unbridled excitement after the catch",NW
@@ -2133,7 +2133,7 @@ ID,Position,Scouting Report Sentence(s),Race
 222,LS,"Took over full-time duty as both kick and punt snapper in 2018,  No major snapping flubs during his time at Alabama",W
 222,LS,""" Earned a five-star rating at Chris Rubios long-snapping academy"",  Decent speed to get downfield and cover",W
 222,LS," Undersized by NFL standards,  Very average snap velocity",W
-222,LS," Inconsistent accuracy to target against Ole Miss and Georgia, ",W
+222,LS," Inconsistent accuracy to target against Ole Miss and Georgia,  No major snapping flubs during his time at Alabama",W
 223,CB,"Added 20 pounds to his frame since coming into college,  Limited experience but has ball production in his background",NW
 223,CB," Grabbed six interceptions in junior college,  Impressive use of length to recover",NW
 223,CB," Instinctive timing at the high-point,  Makes a strong effort to aggressively crowd and disrupt catches underneath",NW
@@ -2142,7 +2142,7 @@ ID,Position,Scouting Report Sentence(s),Race
 223,CB," Below-average transitions into sprint,  Slow to gather and redirect his weight downhill in coverage",NW
 223,CB," Below-average closing burst on the throw,  Speed-deficient when chasing vertical rabbits",NW
 223,CB," Doesn’t find deep balls consistently,  Loses too much coverage ground at break points",NW
-223,CB," Needs to get stronger, ",NW
+223,CB," Needs to get stronger,  Bumpy backpedal in early match phase of the release",NW
 224,SAF,"Very coachable and does what is asked of him,  Has grown into leadership role and takes it seriously",NW
 224,SAF," Versatility to play hybrid safety/linebacker roles at LSU,  Steps downhill and will play on the other side of the line when setting an edge",NW
 224,SAF," Racked up 21, 5 tackles for loss during career",NW
@@ -2152,10 +2152,10 @@ ID,Position,Scouting Report Sentence(s),Race
 224,SAF," Below-average long speed to cover down the field or as high safety,  Loses track of play development and finds himself out of position",NW
 224,SAF," Instincts fail to clue him in when asked to cover, "" Doesnt have the burst to close enough distance if hes not on top of target""",NW
 224,SAF," Will need to learn to attack and control block as box safety or linebacker,  Not much of a glass-eating mentality near the line",NW
-224,SAF," Too many missed tackles in space, ",NW
+224,SAF," Too many missed tackles in space,  Plays long and physically, turning contested catches into losses for receivers",NW
 225,LS,"Three-year long and short snapper,  Consistent placement on field goals and extra point snaps",NW
 225,LS," Gets snaps off without much of a hitch,  Inconsistent spiral with his long snaps",NW
-225,LS," Made punter move too often with off-target snaps, with a tendency to sail it high, ",NW
+225,LS," Made punter move too often with off-target snaps, with a tendency to sail it high, Three-year long and short snapper",NW
 226,G,"Elite size and length for the position,  Frame is broad and thick",NW
 226,G," Very heavy-handed with plus upper-body strength,  Able to throw a sack of bricks at opponent when he punches",NW
 226,G," Has physical potential to become dominant with better technique,  Drive power to turn base blocks out of the gap",NW
@@ -2166,7 +2166,7 @@ ID,Position,Scouting Report Sentence(s),Race
 226,G," Will cheat secure block to save time getting up to linebacker on combos,  Plays with hitch and outside hands with pass punch",NW
 226,G," Below-average body control and recovery potential,  Loses balance and positioning against rush counters",NW
 226,G," Struggles to redirect weight after biting on fakes in pass pro,  Slide quickness to cut off the gaps is a concern",NW
-226,G," Has dealt with blood clotting issues, ",NW
+226,G," Has dealt with blood clotting issues,  Below-average body control and recovery potential",NW
 227,CB,"Height, weight and length are rare commodities at his position,  Imposing frame makes early release difficult",NW
 227,CB," Jab and lateral shuffle create roadblock from press,  Long arms shade downfield throws from trail position",NW
 227,CB," Quick plant and drive back to receiver from Cover 3 shuffle,  Squeezes on top of dig routes from free safety",NW
@@ -2189,7 +2189,7 @@ ID,Position,Scouting Report Sentence(s),Race
 229,WR," Able to work way above the rim for easy jump-ball wins,  Beat up on a variety of small cornerbacks",NW
 229,WR," Not much hip sink getting into his breaks,  Needs extended runways to gather and open on intermediate routes",NW
 229,WR," Below-average vertical charge to threaten the coverage,  Room for improvement in putting a body on defender",NW
-229,WR," Needs to use size more aggressively as run blocker, ",NW
+229,WR," Needs to use size more aggressively as run blocker,  Room for improvement in putting a body on defender",NW
 230,C,"Four-year starter and two-year team captain,  Praised as teammate and leader",W
 230,C," Adequate hand usage and athleticism,  Built for outside zone attack",W
 230,C," Smooth getting out of stance and into pulling duties,  Good radar and patience up to middle linebacker",W
@@ -2197,7 +2197,7 @@ ID,Position,Scouting Report Sentence(s),Race
 230,C," Looks very small on the field,  Lack of length diminishes potential against two-gappers",W
 230,C," Below average pop-fitting into run blocks,  Closes hips into down blocks, limiting climb agility",W
 230,C,""" Doesnt have staying power to sustain consistently"",  Disappointing protection recovery from gap-to-gap",W
-230,C," Bullies will power rush can overtake him, ",W
+230,C," Bullies will power rush can overtake him,  Keeps eyes scanning in pass pro",W
 231,OT,"Athletic feet in space to shuffle and find positioning,  Makes adjustments to land and sustain blocks against linebackers",NW
 231,OT,""" Feet dont stop running through the block"",  Brings his feet with him to stuff and redirect challenges on his edge",NW
 231,OT," Flashes his hands to keep rusher off-balance pre-punch,  Throws punch with conviction",NW
@@ -2213,7 +2213,7 @@ ID,Position,Scouting Report Sentence(s),Race
 232,DT," Disappointing bench press total of 20 at his pro day,  Plays fast, but can be a little out of control",NW
 232,DT," Struggles with his technique,  Inconsistent hand usage in taking on blocks",NW
 232,DT," Can be knocked to the ground by power,  Pass rush wears down as game progresses",NW
-232,DT," Needs to create a plan for early stages of the rush, ",NW
+232,DT," Needs to create a plan for early stages of the rush,  Needs to create a plan for early stages of the rush",NW
 233,RB,"Explosive testing at Maryland pro day opened some eyes,  Racked up impressive tackle totals on coverage teams",W
 233,RB," Muscular with dense trunk,  Bends and drives through contact to fall forward",W
 233,RB," Build-up speed can pull away from defenders,  Plus separation burst out of routes",W
@@ -2240,7 +2240,7 @@ ID,Position,Scouting Report Sentence(s),Race
 235,DE," Gets too far upfield, exposing easier pathway to C-gap for runner,  Below-average pursuit range off the edge",W
 235,DE," Love the motor, but might need to play with better control,  Loses track of where football is at times",W
 235,DE," Face-up rusher with no real counters,  Needs to use hands to set up rush rather than charge forward",W
-235,DE," An average landed punch from blocker kills rush momentum, ",W
+235,DE," An average landed punch from blocker kills rush momentum,  More than 36 percent of his career tackles went for a loss",W
 236,G,"Plays with good overall foot quickness,  Churns feet and drives through down blocks",W
 236,G," Capable of cross-facing and walling off the nose on zone,  Can handle short- and long-pull duties",W
 236,G," Patient and athletic when climbing up to linebackers,  Has no problem with mixing it up and brawling",W
@@ -2250,7 +2250,7 @@ ID,Position,Scouting Report Sentence(s),Race
 236,G," Missed most of 2019 with a shoulder injury,  Play can get wild and out of control",W
 236,G," Run-blocking footwork is random at times,  Wide first step will get him in trouble in run game",W
 236,G," Hard charging on the move and needs better body control,  Has tendency to lunge into his punch",W
-236,G," Lack of core power leaves him fighting to hang on, ",W
+236,G," Lack of core power leaves him fighting to hang on,  Has no problem with mixing it up and brawling",W
 237,CB,"""Scouts say hes hardworking and smart"",  Has played free safety and slot corner",NW
 237,CB," Loose, agile and highly athletic,  Capable of mirroring release from a smooth pedal",NW
 237,CB," Easy feet and hips for fluid transitions,  Big acceleration to stay in phase against deep routes",NW
@@ -2261,7 +2261,7 @@ ID,Position,Scouting Report Sentence(s),Race
 237,CB," Pattern recognition is underdeveloped and needs work,  Ball instincts are below average",NW
 237,CB," Struggles finding football and establishing position downfield,  Panics with his back to the ball",NW
 237,CB," Needs better-timed attacks on the football,  Takes some poor angles as a tackler",NW
-237,CB," Stays wired to perimeter blocks and out of the process in run support, ",NW
+237,CB," Stays wired to perimeter blocks and out of the process in run support,  Relies on athletic ability over technique",NW
 238,G,"Two-time team captain,  Has experience at tackle, guard and center",W
 238,G," Impressive short-area quickness testing,  Adequate wingspan and strength",W
 238,G," Patient not to rush the fit into double teams,  Runs feet through contact",W
@@ -2278,7 +2278,7 @@ ID,Position,Scouting Report Sentence(s),Race
 239,DE," Lacks awareness and instincts,  Needs better control of the point of attack with his hands",NW
 239,DE," Loses too much ground when trying to hold the edge,  Below-average pursuit acceleration when forced to slow feet",NW
 239,DE," Sticky feet make for poor tackle agility,  Very basic rush approach",NW
-239,DE," Nothing to offer when stalled at the top of his rush, ",NW
+239,DE," Nothing to offer when stalled at the top of his rush,  Below-average snap reaction",NW
 240,DE,"* Plays with high football IQ and rush savvy, * Flashes maniacal rush motor up to the top of the rush",NW
 240,DE,"* Long, powerful second and third steps, * Has developed a myriad of attack moves",NW
 240,DE,"* Heavy hand swipes, fluid stab-and-slap and effective rip-and-run * Widens tackles out from inside rush positioning before making inside move, * Always targets throwing arm, creating strip sacks",NW
@@ -2287,7 +2287,7 @@ ID,Position,Scouting Report Sentence(s),Race
 240,DE,"* Impressive start-stop in his change of direction Average twitch and overall athleticism,  His traits might be caught between base end and stand-up rusher",NW
 240,DE," Pressure rate and sack total dropped with step up in competition Struggles in overtaking blocker when he gets behind early in the rep,  Some tightness in upper body when attempting to flip the corner",NW
 240,DE," Plays with very average closing burst,  A little lethargic getting off of clenched-up blocks",NW
-240,DE," Still room for improvement as an edge-setter, ",NW
+240,DE," Still room for improvement as an edge-setter, * Flashes maniacal rush motor up to the top of the rush",NW
 241,SAF,"Good size with heavy pads as tackler,  Upper-body strength to set edge from the slot",NW
 241,SAF," Hustles into contain angles versus outside run, "" Takes on bigger bodies at point of attack and doesnt flinch""",NW
 241,SAF," Displayed disruptive qualities as add-on defender in the box,  Looks to close and get physical to limit catch success down the field",NW
@@ -2337,7 +2337,7 @@ ID,Position,Scouting Report Sentence(s),Race
 246,EDGE," Can be bullied off his spot at point of attack,  Below-average physicality",NW
 246,EDGE," Play strength will need work,  Looks uncomfortable when asked to drop in space",NW
 246,EDGE," Might need to rush with a hand in the ground,  Very little speed to power conversions",NW
-246,EDGE," Simple inside punch can stuff his inside move, ",NW
+246,EDGE," Simple inside punch can stuff his inside move,  Lateral movement is fluid and sudden",NW
 247,C,"Three-year starter and two-time team captain,  Broad through chest and waist with good density",W
 247,C," Plays under control,  Able to make climb-blocks in tight quarters",W
 247,C," Excellent body control into and through his run block,  Fires hips into down blocks with leverage and pop",W
@@ -2346,7 +2346,7 @@ ID,Position,Scouting Report Sentence(s),Race
 247,C," Stubby arms diminish block sustain, "" Doesnt have desired length or feet for redirection in space""",W
 247,C," Below average snap-to-step quickness on down blocks,  Plodding working up to many second-level blocks",W
 247,C," Very limited range and adjustments as second-level blocker,  Heavy feet attempting to mirror edge-to-edge rushers",W
-247,C,""" Doesnt always slide feet quickly enough to help versus gap-runners in pass pro"", ",W
+247,C,""" Doesnt always slide feet quickly enough to help versus gap-runners in pass pro"",  Heavy feet attempting to mirror edge-to-edge rushers",W
 248,G,"Showed off durability with 42 career starts,  Played both tackle positions and right guard",W
 248,G," Punch is accurate and fired with leverage,  Makes quick adjustment when front moves",W
 248,G," Works to sustain and finish his block,  Effective when asked to pull, find and land his block",W
@@ -2355,7 +2355,7 @@ ID,Position,Scouting Report Sentence(s),Race
 248,G," Not much knock-back pop,  Allows opponents to punch and play off of him",W
 248,G,""" Leg drive wont be able to push pros around"",  Pass slides are more like heavy stomps",W
 248,G," Head fakes tilt him off-balance,  Struggles to recovery and redirect rusher off track",W
-248,G," Athletic pass rushers cause him to over-correct, ",W
+248,G," Athletic pass rushers cause him to over-correct,  Tackle experience improves protection potential",W
 249,WR,"Easy to feel his play passion and edge on tape,  Plays with excellent balance and body control",W
 249,WR," Consistent play speed in his routes,  Choppy footwork for smoother transitions from his breaks",W
 249,WR," Gets by cornerbacks who take him lightly when working deep,  Swings 50-50 throws in his favor if given the chance",W
@@ -2365,7 +2365,7 @@ ID,Position,Scouting Report Sentence(s),Race
 249,WR," Lacks preferred speed to play outside,  Separation success declines against quality corners",W
 249,WR," Too upright into his breaks,  Press coverage can stick with him around field",W
 249,WR," Will see bigger bodies in NFL, mitigating his size advantage,  Below-average stop-start movements",W
-249,WR," Needs to carve out more defined catch space underneath, ",W
+249,WR," Needs to carve out more defined catch space underneath,  Swings 50-50 throws in his favor if given the chance",W
 250,DT,"Big, burly and wide with NFL mass, "" Snaps hands into centers shoulders first after snap as zero-technique""",NW
 250,DT," Eats up space to clog the A-gaps,  Feel for double-team, dropping his post deep to counter",NW
 250,DT," Flicks blocks away with shed twitch,  Reads and reacts to flow of the run play",NW
@@ -2411,7 +2411,7 @@ ID,Position,Scouting Report Sentence(s),Race
 255,WR," Better feel for leverage and burst at the stem in 2020,  Can take a short throw deep on slants and crossers",NW
 255,WR," Not as confident when working against zone,  Hands can be slow to become catch-ready underneath",NW
 255,WR," Needs to learn how to beat cornerback leverage,  Could stand to become more physical at the top of the route",NW
-255,WR,""" Hands arent as consistent as you want them to be"", ",NW
+255,WR,""" Hands arent as consistent as you want them to be"",  Talent and traits to play inside or outside",NW
 256,RB,"* Excellent size with very muscular build, * Running style is violent and powerful",NW
 256,RB,"* Runs low and with plus leg drive in short-yardage spots * Adequate short-area agility to slip tackles, * Absorbs collisions, but rarely knocked off his feet",NW
 256,RB,"* Powerful thighs grab grass and pull forward through contact * Explosive hips for leaps over defenders in open field or at goal line, * Delivers crunching stiff-arms",NW
@@ -2419,7 +2419,7 @@ ID,Position,Scouting Report Sentence(s),Race
 256,RB,"* Ran intermediate routes out of backfield * Lacks patience and instincts to feel developing creases * Vision is below par, * Delays in processing and responding to what he sees",NW
 256,RB,"""* Doesnt trust the play-side track in outside zone"", * Missing blow-by burst inside and outside",NW
 256,RB,"* Gets leveraged against the boundary on outside runs, * Never got on track versus LSU, Alabama and Auburn",NW
-256,RB,"* Average hands as pass catcher, * Gained 52 percent of his rush yards in 2019 vs Arkansas, Southern Mississippi, Louisiana and Abilene Christian",NW
+256,RB,"* Average hands as pass catcher, * Runs low and with plus leg drive in short-yardage spots * Adequate short-area agility to slip tackles",NW
 257,RB,"Consistent player,  Averaged 108 rushing yards per game during his career",NW
 257,RB," Rhythmic but rowdy as a runner,  Very good feel for outside zone scheme",NW
 257,RB," Processes quickly, with eyes and feet in harmony,  Sets up linebackers into climbing blocks",NW
@@ -2446,4 +2446,4 @@ ID,Position,Scouting Report Sentence(s),Race
 259,LB," Undersized and tightly bound,  Short-strider who struggles to explode laterally in pursuit",W
 259,LB," Can be swallowed by climbing blockers due to lack of length,  Will guess and take shots that run him into traffic",W
 259,LB," Short-area reactive range is limited as tackler, "" Doesnt smell a rat, losing coverage focus on play-action""",W
-259,LB," Impact production and takeaways are limited, ",W
+259,LB," Impact production and takeaways are limited,  Decisive nature brings opportunities for tackles for loss",W

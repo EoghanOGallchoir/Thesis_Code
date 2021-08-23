@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.14)  21 AUG 2021 01:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.14)  23 AUG 2021 01:48
 entering extended mode
 **"c:/Users/Owen/Desktop/college stuff/AI Masters/Thesis/Template/Thesis_Eoghan.tex"
 (c:/Users/Owen/Desktop/college stuff/AI Masters/Thesis/Template/Thesis_Eoghan.tex
@@ -613,6 +613,19 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks42
 \inpenc@posthook=\toks43
+) (C:\Users\Owen\AppData\Local\Programs\MiKTeX\tex/latex/emerald\emerald.sty
+Package: emerald 2006/01/26 v1.0 LaTeX2e package which gives support for ECF (emerald city fontwerks) fonts
+) (C:\Users\Owen\AppData\Local\Programs\MiKTeX\tex/generic/soul\soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks44
+\SOUL@lasttoken=\toks45
+\SOUL@cmds=\toks46
+\SOUL@buffer=\toks47
+\SOUL@token=\toks48
+\SOUL@spaceskip=\skip93
+\SOUL@ttwidth=\dimen191
+\SOUL@uldp=\dimen192
+\SOUL@ulht=\dimen193
 ) (C:\Users\Owen\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count331
@@ -620,50 +633,44 @@ File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
 ) (Thesis_Eoghan.aux)
 \openout1 = `Thesis_Eoghan.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
  (C:\Users\Owen\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count332
-\scratchdimen=\dimen191
+\scratchdimen=\dimen194
 \scratchbox=\box66
 \nofMPsegments=\count333
 \nofMParguments=\count334
-\everyMPshowfont=\toks44
+\everyMPshowfont=\toks49
 \MPscratchCnt=\count335
-\MPscratchDim=\dimen192
+\MPscratchDim=\dimen195
 \MPnumerator=\count336
 \makeMPintoPDFobject=\count337
-\everyMPtoPDFconversion=\toks45
+\everyMPtoPDFconversion=\toks50
 ) (C:\Users\Owen\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
- (C:\Users\Owen\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.jpg,.pdf,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
  (C:\Users\Owen\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 76.
+Package hyperref Info: Link coloring ON on input line 80.
  (C:\Users\Owen\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (C:\Users\Owen\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
@@ -673,14 +680,14 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count338
 )
-LaTeX Info: Redefining \ref on input line 76.
-LaTeX Info: Redefining \pageref on input line 76.
-LaTeX Info: Redefining \nameref on input line 76.
+LaTeX Info: Redefining \ref on input line 80.
+LaTeX Info: Redefining \pageref on input line 80.
+LaTeX Info: Redefining \nameref on input line 80.
  (Thesis_Eoghan.out) (Thesis_Eoghan.out)
 \@outlinefile=\write4
 \openout4 = `Thesis_Eoghan.out'.
 
-Package backref Info: ** backref set up for natbib ** on input line 76.
+Package backref Info: ** backref set up for natbib ** on input line 80.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: longtable package is loaded.
  (C:\Users\Owen\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
@@ -688,38 +695,32 @@ Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
 )
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
-<Figures/logo_NUI.png, id=195, 451.6875pt x 237.13594pt>
+<Figures/logo_NUI.png, id=223, 451.6875pt x 237.13594pt>
 File: Figures/logo_NUI.png Graphic file (type png)
 <use Figures/logo_NUI.png>
-Package pdftex.def Info: Figures/logo_NUI.png  used on input line 78.
+Package pdftex.def Info: Figures/logo_NUI.png  used on input line 82.
 (pdftex.def)             Requested size: 213.39566pt x 112.03284pt.
  [1
 
 {C:/Users/Owen/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./Figures/logo_NUI.png>] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 93--97
+Underfull \hbox (badness 10000) in paragraph at lines 97--101
 
  []
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 98.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 102.
 (C:\Users\Owen\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 98.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 102.
  (C:\Users\Owen\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (16.08669pt too wide) in paragraph at lines 99--99
-[]|\OT1/cmr/m/n/12 Signature:| 
- []
+LaTeX Font Info:    Trying to load font information for OT1+fjd on input line 103.
+ (C:\Users\Owen\AppData\Local\Programs\MiKTeX\tex/latex/emerald\ot1fjd.fd
+File: ot1fjd.fd 2006/01/25 Fontinst v1.926 font definitions for OT1/fjd.
+) [1
 
-[1
-
-]
-Overfull \hbox (1.00508pt too wide) in paragraph at lines 117--118
-[]\OT1/cmr/bx/n/12 Keywords:  \OT1/cmr/m/n/12 Sen-ti-ment Anal-y-sis, Text Clas-si-fi-ca-tion, Ma-chine Learn-
- []
-
-[2] (Thesis_Eoghan.toc [3
+] [2] (Thesis_Eoghan.toc [3
 
 ] [4])
 \tf@toc=\write5
@@ -745,26 +746,26 @@ Chapter 1.
 
 
 ]
-<Figures/Bateman_Strengths.png, id=309, 247.52475pt x 258.9675pt>
+<Figures/Bateman_Strengths.png, id=357, 247.52475pt x 258.9675pt>
 File: Figures/Bateman_Strengths.png Graphic file (type png)
 <use Figures/Bateman_Strengths.png>
-Package pdftex.def Info: Figures/Bateman_Strengths.png  used on input line 156.
+Package pdftex.def Info: Figures/Bateman_Strengths.png  used on input line 160.
 (pdftex.def)             Requested size: 165.0266pt x 172.65773pt.
 
-Underfull \hbox (badness 3407) in paragraph at lines 157--157
+Underfull \hbox (badness 3407) in paragraph at lines 161--161
 []\OT1/cmr/m/n/12 Figure 1.1: |Ex-am-ple of a play-ers
  []
 
-<Figures/Bateman_Weaknesses.png, id=311, 277.63725pt x 114.4275pt>
+<Figures/Bateman_Weaknesses.png, id=359, 277.63725pt x 114.4275pt>
 File: Figures/Bateman_Weaknesses.png Graphic file (type png)
 <use Figures/Bateman_Weaknesses.png>
-Package pdftex.def Info: Figures/Bateman_Weaknesses.png  used on input line 162.
+Package pdftex.def Info: Figures/Bateman_Weaknesses.png  used on input line 166.
 (pdftex.def)             Requested size: 165.0266pt x 68.01797pt.
 [8 <./Figures/Bateman_Strengths.png> <./Figures/Bateman_Weaknesses.png>]
-<Figures/Female_Enrolled_v_Disciplined.png, id=329, 412.54124pt x 237.88875pt>
+<Figures/Female_Enrolled_v_Disciplined.png, id=377, 412.54124pt x 237.88875pt>
 File: Figures/Female_Enrolled_v_Disciplined.png Graphic file (type png)
 <use Figures/Female_Enrolled_v_Disciplined.png>
-Package pdftex.def Info: Figures/Female_Enrolled_v_Disciplined.png  used on input line 180.
+Package pdftex.def Info: Figures/Female_Enrolled_v_Disciplined.png  used on input line 184.
 (pdftex.def)             Requested size: 412.56496pt x 237.9063pt.
  [9 <./Figures/Female_Enrolled_v_Disciplined.png>] [10] [11] [12]
 Chapter 2.
@@ -775,22 +776,46 @@ Chapter 3.
 [19
 
 ]
-<Figures/NFLcom_example.png, id=457, 464.33475pt x 260.77425pt>
+<Figures/NFLcom_example.png, id=505, 464.33475pt x 260.77425pt>
 File: Figures/NFLcom_example.png Graphic file (type png)
 <use Figures/NFLcom_example.png>
-Package pdftex.def Info: Figures/NFLcom_example.png  used on input line 311.
+Package pdftex.def Info: Figures/NFLcom_example.png  used on input line 315.
 (pdftex.def)             Requested size: 412.56496pt x 231.71033pt.
  [20 <./Figures/NFLcom_example.png>] [21] [22] [23] [24] [25]
 Chapter 4.
 [26
 
-]
+] [27]
+<Figures/all_sentence.png, id=561, 597.432pt x 462.528pt>
+File: Figures/all_sentence.png Graphic file (type png)
+<use Figures/all_sentence.png>
+Package pdftex.def Info: Figures/all_sentence.png  used on input line 432.
+(pdftex.def)             Requested size: 412.56496pt x 319.41284pt.
+ [28 <./Figures/all_sentence.png>]
+<Figures/1_sentence.png, id=568, 597.432pt x 339.669pt>
+File: Figures/1_sentence.png Graphic file (type png)
+<use Figures/1_sentence.png>
+Package pdftex.def Info: Figures/1_sentence.png  used on input line 445.
+(pdftex.def)             Requested size: 412.56496pt x 234.5688pt.
+ [29 <./Figures/1_sentence.png>]
+<Figures/5_sentence.png, id=575, 597.432pt x 372.79276pt>
+File: Figures/5_sentence.png Graphic file (type png)
+<use Figures/5_sentence.png>
+Package pdftex.def Info: Figures/5_sentence.png  used on input line 465.
+(pdftex.def)             Requested size: 412.56496pt x 257.44344pt.
+ [30 <./Figures/5_sentence.png>]
+<Figures/1_sent_gi_tagged_specific.png, id=582, 597.432pt x 209.583pt>
+File: Figures/1_sent_gi_tagged_specific.png Graphic file (type png)
+<use Figures/1_sent_gi_tagged_specific.png>
+Package pdftex.def Info: Figures/1_sent_gi_tagged_specific.png  used on input line 497.
+(pdftex.def)             Requested size: 412.56496pt x 144.73393pt.
+ [31] [32 <./Figures/1_sent_gi_tagged_specific.png>]
 Chapter 5.
-[27
+[33
 
-] [28]
+] [34]
 Chapter 6.
-[29
+[35
 
 ]
 Chapter 7.
@@ -798,11 +823,11 @@ Chapter 7.
 \tf@brf=\write8
 \openout8 = `Thesis_Eoghan.brf'.
 
- [30
+ [36
 
-] [31
+] [37
 
-] [32] [33]
+] [38] [39]
 Underfull \hbox (badness 10000) in paragraph at lines 181--181
 []\OT1/cmr/m/n/12 Robin A. Wright.  Race mat-ters... and so does gen-der.
  []
@@ -812,22 +837,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 181--181
 \OT1/cmr/m/n/12 http://kirwaninstitute.osu.edu/implicit-bias-training/resources/race-
  []
 
-) [34]
+) [40]
 Appendix A.
-[35
+[41
 
-] (Thesis_Eoghan.aux)
+]
+Appendix B.
+<Figures/2_sentence.png, id=670, 596.82974pt x 340.27126pt>
+File: Figures/2_sentence.png Graphic file (type png)
+<use Figures/2_sentence.png>
+Package pdftex.def Info: Figures/2_sentence.png  used on input line 567.
+(pdftex.def)             Requested size: 412.56496pt x 235.21835pt.
+<Figures/enquirer.png, id=671, 597.432pt x 233.07076pt>
+File: Figures/enquirer.png Graphic file (type png)
+<use Figures/enquirer.png>
+Package pdftex.def Info: Figures/enquirer.png  used on input line 578.
+(pdftex.def)             Requested size: 412.56496pt x 160.95412pt.
+[42
+
+ <./Figures/2_sentence.png>] [43 <./Figures/enquirer.png>] (Thesis_Eoghan.aux)
 Package rerunfilecheck Info: File `Thesis_Eoghan.out' has not changed.
-(rerunfilecheck)             Checksum: 9AB40E66FC1E36F327EC3FD75629A00A;7801.
+(rerunfilecheck)             Checksum: BE6828233728380F052DAAC959C1C18F;9025.
 Package rerunfilecheck Info: File `Thesis_Eoghan.brf' has not changed.
 (rerunfilecheck)             Checksum: 4A6777D3BC18E581EDEE8C7219A61343;1748.
  ) 
 Here is how much of TeX's memory you used:
- 21396 strings out of 478864
- 355898 string characters out of 2849134
- 773294 words of memory out of 3000000
- 38768 multiletter control sequences out of 15000+600000
- 413266 words of font info for 65 fonts, out of 8000000 for 9000
+ 21668 strings out of 478864
+ 360221 string characters out of 2849134
+ 778261 words of memory out of 3000000
+ 39003 multiletter control sequences out of 15000+600000
+ 414254 words of font info for 68 fonts, out of 8000000 for 9000
  1147 hyphenation exceptions out of 8191
  125i,12n,122p,1080b,505s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist, replaced by a fixed one
@@ -836,10 +875,10 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
- <C:\Users\Owen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/Owen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Owen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Owen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Owen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Owen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Owen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Owen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Owen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Owen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Thesis_Eoghan.pdf (38 pages, 451365 bytes).
+ <C:\Users\Owen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk>{C:/Users/Owen/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Owen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Owen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Owen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Owen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Owen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Owen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Owen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Owen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Owen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/Owen/AppData/Local/Programs/MiKTeX/fonts/type1/emerald/fjdmw.pfb>
+Output written on Thesis_Eoghan.pdf (46 pages, 660342 bytes).
 PDF statistics:
- 658 PDF objects out of 1000 (max. 8388607)
- 123 named destinations out of 1000 (max. 500000)
- 410 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 762 PDF objects out of 1000 (max. 8388607)
+ 144 named destinations out of 1000 (max. 500000)
+ 496 words of extra memory for PDF output out of 10000 (max. 10000000)
 

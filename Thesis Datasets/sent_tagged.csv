@@ -285,7 +285,6 @@ Enormous jump in production and play quality in 2020,SklTOT,NW
  Gives big targets a chance to make plays on 50/50 balls,Nonadlt,NW
  Gives big targets a chance to make plays on 50/50 balls,IndAdj,NW
 " Deep and intermediate accuracy (54% and 68%, according to PFF) was outstanding",Strong,NW
-" Deep and intermediate accuracy (54% and 68%, according to PFF) was outstanding",POS,NW
 " Deep and intermediate accuracy (54% and 68%, according to PFF) was outstanding",PowCoop,NW
 " Deep and intermediate accuracy (54% and 68%, according to PFF) was outstanding",PowTot,NW
 " Deep and intermediate accuracy (54% and 68%, according to PFF) was outstanding",Virtue,NW
@@ -370,7 +369,6 @@ Enormous jump in production and play quality in 2020,SklTOT,NW
  Doesn’t work with enough anticipation as a passer,Solve,NW
  Doesn’t work with enough anticipation as a passer,Passive,NW
 " Will baby throws, forcing open receivers to break stride",Virtue,NW
-" Will baby throws, forcing open receivers to break stride",AffOth,NW
 " Will baby throws, forcing open receivers to break stride",AffTot,NW
 " Will baby throws, forcing open receivers to break stride",Active,NW
 " Will baby throws, forcing open receivers to break stride",IAV,NW
@@ -635,7 +633,6 @@ Challenging matchup who might require specialty defenders,Role,NW
  Turn burst and long strides create instant separation for quarterback,TrnLoss,NW
  Turn burst and long strides create instant separation for quarterback,Strong,NW
  Turn burst and long strides create instant separation for quarterback,Exprsv,NW
- Turn burst and long strides create instant separation for quarterback,Begin,NW
  Turn burst and long strides create instant separation for quarterback,EndsLw,NW
  Turn burst and long strides create instant separation for quarterback,Ovrst,NW
  Hand chops dislodge grabby defender inside the route,TrnLoss,NW
@@ -722,7 +719,6 @@ Challenging matchup who might require specialty defenders,Role,NW
  Doesn’t throw many fakes to knock coverage off the scent,Eval@,NW
  Doesn’t throw many fakes to knock coverage off the scent,Quality,NW
  Doesn’t throw many fakes to knock coverage off the scent,IndAdj,NW
- Mass and core strength missing for in-line blocking,Name,NW
  Mass and core strength missing for in-line blocking,Strong,NW
  Mass and core strength missing for in-line blocking,Power,NW
  Mass and core strength missing for in-line blocking,Virtue,NW
@@ -788,7 +784,6 @@ Well-built lower body and good weight-room worker,WltTot,NW
  Eight touchdown catches of 50-plus yards in 2019,TrnGain,NW
  Eight touchdown catches of 50-plus yards in 2019,Ovrst,NW
  Eight touchdown catches of 50-plus yards in 2019,Quan,NW
- Blistering vertical acceleration to separate from stunned cornerbacks,POS,NW
  Blistering vertical acceleration to separate from stunned cornerbacks,Strong,NW
  Blistering vertical acceleration to separate from stunned cornerbacks,Active,NW
  Blistering vertical acceleration to separate from stunned cornerbacks,TrnLoss,NW
@@ -872,7 +867,6 @@ Well-built lower body and good weight-room worker,WltTot,NW
  Average short-area foot quickness in release and route breaks,Passive,NW
  Average short-area foot quickness in release and route breaks,PowTot,NW
  Upright target who can be too easy to disrupt by press,Strong,NW
- Upright target who can be too easy to disrupt by press,POS,NW
  Upright target who can be too easy to disrupt by press,Goal,NW
  Upright target who can be too easy to disrupt by press,PowOth,NW
  Upright target who can be too easy to disrupt by press,PowTot,NW
@@ -904,7 +898,6 @@ Well-built lower body and good weight-room worker,WltTot,NW
 """ Doesnt create enough cornerback tilt out of stems and turns""",Strong,NW
 """ Doesnt create enough cornerback tilt out of stems and turns""",Active,NW
 """ Doesnt create enough cornerback tilt out of stems and turns""",Exprsv,NW
-""" Doesnt create enough cornerback tilt out of stems and turns""",Begin,NW
 """ Doesnt create enough cornerback tilt out of stems and turns""",IAV,NW
 """ Doesnt create enough cornerback tilt out of stems and turns""",EndsLw,NW
 """ Doesnt create enough cornerback tilt out of stems and turns""",Passive,NW
@@ -1095,7 +1088,6 @@ Helped spring long touchdowns with blocks in space Hip torque to displace defend
  Needs to improve upper-body strength,Active,NW
  Needs to improve upper-body strength,Virtue,NW
  Needs to improve upper-body strength,TrnGain,NW
- Needs to improve upper-body strength,POS,NW
  Needs to improve upper-body strength,Quality,NW
  Needs to improve upper-body strength,Power,NW
  Needs to improve upper-body strength,PowOth,NW
@@ -1456,7 +1448,6 @@ Father was Pro Bowl cornerback and is now a coach,IAV,NW
  Urgent takeoff creates opportunities for easy comeback routes,EndsLw,NW
  Urgent takeoff creates opportunities for easy comeback routes,Active,NW
  Urgent takeoff creates opportunities for easy comeback routes,Exprsv,NW
- Urgent takeoff creates opportunities for easy comeback routes,Begin,NW
  Urgent takeoff creates opportunities for easy comeback routes,IAV,NW
  Urgent takeoff creates opportunities for easy comeback routes,Virtue,NW
  Urgent takeoff creates opportunities for easy comeback routes,EVAL,NW
@@ -1523,7 +1514,6 @@ Father was Pro Bowl cornerback and is now a coach,IAV,NW
  Hungry getting back to the throw and creating late separation,AffTot,NW
  Hungry getting back to the throw and creating late separation,Strong,NW
  Hungry getting back to the throw and creating late separation,Exprsv,NW
- Hungry getting back to the throw and creating late separation,Begin,NW
  Hungry getting back to the throw and creating late separation,EndsLw,NW
  Hungry getting back to the throw and creating late separation,TrnLoss,NW
  Able to hit big plays after slipping first tackle,IAV,NW
@@ -1641,7 +1631,6 @@ Toughness/willingness to do what it takes is always on display,PowTot,NW
  Confident and comfortable throwing into intermediate zone windows,Active,NW
  Confident and comfortable throwing into intermediate zone windows,IAV,NW
  Confident and comfortable throwing into intermediate zone windows,AffTot,NW
- Confident and comfortable throwing into intermediate zone windows,POS,NW
  Confident and comfortable throwing into intermediate zone windows,PowCoop,NW
  Confident and comfortable throwing into intermediate zone windows,PowTot,NW
  Willing to take a big hit to deliver a pass,Strong,NW
@@ -1685,7 +1674,6 @@ Toughness/willingness to do what it takes is always on display,PowTot,NW
  Needs to improve pocket mobility for clean launch points,TrnGain,NW
  Needs to improve pocket mobility for clean launch points,IAV,NW
  Needs to improve pocket mobility for clean launch points,Work,NW
- Needs to improve pocket mobility for clean launch points,Begin,NW
 " Below-average feel for edge pressure, running himself into pressure points",Solve,NW
 " Below-average feel for edge pressure, running himself into pressure points",IAV,NW
 " Below-average feel for edge pressure, running himself into pressure points",Passive,NW
@@ -1900,7 +1888,6 @@ Frame is compact and muscular with good lean mass,EVAL,NW
 Frame is compact and muscular with good lean mass,Strong,NW
 Frame is compact and muscular with good lean mass,PowOth,NW
 Frame is compact and muscular with good lean mass,PowTot,NW
-Frame is compact and muscular with good lean mass,Name,NW
  Starter since his freshman season and played both tackle spots,Academ,NW
  Starter since his freshman season and played both tackle spots,Role,NW
  Starter since his freshman season and played both tackle spots,Nonadlt,NW
@@ -1967,7 +1954,6 @@ Frame is compact and muscular with good lean mass,Name,NW
  Stiff punch and strong outside hand discourages edge rushers,Role,NW
  Stiff punch and strong outside hand discourages edge rushers,Submit,NW
  Stiff punch and strong outside hand discourages edge rushers,Vice,NW
- Upper-body power allows for quick separation after punch,POS,NW
  Upper-body power allows for quick separation after punch,Quality,NW
  Upper-body power allows for quick separation after punch,Quan,NW
  Upper-body power allows for quick separation after punch,WltTot,NW
@@ -2035,7 +2021,6 @@ Frame is compact and muscular with good lean mass,Name,NW
 "Wide, thick frame with burly lower body and plus upper-body and core strength",Quality,NW
 "Wide, thick frame with burly lower body and plus upper-body and core strength",Ovrst,NW
 "Wide, thick frame with burly lower body and plus upper-body and core strength",Quan,NW
-"Wide, thick frame with burly lower body and plus upper-body and core strength",POS,NW
 "Wide, thick frame with burly lower body and plus upper-body and core strength",Power,NW
 "Wide, thick frame with burly lower body and plus upper-body and core strength",Virtue,NW
 "Wide, thick frame with burly lower body and plus upper-body and core strength",PowOth,NW
@@ -2139,7 +2124,6 @@ Frame is compact and muscular with good lean mass,Name,NW
  Below-average creating engagement momentum with settle steps,Strong,NW
  Below-average creating engagement momentum with settle steps,Active,NW
  Below-average creating engagement momentum with settle steps,Exprsv,NW
- Below-average creating engagement momentum with settle steps,Begin,NW
  Below-average creating engagement momentum with settle steps,EndsLw,NW
  Below-average creating engagement momentum with settle steps,PowOth,NW
  Below-average creating engagement momentum with settle steps,PowTot,NW
@@ -2534,7 +2518,6 @@ Looks the part with well-proportioned frame and long arms,PowTot,NW
  Mechanical and lacking explosion into initial contact,Active,NW
  Mechanical and lacking explosion into initial contact,PowOth,NW
  Mechanical and lacking explosion into initial contact,PowTot,NW
- Mechanical and lacking explosion into initial contact,Begin,NW
  Needs to guard against long initial lateral steps in run game,Passive,NW
  Needs to guard against long initial lateral steps in run game,Need,NW
  Needs to guard against long initial lateral steps in run game,EndsLw,NW
@@ -2543,7 +2526,6 @@ Looks the part with well-proportioned frame and long arms,PowTot,NW
  Needs to guard against long initial lateral steps in run game,PowAuPt,NW
  Needs to guard against long initial lateral steps in run game,PowTot,NW
  Needs to guard against long initial lateral steps in run game,Active,NW
- Needs to guard against long initial lateral steps in run game,Begin,NW
  Needs to guard against long initial lateral steps in run game,IAV,NW
  Athletic but movement lacks twitch in tight quarters,Strong,NW
  Athletic but movement lacks twitch in tight quarters,Virtue,NW
@@ -2579,7 +2561,6 @@ Looks the part with well-proportioned frame and long arms,PowTot,NW
 """ Doesnt play with consistent fire and passion as finisher""",EndsLw,NW
 """ Doesnt play with consistent fire and passion as finisher""",Passive,NW
 """ Doesnt play with consistent fire and passion as finisher""",EMOT,NW
-""" Doesnt play with consistent fire and passion as finisher""",AffOth,NW
 """ Doesnt play with consistent fire and passion as finisher""",AffTot,NW
  Punch needs to punish and not push the enemy,Hostile,NW
  Punch needs to punish and not push the enemy,Active,NW
@@ -2648,7 +2629,6 @@ Former five-star recruit with high-impact physical attributes,IAV,NW
  Adjusts rush track quickly according to the pass set,PowCoop,NW
  Adjusts rush track quickly according to the pass set,PowTot,NW
  Flexible upper body to help flip over the punch at top of the rush,Quality,NW
- Flexible upper body to help flip over the punch at top of the rush,POS,NW
  Flexible upper body to help flip over the punch at top of the rush,Active,NW
  Flexible upper body to help flip over the punch at top of the rush,Virtue,NW
  Flexible upper body to help flip over the punch at top of the rush,EVAL,NW
@@ -3033,7 +3013,6 @@ Team captain who leads with great work ethic and determined effort,EndsLw,NW
 """ Lateral shuffle down the line is as quick as youll find""",Goal,NW
  Pursuit speed is upper-echelon for players his size,Active,NW
  Pursuit speed is upper-echelon for players his size,EndsLw,NW
- Pursuit speed is upper-echelon for players his size,POS,NW
  Pursuit speed is upper-echelon for players his size,Solve,NW
  Pursuit speed is upper-echelon for players his size,IAV,NW
 " Hard to move around by single, base blocks",Active,NW
@@ -3220,7 +3199,6 @@ Team captain who leads with great work ethic and determined effort,EndsLw,NW
 " Plays too tall, creating turbulent transitions to chase route breaks",Strong,NW
 " Plays too tall, creating turbulent transitions to chase route breaks",Active,NW
 " Plays too tall, creating turbulent transitions to chase route breaks",Exprsv,NW
-" Plays too tall, creating turbulent transitions to chase route breaks",Begin,NW
 " Plays too tall, creating turbulent transitions to chase route breaks",IAV,NW
 " Plays too tall, creating turbulent transitions to chase route breaks",EndsLw,NW
 " Plays too tall, creating turbulent transitions to chase route breaks",Hostile,NW
@@ -3828,7 +3806,6 @@ Possesses NFL size as an outside target,Goal,NW
  Limber upper body for mid-air adjustments,Active,NW
  Limber upper body for mid-air adjustments,Solve,NW
  Limber upper body for mid-air adjustments,IAV,NW
- Limber upper body for mid-air adjustments,POS,NW
  Limber upper body for mid-air adjustments,Quality,NW
  Limber upper body for mid-air adjustments,Passive,NW
  Limber upper body for mid-air adjustments,Virtue,NW
@@ -4031,7 +4008,6 @@ Overwhelming size and length for a 4-3 end,WltTot,NW
  Plays upright and with a narrow base,Nonadlt,NW
  Plays upright and with a narrow base,IndAdj,NW
  Plays upright and with a narrow base,Strong,NW
- Plays upright and with a narrow base,POS,NW
  Plays upright and with a narrow base,Solve,NW
  Plays upright and with a narrow base,IAV,NW
  Balance through contact will be an issue due to high center of gravity,Strong,NW
@@ -4238,13 +4214,11 @@ Combination of speed/quickness to play inside or outside,Role,NW
  High percentage of rush production came at nose instead of edge,WltTot,NW
  Must add mass and strength to both upper and lower half,Solve,NW
  Must add mass and strength to both upper and lower half,TrnGain,NW
- Must add mass and strength to both upper and lower half,Name,NW
  Must add mass and strength to both upper and lower half,Strong,NW
  Must add mass and strength to both upper and lower half,Power,NW
  Must add mass and strength to both upper and lower half,Virtue,NW
  Must add mass and strength to both upper and lower half,PowOth,NW
  Must add mass and strength to both upper and lower half,PowTot,NW
- Must add mass and strength to both upper and lower half,POS,NW
  Must add mass and strength to both upper and lower half,Quan,NW
  Not overly twitchy or fleet in attacking the corner with upfield charge,Strong,NW
  Not overly twitchy or fleet in attacking the corner with upfield charge,Quality,NW
@@ -4278,7 +4252,6 @@ Combination of speed/quickness to play inside or outside,Role,NW
  Absorbs more than he doles out in initial contact,IndAdj,NW
  Absorbs more than he doles out in initial contact,Strong,NW
  Absorbs more than he doles out in initial contact,Active,NW
- Absorbs more than he doles out in initial contact,Begin,NW
  Absorbs more than he doles out in initial contact,EndsLw,NW
  Balance through contact is erratic,Strong,NW
  Balance through contact is erratic,Work,NW
@@ -4293,7 +4266,6 @@ Shredded athletic build with tapered waist,Strong,NW
 Shredded athletic build with tapered waist,Virtue,NW
 Shredded athletic build with tapered waist,Exprsv,NW
 " Straight out of central casting for ""explosive edge defender"" character",Strong,NW
-" Straight out of central casting for ""explosive edge defender"" character",POS,NW
 " Straight out of central casting for ""explosive edge defender"" character",Perceiv,NW
 " Straight out of central casting for ""explosive edge defender"" character",Active,NW
 " Straight out of central casting for ""explosive edge defender"" character",PowOth,NW
@@ -4331,7 +4303,6 @@ Shredded athletic build with tapered waist,Exprsv,NW
  Can explode into tight ends with initial pop and overtake them quickly,WltTot,NW
  Can explode into tight ends with initial pop and overtake them quickly,Strong,NW
  Can explode into tight ends with initial pop and overtake them quickly,Active,NW
- Can explode into tight ends with initial pop and overtake them quickly,Begin,NW
  Can explode into tight ends with initial pop and overtake them quickly,EndsLw,NW
  Instant reactive movement off blocks to make sudden tackles,Ovrst,NW
  Instant reactive movement off blocks to make sudden tackles,Hostile,NW
@@ -4697,7 +4668,6 @@ Shredded athletic build with tapered waist,Exprsv,NW
  Consistent vertical push off the snap to threaten cornerbacks,Strong,NW
  Consistent vertical push off the snap to threaten cornerbacks,Virtue,NW
  Consistent vertical push off the snap to threaten cornerbacks,EndsLw,NW
- Consistent vertical push off the snap to threaten cornerbacks,POS,NW
  Consistent vertical push off the snap to threaten cornerbacks,Hostile,NW
  Consistent vertical push off the snap to threaten cornerbacks,Active,NW
  Consistent vertical push off the snap to threaten cornerbacks,IAV,NW
@@ -5567,7 +5537,6 @@ Explodes into neutral zone with his first step,Active,NW
  Punishing initial pop,PowTot,NW
  Punishing initial pop,Strong,NW
  Punishing initial pop,Active,NW
- Punishing initial pop,Begin,NW
  Punishing initial pop,EndsLw,NW
  Rips quick hands into shoulders of opponents for early control,Hostile,NW
  Rips quick hands into shoulders of opponents for early control,Strong,NW
@@ -5578,7 +5547,6 @@ Explodes into neutral zone with his first step,Active,NW
  Rips quick hands into shoulders of opponents for early control,PowTot,NW
  Rips quick hands into shoulders of opponents for early control,Power,NW
  Rips quick hands into shoulders of opponents for early control,WltTot,NW
-" Upper-body power to punch, press and extend in setting an edge",POS,NW
 " Upper-body power to punch, press and extend in setting an edge",Quality,NW
 " Upper-body power to punch, press and extend in setting an edge",Hostile,NW
 " Upper-body power to punch, press and extend in setting an edge",Active,NW
@@ -5991,7 +5959,6 @@ Prototypical build as an outside corner with size and length,SureLw,NW
  Diligent to crowd catch space when running vertical with targets,Complet,NW
  Diligent to crowd catch space when running vertical with targets,TrnGain,NW
  Diligent to crowd catch space when running vertical with targets,Passive,NW
- Diligent to crowd catch space when running vertical with targets,POS,NW
  Diligent to crowd catch space when running vertical with targets,Goal,NW
  Diligent to crowd catch space when running vertical with targets,PowOth,NW
  Diligent to crowd catch space when running vertical with targets,PowTot,NW
@@ -6295,7 +6262,6 @@ Diversified pass protection approach in 2020,Passive,NW
  Adequate reactive agility to adjust in space,IPadj,NW
  Adequate reactive agility to adjust in space,Strong,NW
  Adequate reactive agility to adjust in space,Passive,NW
- Upper-body power to protect his edges,POS,NW
  Upper-body power to protect his edges,Quality,NW
  Upper-body power to protect his edges,Strong,NW
  Upper-body power to protect his edges,IndAdj,NW
@@ -6365,7 +6331,6 @@ Well-built with above-average lower-body strength,PowTot,NW
  Good body balance for sudden change of direction against intermediate routes,PowTot,NW
  Good body balance for sudden change of direction against intermediate routes,Ovrst,NW
  Good body balance for sudden change of direction against intermediate routes,Power,NW
- Good body balance for sudden change of direction against intermediate routes,POS,NW
  Good body balance for sudden change of direction against intermediate routes,PowCoop,NW
  Very physical when closing distance and crowding receiver,Academ,NW
  Very physical when closing distance and crowding receiver,Doctrin,NW
@@ -6550,7 +6515,6 @@ Well-built with above-average lower-body strength,PowTot,NW
  Instinctive hands with smart resets to prevent overextending in pass pro,Power,NW
  Instinctive hands with smart resets to prevent overextending in pass pro,PowTot,NW
  Instinctive hands with smart resets to prevent overextending in pass pro,Role,NW
- Mass and core strength creates a sturdy anchor,Name,NW
  Mass and core strength creates a sturdy anchor,Strong,NW
  Mass and core strength creates a sturdy anchor,Power,NW
  Mass and core strength creates a sturdy anchor,Virtue,NW
@@ -6558,7 +6522,6 @@ Well-built with above-average lower-body strength,PowTot,NW
  Mass and core strength creates a sturdy anchor,PowTot,NW
  Mass and core strength creates a sturdy anchor,Active,NW
  Mass and core strength creates a sturdy anchor,Exprsv,NW
- Mass and core strength creates a sturdy anchor,Begin,NW
  Mass and core strength creates a sturdy anchor,IAV,NW
  Mass and core strength creates a sturdy anchor,EndsLw,NW
  Mass and core strength creates a sturdy anchor,Quality,NW
@@ -6567,7 +6530,6 @@ Well-built with above-average lower-body strength,PowTot,NW
 " Plays too high, limiting pop into initial contact",Vice,NW
 " Plays too high, limiting pop into initial contact",Strong,NW
 " Plays too high, limiting pop into initial contact",Active,NW
-" Plays too high, limiting pop into initial contact",Begin,NW
 " Plays too high, limiting pop into initial contact",EndsLw,NW
  More weight-room strong than quick-twitch explosive,Strong,NW
  More weight-room strong than quick-twitch explosive,Work,NW
@@ -6681,7 +6643,6 @@ Gets off the snap in a hurry,Exert,NW
  Instinctive reading field and creating yards after contact,Strong,NW
  Instinctive reading field and creating yards after contact,Active,NW
  Instinctive reading field and creating yards after contact,Exprsv,NW
- Instinctive reading field and creating yards after contact,Begin,NW
  Instinctive reading field and creating yards after contact,IAV,NW
  Instinctive reading field and creating yards after contact,EndsLw,NW
  Posted 12 catches for 170 yards and two TDs against Ohio State in 2018,Strong,NW
@@ -6806,7 +6767,6 @@ Gets off the snap in a hurry,Exert,NW
 " Charges into pulling guards like a battering ram, stopping them dead in their tracks",Passive,NW
 " Charges into pulling guards like a battering ram, stopping them dead in their tracks",WlbTot,NW
 " Charges into pulling guards like a battering ram, stopping them dead in their tracks",Solve,NW
- Very good upper-body twitch and strength to unhinge and shed blocks,POS,NW
  Very good upper-body twitch and strength to unhinge and shed blocks,Quality,NW
  Very good upper-body twitch and strength to unhinge and shed blocks,Passive,NW
  Very good upper-body twitch and strength to unhinge and shed blocks,IAV,NW
@@ -7017,7 +6977,6 @@ Gets off the snap in a hurry,Exert,NW
  Relies on upper-body strength over positioning to secure reach blocks,IAV,NW
  Relies on upper-body strength over positioning to secure reach blocks,PowOth,NW
  Relies on upper-body strength over positioning to secure reach blocks,PowTot,NW
- Relies on upper-body strength over positioning to secure reach blocks,POS,NW
  Relies on upper-body strength over positioning to secure reach blocks,Quality,NW
  Relies on upper-body strength over positioning to secure reach blocks,Strong,NW
  Relies on upper-body strength over positioning to secure reach blocks,Power,NW
@@ -7196,7 +7155,6 @@ Tucks chin tight to his chest in pass sets,Quality,NW
  Quality stiffness in initial punch,Strong,NW
  Quality stiffness in initial punch,Quality,NW
  Quality stiffness in initial punch,Active,NW
- Quality stiffness in initial punch,Begin,NW
  Quality stiffness in initial punch,EndsLw,NW
  Quality stiffness in initial punch,Hostile,NW
  Quality stiffness in initial punch,Exert,NW
@@ -7236,7 +7194,6 @@ Tucks chin tight to his chest in pass sets,Quality,NW
  Hand placement helps create movement on down blocks,EVAL,NW
  Hand placement helps create movement on down blocks,Strong,NW
  Hand placement helps create movement on down blocks,Exprsv,NW
- Hand placement helps create movement on down blocks,Begin,NW
  Hand placement helps create movement on down blocks,IAV,NW
  Hand placement helps create movement on down blocks,EndsLw,NW
  Hand placement helps create movement on down blocks,PowPt,NW
@@ -7284,7 +7241,6 @@ Tucks chin tight to his chest in pass sets,Quality,NW
  Very average lateral quickness to catch cross-face stunts,TrnGain,NW
  Very average lateral quickness to catch cross-face stunts,RspTot,NW
  Very average lateral quickness to catch cross-face stunts,Vice,NW
- Upper body lurches too far forward as run blocker,POS,NW
  Upper body lurches too far forward as run blocker,Quality,NW
  Upper body lurches too far forward as run blocker,Ovrst,NW
  Upper body lurches too far forward as run blocker,Quan,NW
@@ -7358,7 +7314,6 @@ Tucks chin tight to his chest in pass sets,Quality,NW
  Will become a chore to handle with better upper-body strength,Active,NW
  Will become a chore to handle with better upper-body strength,Work,NW
  Will become a chore to handle with better upper-body strength,IAV,NW
- Will become a chore to handle with better upper-body strength,POS,NW
  Will become a chore to handle with better upper-body strength,Quality,NW
  Will become a chore to handle with better upper-body strength,Virtue,NW
  Will become a chore to handle with better upper-body strength,PowOth,NW
@@ -7621,7 +7576,6 @@ Averaged 21,IAV,NW
  Scary burst for quick vertical separation if punch is whiffed,Strong,NW
  Scary burst for quick vertical separation if punch is whiffed,Active,NW
  Scary burst for quick vertical separation if punch is whiffed,IAV,NW
- Scary burst for quick vertical separation if punch is whiffed,POS,NW
  Scary burst for quick vertical separation if punch is whiffed,TrnLoss,NW
  Scary burst for quick vertical separation if punch is whiffed,Hostile,NW
  Scary burst for quick vertical separation if punch is whiffed,Exert,NW
@@ -7805,7 +7759,6 @@ Brings legitimate deep-ball danger to the field,EVAL,NW
  Poor play strength to create enough contested catch space,PowTot,NW
  Poor play strength to create enough contested catch space,Active,NW
  Poor play strength to create enough contested catch space,Exprsv,NW
- Poor play strength to create enough contested catch space,Begin,NW
  Poor play strength to create enough contested catch space,IAV,NW
  Poor play strength to create enough contested catch space,EndsLw,NW
  Poor play strength to create enough contested catch space,Hostile,NW
@@ -8189,7 +8142,6 @@ Played all three linebacker positions,Doctrin,W
  Average field flow as spot dropper,Vice,W
 Burly build with heft and power in uppers and lowers,Vice,NW
 Burly build with heft and power in uppers and lowers,Active,NW
-Burly build with heft and power in uppers and lowers,POS,NW
 """ Efficient hand fighter whos able to play past initial blocks in edge alignment""",Strong,NW
 """ Efficient hand fighter whos able to play past initial blocks in edge alignment""",Virtue,NW
 """ Efficient hand fighter whos able to play past initial blocks in edge alignment""",EVAL,NW
@@ -8202,7 +8154,6 @@ Burly build with heft and power in uppers and lowers,POS,NW
 """ Efficient hand fighter whos able to play past initial blocks in edge alignment""",IndAdj,NW
 """ Efficient hand fighter whos able to play past initial blocks in edge alignment""",Work,NW
 """ Efficient hand fighter whos able to play past initial blocks in edge alignment""",IAV,NW
-""" Efficient hand fighter whos able to play past initial blocks in edge alignment""",Begin,NW
 """ Efficient hand fighter whos able to play past initial blocks in edge alignment""",EndsLw,NW
 """ Ability to use tackles forward momentum against him""",Strong,NW
 """ Ability to use tackles forward momentum against him""",Virtue,NW
@@ -8262,6 +8213,7 @@ Burly build with heft and power in uppers and lowers,POS,NW
  Instinctive rush approach with ability to reset mode of attack,PowPt,NW
  Instinctive rush approach with ability to reset mode of attack,PowTot,NW
  Moves quickly for a big and hits with heavy thuds,Active,NW
+Moves quickly for a big and hits with heavy thuds,Active,NW
  Moves quickly for a big and hits with heavy thuds,Strong,NW
  Moves quickly for a big and hits with heavy thuds,Quan,NW
  Moves quickly for a big and hits with heavy thuds,IAV,NW
@@ -8294,7 +8246,6 @@ Burly build with heft and power in uppers and lowers,POS,NW
  Tall pad level creates easier punch target on counters,Quality,NW
  Tall pad level creates easier punch target on counters,Active,NW
  Tall pad level creates easier punch target on counters,Exprsv,NW
- Tall pad level creates easier punch target on counters,Begin,NW
  Tall pad level creates easier punch target on counters,IAV,NW
  Tall pad level creates easier punch target on counters,EndsLw,NW
  Tall pad level creates easier punch target on counters,Hostile,NW
@@ -8329,7 +8280,6 @@ Burly build with heft and power in uppers and lowers,POS,NW
  Gets caught up with blocker and misses ball-carrier dashing by,Ovrst,NW
 Broad and wide with proportional physique,Strong,W
 Broad and wide with proportional physique,Quan,W
- Mass to match with run-stuffing zero-techniques,Name,W
  Mass to match with run-stuffing zero-techniques,Strong,W
  Mass to match with run-stuffing zero-techniques,Active,W
  Mass to match with run-stuffing zero-techniques,Solve,W
@@ -8697,7 +8647,6 @@ Three-year starter and two-year team captain,PowAuPt,W
 " Appeared to favor left knee, affecting follow-through",Quan,W
 " Appeared to favor left knee, affecting follow-through",WlbTot,W
 " Appeared to favor left knee, affecting follow-through",EMOT,W
-" Appeared to favor left knee, affecting follow-through",AffOth,W
 " Appeared to favor left knee, affecting follow-through",AffTot,W
 " Appeared to favor left knee, affecting follow-through",Submit,W
 " Appeared to favor left knee, affecting follow-through",Role,W
@@ -8976,7 +8925,6 @@ Four-year starter with growing confidence,WlbTot,NW
  Inaccuracy and indecisiveness reared ugly heads against LSU,Work,NW
  Inaccuracy and indecisiveness reared ugly heads against LSU,IAV,NW
  Completed just 35 percent of intermediate throws outside the numbers (and 26 percent of deep throws outside numbers) in 2020,Quan,NW
- Completed just 35 percent of intermediate throws outside the numbers (and 26 percent of deep throws outside numbers) in 2020,POS,NW
  Completed just 35 percent of intermediate throws outside the numbers (and 26 percent of deep throws outside numbers) in 2020,PowCoop,NW
  Completed just 35 percent of intermediate throws outside the numbers (and 26 percent of deep throws outside numbers) in 2020,PowTot,NW
  Completed just 35 percent of intermediate throws outside the numbers (and 26 percent of deep throws outside numbers) in 2020,Active,NW
@@ -9012,7 +8960,6 @@ Highly regarded recruit who might be coming into his own,IndAdj,W
  Quality footwork creates rhythm as a play-action passer,Strong,W
  Quality footwork creates rhythm as a play-action passer,Active,W
  Quality footwork creates rhythm as a play-action passer,Exprsv,W
- Quality footwork creates rhythm as a play-action passer,Begin,W
  Quality footwork creates rhythm as a play-action passer,IAV,W
  Quality footwork creates rhythm as a play-action passer,EndsLw,W
  Quality footwork creates rhythm as a play-action passer,Nonadlt,W
@@ -9236,7 +9183,6 @@ Recognizes pre-snap pressure points,PowTot,NW
  Highly inexperienced with 15 career starts,SklTOT,NW
  Highly inexperienced with 15 career starts,Passive,NW
  Highly inexperienced with 15 career starts,Exert,NW
- Upper body lacks desired broadness and strength,POS,NW
  Upper body lacks desired broadness and strength,Quality,NW
  Upper body lacks desired broadness and strength,Passive,NW
  Upper body lacks desired broadness and strength,Vice,NW
@@ -9325,7 +9271,6 @@ Uses long arms to his advantage,PowTot,NW
  Activity level creates secondary sack opportunities,Quality,NW
  Activity level creates secondary sack opportunities,Strong,NW
  Activity level creates secondary sack opportunities,Exprsv,NW
- Activity level creates secondary sack opportunities,Begin,NW
  Activity level creates secondary sack opportunities,IAV,NW
  Activity level creates secondary sack opportunities,Quan,NW
  Activity level creates secondary sack opportunities,Virtue,NW
@@ -9484,7 +9429,6 @@ Uses long arms to his advantage,PowTot,NW
  Pays attention to maintaining proper base width,Virtue,W
  Pays attention to maintaining proper base width,EVAL,W
  Pays attention to maintaining proper base width,Solve,W
- Powerful upper body to punch and lock out,POS,W
  Powerful upper body to punch and lock out,Quality,W
  Powerful upper body to punch and lock out,Hostile,W
  Powerful upper body to punch and lock out,Active,W
@@ -9688,7 +9632,6 @@ Broad through chest and thighs with low center of gravity,IAV,NW
  Strong base to play through the edge and maintain positioning,Active,NW
  Strong base to play through the edge and maintain positioning,Feel,NW
  Strong base to play through the edge and maintain positioning,Doctrin,NW
- Upper-body turn helps him find the edge,POS,NW
  Upper-body turn helps him find the edge,Quality,NW
  Upper-body turn helps him find the edge,Hostile,NW
  Upper-body turn helps him find the edge,Active,NW
@@ -9762,7 +9705,6 @@ Broad through chest and thighs with low center of gravity,IAV,NW
  Not much secondary rush when initial attack stalls,Quan,NW
  Not much secondary rush when initial attack stalls,Strong,NW
  Not much secondary rush when initial attack stalls,Active,NW
- Not much secondary rush when initial attack stalls,Begin,NW
  Not much secondary rush when initial attack stalls,EndsLw,NW
  Not much secondary rush when initial attack stalls,Hostile,NW
  Not much secondary rush when initial attack stalls,Role,NW
@@ -9859,7 +9801,6 @@ Broad through chest and thighs with low center of gravity,IAV,NW
  Lack of length and mass could be a concern,Ovrst,NW
  Lack of length and mass could be a concern,Quan,NW
  Lack of length and mass could be a concern,SureLw,NW
- Lack of length and mass could be a concern,Name,NW
  Lack of length and mass could be a concern,WltTot,NW
  Average first-step quickness up the field,Solve,NW
  Average first-step quickness up the field,IAV,NW
@@ -9992,7 +9933,6 @@ Elite size and length for the outside,Role,NW
  Narrow base in space creates bumpy transitions to shadow route breaks,IAV,NW
  Narrow base in space creates bumpy transitions to shadow route breaks,Active,NW
  Narrow base in space creates bumpy transitions to shadow route breaks,Exprsv,NW
- Narrow base in space creates bumpy transitions to shadow route breaks,Begin,NW
  Narrow base in space creates bumpy transitions to shadow route breaks,EndsLw,NW
  Narrow base in space creates bumpy transitions to shadow route breaks,Hostile,NW
  Narrow base in space creates bumpy transitions to shadow route breaks,Passive,NW
@@ -10223,7 +10163,6 @@ Experience playing every position along the defensive line,PowTot,NW
  Movement can be upright and segmented in space,Active,NW
  Movement can be upright and segmented in space,PowPt,NW
  Movement can be upright and segmented in space,PowTot,NW
- Movement can be upright and segmented in space,POS,NW
  Has some minor stall when trying to drive forward from top of his drop,Active,NW
  Has some minor stall when trying to drive forward from top of his drop,Try,NW
  Has some minor stall when trying to drive forward from top of his drop,IAV,NW
@@ -10381,7 +10320,6 @@ Nearly 70 percent of his catches went for a first down,TrnGain,NW
 """ Burst out of breaks doesnt create much separation""",Passive,NW
 """ Burst out of breaks doesnt create much separation""",PowTot,NW
 """ Burst out of breaks doesnt create much separation""",Exprsv,NW
-""" Burst out of breaks doesnt create much separation""",Begin,NW
 """ Burst out of breaks doesnt create much separation""",EndsLw,NW
 """ Burst out of breaks doesnt create much separation""",TrnLoss,NW
  Pro cornerbacks will be able to stay in phase with deep routes,Role,NW
@@ -10897,14 +10835,12 @@ Took on the role of home-run threat for the Tar Heel offense,IndAdj,NW
 3 catches since 2019,IAV,NW
 3 catches since 2019,TrnGain,NW
  Builds up and into vertical separation downfield,Active,NW
- Builds up and into vertical separation downfield,POS,NW
  Builds up and into vertical separation downfield,TrnLoss,NW
  Stem acceleration on posts created by subtle juke to loosen coverage,Passive,NW
  Stem acceleration on posts created by subtle juke to loosen coverage,IAV,NW
  Stem acceleration on posts created by subtle juke to loosen coverage,Strong,NW
  Stem acceleration on posts created by subtle juke to loosen coverage,Active,NW
  Stem acceleration on posts created by subtle juke to loosen coverage,Exprsv,NW
- Stem acceleration on posts created by subtle juke to loosen coverage,Begin,NW
  Stem acceleration on posts created by subtle juke to loosen coverage,EndsLw,NW
  Stem acceleration on posts created by subtle juke to loosen coverage,Virtue,NW
  Stem acceleration on posts created by subtle juke to loosen coverage,EVAL,NW
@@ -10929,7 +10865,6 @@ Took on the role of home-run threat for the Tar Heel offense,IndAdj,NW
  Creates decent leverage for landing areas on deep balls,Strong,NW
  Creates decent leverage for landing areas on deep balls,Active,NW
  Creates decent leverage for landing areas on deep balls,Exprsv,NW
- Creates decent leverage for landing areas on deep balls,Begin,NW
  Creates decent leverage for landing areas on deep balls,IAV,NW
  Creates decent leverage for landing areas on deep balls,EndsLw,NW
  Creates decent leverage for landing areas on deep balls,Virtue,NW
@@ -10968,9 +10903,7 @@ Took on the role of home-run threat for the Tar Heel offense,IndAdj,NW
  Needs to create more vertical push off the snap,Strong,NW
  Needs to create more vertical push off the snap,Active,NW
  Needs to create more vertical push off the snap,Exprsv,NW
- Needs to create more vertical push off the snap,Begin,NW
  Needs to create more vertical push off the snap,IAV,NW
- Needs to create more vertical push off the snap,POS,NW
  Needs to create more vertical push off the snap,Hostile,NW
  Needs to create more vertical push off the snap,PowTot,NW
  Needs to create more vertical push off the snap,Exert,NW
@@ -11030,7 +10963,6 @@ Feisty play demeanor suits his love of contact,IndAdj,NW
  Uses athletic talent to gain positioning after initial strike,Feel,NW
  Uses athletic talent to gain positioning after initial strike,Doctrin,NW
  Uses athletic talent to gain positioning after initial strike,Active,NW
- Uses athletic talent to gain positioning after initial strike,Begin,NW
  Uses athletic talent to gain positioning after initial strike,EndsLw,NW
  Uses athletic talent to gain positioning after initial strike,Ovrst,NW
  Uses athletic talent to gain positioning after initial strike,Quality,NW
@@ -11100,7 +11032,6 @@ Feisty play demeanor suits his love of contact,IndAdj,NW
  Gives away short routes with altered initial speed,Active,NW
  Gives away short routes with altered initial speed,TrnGain,NW
  Gives away short routes with altered initial speed,Strong,NW
- Gives away short routes with altered initial speed,Begin,NW
  Gives away short routes with altered initial speed,EndsLw,NW
  Needs quicker sink and open versus short zone,Passive,NW
  Needs quicker sink and open versus short zone,Need,NW
@@ -11304,7 +11235,6 @@ Named to 2020 Iowa Leadership Group,PowCoop,NW
  Needs to prove he can deal with NFL press,SureLw,NW
  Needs to prove he can deal with NFL press,Strong,NW
  Inconsistent early vertical push off the snap,Ovrst,NW
- Inconsistent early vertical push off the snap,POS,NW
  Inconsistent early vertical push off the snap,Hostile,NW
  Inconsistent early vertical push off the snap,Strong,NW
  Inconsistent early vertical push off the snap,Active,NW
@@ -11329,7 +11259,6 @@ Named to 2020 Iowa Leadership Group,PowCoop,NW
  Shorter arms with some tightness in upper body,IAV,NW
  Shorter arms with some tightness in upper body,PowTot,NW
  Shorter arms with some tightness in upper body,Quality,NW
- Shorter arms with some tightness in upper body,POS,NW
  Loss of catch concentration at times in 2018 and 2020,Vice,NW
  Loss of catch concentration at times in 2018 and 2020,TrnLoss,NW
  Loss of catch concentration at times in 2018 and 2020,Strong,NW
@@ -11361,7 +11290,6 @@ Loves the physicality of the position,Feel,NW
 " Unrolls his hips into angle blocks, creating drive momentum",Strong,NW
 " Unrolls his hips into angle blocks, creating drive momentum",Active,NW
 " Unrolls his hips into angle blocks, creating drive momentum",Exprsv,NW
-" Unrolls his hips into angle blocks, creating drive momentum",Begin,NW
 " Unrolls his hips into angle blocks, creating drive momentum",IAV,NW
 " Unrolls his hips into angle blocks, creating drive momentum",EndsLw,NW
 " Unrolls his hips into angle blocks, creating drive momentum",Power,NW
@@ -11478,7 +11406,6 @@ Offers guard and center starting experience,EnlEnds,NW
 " Accelerates through contact, creating wash-down momentum",Strong,NW
 " Accelerates through contact, creating wash-down momentum",Active,NW
 " Accelerates through contact, creating wash-down momentum",Exprsv,NW
-" Accelerates through contact, creating wash-down momentum",Begin,NW
 " Accelerates through contact, creating wash-down momentum",IAV,NW
 " Accelerates through contact, creating wash-down momentum",EndsLw,NW
  Pushes down-block out of the gap,Hostile,NW
@@ -11642,7 +11569,6 @@ Possesses NFL frame with good size and build,IAV,NW
  Tends to run too upright,IAV,NW
  Tends to run too upright,WlbTot,NW
  Tends to run too upright,Passive,NW
- Tends to run too upright,POS,NW
  Slow to process moving pieces in tight quarters,Active,NW
  Slow to process moving pieces in tight quarters,Work,NW
  Slow to process moving pieces in tight quarters,IAV,NW
@@ -11676,7 +11602,6 @@ Possesses quality speed for such a big target,SklTOT,NW
 Possesses quality speed for such a big target,Strong,NW
 Possesses quality speed for such a big target,Quan,NW
 Possesses quality speed for such a big target,Goal,NW
- Vertical build-up helped him average nearly 20 yards per catch in 2019,POS,NW
  Vertical build-up helped him average nearly 20 yards per catch in 2019,Active,NW
  Vertical build-up helped him average nearly 20 yards per catch in 2019,Virtue,NW
  Vertical build-up helped him average nearly 20 yards per catch in 2019,EVAL,NW
@@ -11802,7 +11727,6 @@ Possesses quality speed for such a big target,Goal,NW
  Forced to wear coverage from start to finish on intermediate routes,PowOth,NW
  Forced to wear coverage from start to finish on intermediate routes,PowTot,NW
  Forced to wear coverage from start to finish on intermediate routes,Exert,NW
- Forced to wear coverage from start to finish on intermediate routes,POS,NW
  Forced to wear coverage from start to finish on intermediate routes,PowCoop,NW
  Lacks quickness and route acumen to open desirable windows,Passive,NW
  Lacks quickness and route acumen to open desirable windows,Vice,NW
@@ -11838,7 +11762,6 @@ Respected team captain,PowAuPt,NW
  Looked leaner and faster beginning in 2019,Power,NW
  Looked leaner and faster beginning in 2019,Active,NW
  Looked leaner and faster beginning in 2019,IAV,NW
- Looked leaner and faster beginning in 2019,Begin,NW
  Size and length NFL teams are looking for on the edge,Active,NW
  Size and length NFL teams are looking for on the edge,Solve,NW
  Size and length NFL teams are looking for on the edge,IAV,NW
@@ -11963,7 +11886,6 @@ World class sprinter with game-changing speed,RspTot,NW
  Threat of long speed creates easy throw and catch underneath,EndsLw,NW
  Threat of long speed creates easy throw and catch underneath,Active,NW
  Threat of long speed creates easy throw and catch underneath,Exprsv,NW
- Threat of long speed creates easy throw and catch underneath,Begin,NW
  Threat of long speed creates easy throw and catch underneath,IAV,NW
  Threat of long speed creates easy throw and catch underneath,Virtue,NW
  Threat of long speed creates easy throw and catch underneath,EVAL,NW
@@ -12127,7 +12049,6 @@ Instinctive with good feel for play direction,Power,NW
  Looked more upright and tight in his 2020 tape than he did in 2019,Power,NW
  Looked more upright and tight in his 2020 tape than he did in 2019,Active,NW
  Looked more upright and tight in his 2020 tape than he did in 2019,IAV,NW
- Looked more upright and tight in his 2020 tape than he did in 2019,POS,NW
  Looked more upright and tight in his 2020 tape than he did in 2019,Quality,NW
  Not very twitchy or explosive between the tackles,Quality,NW
  Not very twitchy or explosive between the tackles,Strong,NW
@@ -12163,15 +12084,12 @@ Instinctive with good feel for play direction,Power,NW
  Tight hips limit stop-start balance as open-field tackler,PowTot,NW
 Excellent lean mass despite adding nearly 100 pounds since high school,Virtue,W
 Excellent lean mass despite adding nearly 100 pounds since high school,EVAL,W
-Excellent lean mass despite adding nearly 100 pounds since high school,Name,W
 Excellent lean mass despite adding nearly 100 pounds since high school,EndsLw,W
  Proportionally built with room for additional mass,Quan,W
  Proportionally built with room for additional mass,WlbTot,W
  Proportionally built with room for additional mass,Strong,W
- Proportionally built with room for additional mass,Name,W
 " Loyal, team-first mentality",Submit,W
 " Loyal, team-first mentality",Virtue,W
-" Loyal, team-first mentality",AffOth,W
 " Loyal, team-first mentality",AffTot,W
 " Loyal, team-first mentality",PowCoop,W
 " Loyal, team-first mentality",PowTot,W
@@ -12292,7 +12210,6 @@ Excellent lean mass despite adding nearly 100 pounds since high school,EndsLw,W
 Massive human with well-distributed mass,Strong,W
 Massive human with well-distributed mass,AffTot,W
 Massive human with well-distributed mass,Active,W
-Massive human with well-distributed mass,Name,W
 " Big, powerful and well-proportioned",Strong,W
 " Big, powerful and well-proportioned",Quan,W
  Adequate athleticism for a guard with his build,Virtue,W
@@ -12317,7 +12234,6 @@ Massive human with well-distributed mass,Name,W
  Hip flexion and bend help with pad level,Quality,W
  Lays a big pop with hip and flipper on secure blocks,Strong,W
  Lays a big pop with hip and flipper on secure blocks,Quan,W
- Mass to occupy defender on quick-hitting run plays,Name,W
  Mass to occupy defender on quick-hitting run plays,Strong,W
  Mass to occupy defender on quick-hitting run plays,IAV,W
  Mass to occupy defender on quick-hitting run plays,PowOth,W
@@ -12396,7 +12312,6 @@ Massive human with well-distributed mass,Name,W
  Generates quality hip thrust into initial contact,Active,W
  Generates quality hip thrust into initial contact,Exert,W
  Generates quality hip thrust into initial contact,IAV,W
- Generates quality hip thrust into initial contact,Begin,W
  Generates quality hip thrust into initial contact,EndsLw,W
  Shows ability to leverage opponent at the point of attack,IAV,W
  Shows ability to leverage opponent at the point of attack,Strong,W
@@ -12779,7 +12694,6 @@ Above-average length and hand size as a center,Active,W
  Level of speed and competition could create adjustment period,PowTot,W
  Level of speed and competition could create adjustment period,Strong,W
  Level of speed and competition could create adjustment period,Exprsv,W
- Level of speed and competition could create adjustment period,Begin,W
  Level of speed and competition could create adjustment period,IAV,W
  Level of speed and competition could create adjustment period,EndsLw,W
  Level of speed and competition could create adjustment period,Passive,W
@@ -12868,7 +12782,6 @@ Learned lessons from 2019 and improved in 2020,TrnGain,NW
 "Legendary level of football character with a deep, passionate love of the game",Role,NW
 "Legendary level of football character with a deep, passionate love of the game",Strong,NW
 "Legendary level of football character with a deep, passionate love of the game",EMOT,NW
-"Legendary level of football character with a deep, passionate love of the game",AffOth,NW
 "Legendary level of football character with a deep, passionate love of the game",AffTot,NW
  Talent and film show potential to play safety and/or nickel,Strong,NW
  Talent and film show potential to play safety and/or nickel,Virtue,NW
@@ -13570,7 +13483,6 @@ Motor is hyper-charged,Quality,NW
  Explosive pop into contact derived from hips,Solve,NW
  Explosive pop into contact derived from hips,IAV,NW
  Uses upper-body power to bludgeon blockers with violent hands,Virtue,NW
- Uses upper-body power to bludgeon blockers with violent hands,POS,NW
  Uses upper-body power to bludgeon blockers with violent hands,Quality,NW
  Uses upper-body power to bludgeon blockers with violent hands,Hostile,NW
  Uses upper-body power to bludgeon blockers with violent hands,Strong,NW
@@ -13866,14 +13778,12 @@ Possesses NFL size,IAV,NW
  Cranked up big play totals over the last two seasons,IndAdj,NW
  Cranked up big play totals over the last two seasons,Ovrst,NW
  Build-up speed on his vertical routes,Active,NW
- Build-up speed on his vertical routes,POS,NW
  Shows ability to create movement with route leverage on third level,IAV,NW
  Shows ability to create movement with route leverage on third level,Strong,NW
  Shows ability to create movement with route leverage on third level,Virtue,NW
  Shows ability to create movement with route leverage on third level,EVAL,NW
  Shows ability to create movement with route leverage on third level,Active,NW
  Shows ability to create movement with route leverage on third level,Exprsv,NW
- Shows ability to create movement with route leverage on third level,Begin,NW
  Shows ability to create movement with route leverage on third level,EndsLw,NW
  Shows ability to create movement with route leverage on third level,PowPt,NW
  Shows ability to create movement with route leverage on third level,PowTot,NW
@@ -14086,7 +13996,6 @@ Potential to play a variety of spots in both odd and even fronts,Vice,NW
  Basketball feet create separation and open edges as a rusher,Strong,NW
  Basketball feet create separation and open edges as a rusher,Active,NW
  Basketball feet create separation and open edges as a rusher,Exprsv,NW
- Basketball feet create separation and open edges as a rusher,Begin,NW
  Basketball feet create separation and open edges as a rusher,IAV,NW
  Basketball feet create separation and open edges as a rusher,EndsLw,NW
  Basketball feet create separation and open edges as a rusher,TrnLoss,NW
@@ -14195,7 +14104,6 @@ Crafted a variety of release techniques,SklTOT,NW
  Runs routes to create tilt and lean from defenders,Strong,NW
  Runs routes to create tilt and lean from defenders,Active,NW
  Runs routes to create tilt and lean from defenders,Exprsv,NW
- Runs routes to create tilt and lean from defenders,Begin,NW
  Runs routes to create tilt and lean from defenders,EndsLw,NW
  Runs routes to create tilt and lean from defenders,Role,NW
  Smooth acceleration through route stems,Quality,NW
@@ -14355,7 +14263,6 @@ Crafted a variety of release techniques,SklTOT,NW
 " Strong pro day effort with good speed, vertical and bench numbers",Active,NW
 " Strong pro day effort with good speed, vertical and bench numbers",Exert,NW
 " Strong pro day effort with good speed, vertical and bench numbers",EndsLw,NW
-" Strong pro day effort with good speed, vertical and bench numbers",POS,NW
  Inconsistent diagnosis of run play development,Ovrst,NW
  Inconsistent diagnosis of run play development,Know,NW
  Inconsistent diagnosis of run play development,Passive,NW
@@ -14572,7 +14479,6 @@ Excellent work ethic and is accomplishment-oriented on and off field,EndsLw,NW
  Plays upright from the second level too often,Nonadlt,NW
  Plays upright from the second level too often,IndAdj,NW
  Plays upright from the second level too often,Strong,NW
- Plays upright from the second level too often,POS,NW
  Plays upright from the second level too often,Quality,NW
 """ Doesnt appear to be a very quick processor from inside""",Quality,NW
 """ Doesnt appear to be a very quick processor from inside""",Passive,NW
@@ -14631,7 +14537,6 @@ Long frame complemented by long arms,PowTot,NW
  Added 50 pounds of quality mass since 2016,EVAL,NW
  Added 50 pounds of quality mass since 2016,SklOth,NW
  Added 50 pounds of quality mass since 2016,SklTOT,NW
- Added 50 pounds of quality mass since 2016,Name,NW
  Flashes of his upside pop up in every game,Active,NW
  Flashes of his upside pop up in every game,IAV,NW
  Overmatched by size against Iowa State but still battled his tail off,Active,NW
@@ -14858,13 +14763,11 @@ Unwilling to give in or give up as a pass rusher,TrnGain,NW
  Lateral quickness creates havoc on twists and inside counters,Strong,NW
  Lateral quickness creates havoc on twists and inside counters,Active,NW
  Lateral quickness creates havoc on twists and inside counters,Exprsv,NW
- Lateral quickness creates havoc on twists and inside counters,Begin,NW
  Lateral quickness creates havoc on twists and inside counters,IAV,NW
  Lateral quickness creates havoc on twists and inside counters,EndsLw,NW
  Lateral quickness creates havoc on twists and inside counters,Vice,NW
  Lateral quickness creates havoc on twists and inside counters,Ovrst,NW
  Lateral quickness creates havoc on twists and inside counters,Work,NW
- Oily in upper and lower body for explosive flips past blockers,POS,NW
  Oily in upper and lower body for explosive flips past blockers,Quality,NW
  Oily in upper and lower body for explosive flips past blockers,Strong,NW
  Oily in upper and lower body for explosive flips past blockers,Active,NW
@@ -14923,7 +14826,6 @@ Unwilling to give in or give up as a pass rusher,TrnGain,NW
  Thin hips with lack of mass in his legs,Passive,NW
  Thin hips with lack of mass in his legs,Vice,NW
  Thin hips with lack of mass in his legs,EndsLw,NW
- Thin hips with lack of mass in his legs,Name,NW
  Thin hips with lack of mass in his legs,WlbTot,NW
  Plays tall with narrow base affecting contact balance,Nonadlt,NW
  Plays tall with narrow base affecting contact balance,IndAdj,NW
@@ -14931,7 +14833,6 @@ Unwilling to give in or give up as a pass rusher,TrnGain,NW
  Plays tall with narrow base affecting contact balance,Solve,NW
  Plays tall with narrow base affecting contact balance,IAV,NW
  Plays tall with narrow base affecting contact balance,EMOT,NW
- Plays tall with narrow base affecting contact balance,AffOth,NW
  Plays tall with narrow base affecting contact balance,AffTot,NW
  Plays tall with narrow base affecting contact balance,Active,NW
  Plays tall with narrow base affecting contact balance,Work,NW
@@ -15000,7 +14901,6 @@ Elite testing numbers for a running back,IAV,NW
  Uses size and strength to create push into the pile,PowOth,NW
  Uses size and strength to create push into the pile,PowTot,NW
  Uses size and strength to create push into the pile,Exprsv,NW
- Uses size and strength to create push into the pile,Begin,NW
  Uses size and strength to create push into the pile,EndsLw,NW
  Uses size and strength to create push into the pile,Hostile,NW
  Adequate open-field speed to hit the chunk play,Virtue,NW
@@ -15048,7 +14948,6 @@ Elite testing numbers for a running back,IAV,NW
  Takes forever to gather and cut on wide stretch plays,IndAdj,NW
  Dances up toward the line when trying to read the front,Active,NW
  Dances up toward the line when trying to read the front,Exprsv,NW
- Dances up toward the line when trying to read the front,AffOth,NW
  Dances up toward the line when trying to read the front,AffTot,NW
  Dances up toward the line when trying to read the front,Try,NW
  Dances up toward the line when trying to read the front,IAV,NW
@@ -15412,7 +15311,6 @@ Excellent power and hard worker in the weight room,WlbTot,NW
 * Seal blocks hold up against him,Active,NW
 * Seal blocks hold up against him,IAV,NW
 * Seal blocks hold up against him,PowTot,NW
-Family full of former football and baseball players,AffOth,NW
 Family full of former football and baseball players,AffTot,NW
 Family full of former football and baseball players,Complet,NW
 Family full of former football and baseball players,Quan,NW
@@ -15789,7 +15687,6 @@ Showed ability to carry a significant load,Work,NW
 "Runs like a big wideout, creating matchup problems",Quan,NW
 "Runs like a big wideout, creating matchup problems",Active,NW
 "Runs like a big wideout, creating matchup problems",Exprsv,NW
-"Runs like a big wideout, creating matchup problems",Begin,NW
 "Runs like a big wideout, creating matchup problems",EndsLw,NW
 "Runs like a big wideout, creating matchup problems",Know,NW
 "Runs like a big wideout, creating matchup problems",PowOth,NW
@@ -16046,7 +15943,6 @@ Set a slew of all-time North Texas receiving records,Role,NW
  Creates nightmares for safeties in space,Strong,NW
  Creates nightmares for safeties in space,Active,NW
  Creates nightmares for safeties in space,Exprsv,NW
- Creates nightmares for safeties in space,Begin,NW
  Creates nightmares for safeties in space,IAV,NW
  Creates nightmares for safeties in space,EndsLw,NW
  Creates nightmares for safeties in space,Hostile,NW
@@ -16138,7 +16034,6 @@ Highly coveted physical and athletic traits,Know,NW
  His leap and length create challenging high-point roadblock for receivers,Quan,NW
  His leap and length create challenging high-point roadblock for receivers,SureLw,NW
  His leap and length create challenging high-point roadblock for receivers,Exprsv,NW
- His leap and length create challenging high-point roadblock for receivers,Begin,NW
  His leap and length create challenging high-point roadblock for receivers,IAV,NW
  His leap and length create challenging high-point roadblock for receivers,EndsLw,NW
  His leap and length create challenging high-point roadblock for receivers,Submit,NW
@@ -16190,7 +16085,6 @@ Highly coveted physical and athletic traits,Know,NW
  Inconsistent slowing the release from press,Strong,NW
  Inconsistent slowing the release from press,EndsLw,NW
  Upright pedal causes delays with lateral and vertical transitions,Strong,NW
- Upright pedal causes delays with lateral and vertical transitions,POS,NW
  Upright pedal causes delays with lateral and vertical transitions,Passive,NW
  Upright pedal causes delays with lateral and vertical transitions,Persist,NW
  Upright pedal causes delays with lateral and vertical transitions,IAV,NW
@@ -16319,9 +16213,7 @@ Fearless competitor and plays bigger than his size,IAV,NW
  Can be detoured by press coverage,Strong,NW
  Can be detoured by press coverage,EndsLw,NW
  Upright initial charge lacks instant gas,Strong,NW
- Upright initial charge lacks instant gas,POS,NW
  Upright initial charge lacks instant gas,Active,NW
- Upright initial charge lacks instant gas,Begin,NW
  Upright initial charge lacks instant gas,EndsLw,NW
  Upright initial charge lacks instant gas,Quality,NW
  Upright initial charge lacks instant gas,Passive,NW
@@ -16673,7 +16565,6 @@ NFL-caliber size and strength as an even-front defensive end,WltTot,NW
  Upfield burst gives life to initial rush attack,IAV,NW
  Upfield burst gives life to initial rush attack,TrnGain,NW
  Upfield burst gives life to initial rush attack,WlbTot,NW
- Upfield burst gives life to initial rush attack,Begin,NW
  Upfield burst gives life to initial rush attack,EndsLw,NW
  Upfield burst gives life to initial rush attack,Hostile,NW
  Upfield burst gives life to initial rush attack,Role,NW
@@ -16686,7 +16577,6 @@ NFL-caliber size and strength as an even-front defensive end,WltTot,NW
 " Darts from edge to edge, creating rush opportunities",Strong,NW
 " Darts from edge to edge, creating rush opportunities",Active,NW
 " Darts from edge to edge, creating rush opportunities",Exprsv,NW
-" Darts from edge to edge, creating rush opportunities",Begin,NW
 " Darts from edge to edge, creating rush opportunities",IAV,NW
 " Darts from edge to edge, creating rush opportunities",EndsLw,NW
 " Darts from edge to edge, creating rush opportunities",Virtue,NW
@@ -16769,7 +16659,6 @@ Rented space in ACC backfields in 2018 and 2020,WltTot,NW
  Jarring pop in his hands and upper body,Ovrst,NW
  Jarring pop in his hands and upper body,Quan,NW
  Jarring pop in his hands and upper body,SureLw,NW
- Jarring pop in his hands and upper body,POS,NW
  Jarring pop in his hands and upper body,Quality,NW
  Sneaky efficient punching and working around the block,Quality,NW
  Sneaky efficient punching and working around the block,Strong,NW
@@ -16842,7 +16731,6 @@ Rented space in ACC backfields in 2018 and 2020,WltTot,NW
 * Unable to pose a serious threat to the edge with get-off,Strong,NW
 * Unable to pose a serious threat to the edge with get-off,EndsLw,NW
 "* Lethargic, upright inside-counter quickness",Strong,NW
-"* Lethargic, upright inside-counter quickness",POS,NW
 One of four true freshmen to start at cornerback in Florida history,Academ,NW
 One of four true freshmen to start at cornerback in Florida history,Role,NW
 One of four true freshmen to start at cornerback in Florida history,Passive,NW
@@ -16932,7 +16820,6 @@ One of four true freshmen to start at cornerback in Florida history,Doctrin,NW
  Beat deep twice in the game against Texas A&M,Strong,NW
  Beat deep twice in the game against Texas A&M,Quan,NW
  Will get a little too upright in space,Strong,NW
- Will get a little too upright in space,POS,NW
  Run-support demeanor is lacking,Passive,NW
  Run-support demeanor is lacking,IAV,NW
  Run-support demeanor is lacking,IPadj,NW
@@ -17112,7 +16999,6 @@ Very strong for his size,IAV,NW
  Bend and upward strikes create leverage point,Quality,W
  Bend and upward strikes create leverage point,Active,W
  Bend and upward strikes create leverage point,Exprsv,W
- Bend and upward strikes create leverage point,Begin,W
  Bend and upward strikes create leverage point,IAV,W
  Bend and upward strikes create leverage point,EndsLw,W
 " Can get to all the angles to reach, seal and/or climb",Strong,W
@@ -17242,7 +17128,6 @@ Tremendously long,Ovrst,NW
  Needs to trust his length and foot quickness more often,Ovrst,NW
  Needs to trust his length and foot quickness more often,Quan,NW
  Needs to trust his length and foot quickness more often,SureLw,NW
- Upper-body strength is way below par,POS,NW
  Upper-body strength is way below par,Quality,NW
  Upper-body strength is way below par,Strong,NW
  Upper-body strength is way below par,Power,NW
@@ -17269,7 +17154,6 @@ Tremendously long,Ovrst,NW
 " Overreacts in pass pro, creating easy counter shots",Strong,NW
 " Overreacts in pass pro, creating easy counter shots",Active,NW
 " Overreacts in pass pro, creating easy counter shots",Exprsv,NW
-" Overreacts in pass pro, creating easy counter shots",Begin,NW
 " Overreacts in pass pro, creating easy counter shots",IAV,NW
 " Overreacts in pass pro, creating easy counter shots",EndsLw,NW
 " Overreacts in pass pro, creating easy counter shots",Virtue,NW
@@ -17727,7 +17611,6 @@ Possesses size and movement of NFL safety,WlbTot,NW
  Adequate upfield spring off the snap and into neutral zone,IAV,NW
  Initial quickness and body lean help him knife into B-gap on slants,Strong,NW
  Initial quickness and body lean help him knife into B-gap on slants,Active,NW
- Initial quickness and body lean help him knife into B-gap on slants,Begin,NW
  Initial quickness and body lean help him knife into B-gap on slants,EndsLw,NW
  Initial quickness and body lean help him knife into B-gap on slants,Quality,NW
  Initial quickness and body lean help him knife into B-gap on slants,Virtue,NW
@@ -17827,7 +17710,6 @@ Size and strength to create some pop into first contact,Virtue,W
 Size and strength to create some pop into first contact,PowOth,W
 Size and strength to create some pop into first contact,PowTot,W
 Size and strength to create some pop into first contact,Exprsv,W
-Size and strength to create some pop into first contact,Begin,W
 Size and strength to create some pop into first contact,EndsLw,W
  Comes out of his stance with good pad level,Eval@,W
  Comes out of his stance with good pad level,Quality,W
@@ -17899,7 +17781,6 @@ Size and strength to create some pop into first contact,EndsLw,W
 * More mechanical than passionate as run blocker * Will need to work with more consistent aggression on the next level,Strong,W
 * More mechanical than passionate as run blocker * Will need to work with more consistent aggression on the next level,Passive,W
 * More mechanical than passionate as run blocker * Will need to work with more consistent aggression on the next level,EMOT,W
-* More mechanical than passionate as run blocker * Will need to work with more consistent aggression on the next level,AffOth,W
 * More mechanical than passionate as run blocker * Will need to work with more consistent aggression on the next level,AffTot,W
 * More mechanical than passionate as run blocker * Will need to work with more consistent aggression on the next level,IAV,W
 * More mechanical than passionate as run blocker * Will need to work with more consistent aggression on the next level,Need,W
@@ -17981,7 +17862,6 @@ Long-limbed with massive wingspan,Strong,NW
  Could have trouble with pass-catching tight ends who can get vertical,TrnGain,NW
  Could have trouble with pass-catching tight ends who can get vertical,Quality,NW
  Could have trouble with pass-catching tight ends who can get vertical,WltTot,NW
- Could have trouble with pass-catching tight ends who can get vertical,POS,NW
  Occasional confusion against route combinations and bunch sets,Vice,NW
  Occasional confusion against route combinations and bunch sets,If,NW
  Occasional confusion against route combinations and bunch sets,Strong,NW
@@ -18049,7 +17929,6 @@ Three-year starter with adequate size,IAV,NW
  Stems and creates openings for quarterback on short slant,Strong,NW
  Stems and creates openings for quarterback on short slant,Active,NW
  Stems and creates openings for quarterback on short slant,Exprsv,NW
- Stems and creates openings for quarterback on short slant,Begin,NW
  Stems and creates openings for quarterback on short slant,EndsLw,NW
  Scrambles open on off-schedule pass plays,Active,NW
  Scrambles open on off-schedule pass plays,IAV,NW
@@ -18106,7 +17985,6 @@ Three-year starter with adequate size,IAV,NW
  Balance is volatile in pattern work,IAV,NW
  Tight hips restrict intermediate opportunities,Quality,NW
  Tight hips restrict intermediate opportunities,PowTot,NW
- Tight hips restrict intermediate opportunities,POS,NW
  Tight hips restrict intermediate opportunities,PowCoop,NW
  Tight hips restrict intermediate opportunities,Virtue,NW
  Tight hips restrict intermediate opportunities,EndsLw,NW
@@ -18457,14 +18335,12 @@ Play experience at both tackle spots and at guard,PowTot,NW
  Size creates natural movement as down blocker,IAV,NW
  Size creates natural movement as down blocker,Strong,NW
  Size creates natural movement as down blocker,Exprsv,NW
- Size creates natural movement as down blocker,Begin,NW
  Size creates natural movement as down blocker,EndsLw,NW
  Size creates natural movement as down blocker,PowPt,NW
  Size creates natural movement as down blocker,PowTot,NW
  Has some knock-back pop at impact,IAV,NW
  Has some knock-back pop at impact,Strong,NW
  Has some knock-back pop at impact,Power,NW
- Strong upper body shows up when his punch lands,POS,NW
  Strong upper body shows up when his punch lands,Quality,NW
  Strong upper body shows up when his punch lands,IAV,NW
  Strong upper body shows up when his punch lands,Hostile,NW
@@ -18938,7 +18814,6 @@ Activates sumo hand fighting for interior pass rush,Hostile,NW
  Shorter arms will create disadvantage in the league,IAV,NW
  Shorter arms will create disadvantage in the league,PowTot,NW
  Shorter arms will create disadvantage in the league,Exprsv,NW
- Shorter arms will create disadvantage in the league,Begin,NW
  Shorter arms will create disadvantage in the league,EndsLw,NW
  Shorter arms will create disadvantage in the league,Vice,NW
  Shorter arms will create disadvantage in the league,EVAL,NW
@@ -18974,7 +18849,6 @@ Has potential to operate as gadget guy,Role,NW
  Created yards and touchdowns from a variety of looks,Strong,NW
  Created yards and touchdowns from a variety of looks,Active,NW
  Created yards and touchdowns from a variety of looks,Exprsv,NW
- Created yards and touchdowns from a variety of looks,Begin,NW
  Created yards and touchdowns from a variety of looks,IAV,NW
  Created yards and touchdowns from a variety of looks,EndsLw,NW
  Created yards and touchdowns from a variety of looks,Power,NW
@@ -19137,7 +19011,6 @@ Has experience at three-technique and slant nose,SklTOT,NW
  Lacks desired mass and width for interior defender,Passive,NW
  Lacks desired mass and width for interior defender,Vice,NW
  Lacks desired mass and width for interior defender,EndsLw,NW
- Lacks desired mass and width for interior defender,Name,NW
  Lacks desired mass and width for interior defender,Strong,NW
  Lacks desired mass and width for interior defender,Active,NW
  Lacks desired mass and width for interior defender,Role,NW
@@ -19145,7 +19018,6 @@ Has experience at three-technique and slant nose,SklTOT,NW
  Not built for read-and-react football,Passive,NW
  Not built for read-and-react football,IAV,NW
  Not built for read-and-react football,Exprsv,NW
-" Not enough upper-body power to press, separate and control blockers",POS,NW
 " Not enough upper-body power to press, separate and control blockers",Quality,NW
 " Not enough upper-body power to press, separate and control blockers",Strong,NW
 " Not enough upper-body power to press, separate and control blockers",EndsLw,NW
@@ -19247,13 +19119,11 @@ Has experience at three-technique and slant nose,SklTOT,NW
  Plays with body control and second-level adjustments,Virtue,W
  Rolls hips through initial contact,Strong,W
  Rolls hips through initial contact,Active,W
- Rolls hips through initial contact,Begin,W
  Rolls hips through initial contact,EndsLw,W
  Uses inside hands into the frame,Virtue,W
  Accelerates feet through angle blocks to create block security,Strong,W
  Accelerates feet through angle blocks to create block security,Active,W
  Accelerates feet through angle blocks to create block security,Exprsv,W
- Accelerates feet through angle blocks to create block security,Begin,W
  Accelerates feet through angle blocks to create block security,IAV,W
  Accelerates feet through angle blocks to create block security,EndsLw,W
  Defenders successfully cross his face with slants,Strong,W
@@ -19304,7 +19174,6 @@ Has experience at three-technique and slant nose,SklTOT,NW
  Would benefit from better weight distribution to prevent falling forward,PowTot,W
  Would benefit from better weight distribution to prevent falling forward,Active,W
  Would benefit from better weight distribution to prevent falling forward,Power,W
- Upper body gets ahead of his feet at times on lateral movements,POS,W
  Upper body gets ahead of his feet at times on lateral movements,Quality,W
  Upper body gets ahead of his feet at times on lateral movements,Strong,W
  Upper body gets ahead of his feet at times on lateral movements,Active,W
@@ -19615,7 +19484,6 @@ Team captain,PowAuPt,W
  Lacks threatening vertical push off the line,Strong,W
  Lacks threatening vertical push off the line,IAV,W
  Lacks threatening vertical push off the line,PowTot,W
- Lacks threatening vertical push off the line,POS,W
  Lacks threatening vertical push off the line,Active,W
 """ Moves well but doesnt separate much""",Active,W
 """ Moves well but doesnt separate much""",TrnLoss,W
@@ -19831,7 +19699,6 @@ Loves to be around the action,Exert,NW
  Plays with urgency and passion in everything he does,Strong,NW
  Plays with urgency and passion in everything he does,Passive,NW
  Plays with urgency and passion in everything he does,EMOT,NW
- Plays with urgency and passion in everything he does,AffOth,NW
  Plays with urgency and passion in everything he does,AffTot,NW
  Has quick twitch to rush in with his response,Passive,NW
  Has quick twitch to rush in with his response,IAV,NW
@@ -20032,7 +19899,6 @@ Loves to be around the action,Exert,NW
 "Hits the NFL marks for size, speed and quickness",AffTot,NW
 "Hits the NFL marks for size, speed and quickness",Active,NW
 "Hits the NFL marks for size, speed and quickness",Solve,NW
-5-inch vertical leap tracks with his high school high jump background,POS,NW
 5-inch vertical leap tracks with his high school high jump background,Active,NW
 5-inch vertical leap tracks with his high school high jump background,Solve,NW
 5-inch vertical leap tracks with his high school high jump background,IAV,NW
@@ -20178,7 +20044,6 @@ Crushed it in 2019 with 894 receiving yards and 15 touchdowns,Role,W
  Overwhelmed lesser foes on small-school circuit,PowTot,W
  Rushes through his attempts to leverage routes,EndsLw,W
  Too upright in his route bends,Strong,W
- Too upright in his route bends,POS,W
  Too upright in his route bends,Submit,W
  Too upright in his route bends,Passive,W
 " Held to 0, 1 or 2 catches in five of 13 games",Strong,W
@@ -20658,7 +20523,6 @@ Outstanding size with adequate athletic talent for a big,Quan,NW
  Has had issues with inconsistent motor,IAV,NW
  Has had issues with inconsistent motor,Ovrst,NW
  Way too upright against the double team,Strong,NW
- Way too upright against the double team,POS,NW
  Way too upright against the double team,Quan,NW
  Way too upright against the double team,PowCoop,NW
  Way too upright against the double team,PowTot,NW
@@ -20993,7 +20857,6 @@ Proportional build and musculation,Active,NW
  Adequate upper-body strength to unglue from blocks,Virtue,NW
  Adequate upper-body strength to unglue from blocks,EVAL,NW
  Adequate upper-body strength to unglue from blocks,EndsLw,NW
- Adequate upper-body strength to unglue from blocks,POS,NW
  Adequate upper-body strength to unglue from blocks,Quality,NW
  Adequate upper-body strength to unglue from blocks,Strong,NW
  Adequate upper-body strength to unglue from blocks,Power,NW
@@ -21206,14 +21069,12 @@ Cranked-up ball production as two-year starter,WltTot,NW
  Football runs throughout branches of family tree,Exprsv,NW
  Football runs throughout branches of family tree,Passive,NW
  Football runs throughout branches of family tree,IAV,NW
- Football runs throughout branches of family tree,AffOth,NW
  Football runs throughout branches of family tree,AffTot,NW
  Used outside and from the slot,Virtue,NW
  Used outside and from the slot,Role,NW
 " Creates ""big slot"" matchup issues for smaller corners",Strong,NW
 " Creates ""big slot"" matchup issues for smaller corners",Active,NW
 " Creates ""big slot"" matchup issues for smaller corners",Exprsv,NW
-" Creates ""big slot"" matchup issues for smaller corners",Begin,NW
 " Creates ""big slot"" matchup issues for smaller corners",IAV,NW
 " Creates ""big slot"" matchup issues for smaller corners",EndsLw,NW
 " Creates ""big slot"" matchup issues for smaller corners",Quan,NW
@@ -21277,7 +21138,6 @@ Cranked-up ball production as two-year starter,WltTot,NW
  Needs to get into press release without dancing,Strong,NW
  Needs to get into press release without dancing,Active,NW
  Needs to get into press release without dancing,Exprsv,NW
- Needs to get into press release without dancing,AffOth,NW
  Needs to get into press release without dancing,AffTot,NW
  Very average sink-and-break hips/feet on second level,Solve,NW
  Very average sink-and-break hips/feet on second level,IAV,NW
@@ -21435,7 +21295,6 @@ Has size of an NFL box safety,WlbTot,NW
  Will struggle to carry vertical routes down the field,Hostile,NW
  Will struggle to carry vertical routes down the field,Active,NW
  Will struggle to carry vertical routes down the field,PowTot,NW
- Will struggle to carry vertical routes down the field,POS,NW
 """ Sees breaks coming but cant find the burst to cover them""",Passive,NW
 """ Sees breaks coming but cant find the burst to cover them""",IAV,NW
 """ Sees breaks coming but cant find the burst to cover them""",PowTot,NW
@@ -21456,7 +21315,6 @@ Moves around the field with smooth gait,Quality,NW
  Sneaky hand fighting to create separation,Strong,NW
  Sneaky hand fighting to create separation,Active,NW
  Sneaky hand fighting to create separation,Exprsv,NW
- Sneaky hand fighting to create separation,Begin,NW
  Sneaky hand fighting to create separation,IAV,NW
  Sneaky hand fighting to create separation,EndsLw,NW
  Sneaky hand fighting to create separation,TrnLoss,NW
@@ -21575,7 +21433,6 @@ Moves around the field with smooth gait,Quality,NW
  Dropped easy would-be touchdown catch headed into end zone against Virginia Tech,IAV,NW
  Dropped easy would-be touchdown catch headed into end zone against Virginia Tech,TrnGain,NW
  Dropped easy would-be touchdown catch headed into end zone against Virginia Tech,WltTot,NW
-Added over 60 pounds of mass/muscle since arriving on campus,Name,NW
 Added over 60 pounds of mass/muscle since arriving on campus,Strong,NW
 Added over 60 pounds of mass/muscle since arriving on campus,PowOth,NW
 Added over 60 pounds of mass/muscle since arriving on campus,PowTot,NW
@@ -21640,12 +21497,10 @@ Added over 60 pounds of mass/muscle since arriving on campus,Academ,NW
 """ Strength to stab and slide inside attacking tackles inside post""",Passive,NW
 """ Strength to stab and slide inside attacking tackles inside post""",Role,NW
 """ Strength to stab and slide inside attacking tackles inside post""",PowPt,NW
-""" Upper-body power can create imbalance in tackles stance and posture""",POS,NW
 """ Upper-body power can create imbalance in tackles stance and posture""",Quality,NW
 """ Upper-body power can create imbalance in tackles stance and posture""",Strong,NW
 """ Upper-body power can create imbalance in tackles stance and posture""",Active,NW
 """ Upper-body power can create imbalance in tackles stance and posture""",Exprsv,NW
-""" Upper-body power can create imbalance in tackles stance and posture""",Begin,NW
 """ Upper-body power can create imbalance in tackles stance and posture""",IAV,NW
 """ Upper-body power can create imbalance in tackles stance and posture""",EndsLw,NW
  Very tight through his lower half,Quality,NW
@@ -21747,7 +21602,6 @@ Burner with impressive 10-yard split (1,Quality,NW
  Patient slipping initial tackle tries as punt returner,Strong,NW
  Patient slipping initial tackle tries as punt returner,Virtue,NW
  Patient slipping initial tackle tries as punt returner,Active,NW
- Patient slipping initial tackle tries as punt returner,Begin,NW
  Patient slipping initial tackle tries as punt returner,EndsLw,NW
  Patient slipping initial tackle tries as punt returner,Try,NW
  Patient slipping initial tackle tries as punt returner,IAV,NW
@@ -21905,7 +21759,6 @@ Big-time pro day tester,Know,W
  Needs more mass on his thin legs,Passive,W
  Needs more mass on his thin legs,Need,W
  Needs more mass on his thin legs,EndsLw,W
- Needs more mass on his thin legs,Name,W
  Needs more mass on his thin legs,WlbTot,W
  Recognition of blocking schemes will need work,Perceiv,W
  Recognition of blocking schemes will need work,Solve,W
@@ -22104,7 +21957,6 @@ Impressive deep-ball talent,IndAdj,NW
  High drop rate affecting him on all three levels,Solve,NW
  High drop rate affecting him on all three levels,IAV,NW
  High drop rate affecting him on all three levels,EMOT,NW
- High drop rate affecting him on all three levels,AffOth,NW
  High drop rate affecting him on all three levels,AffTot,NW
  High drop rate affecting him on all three levels,Quality,NW
  Has trouble securing throws outside of his frame,Active,NW
@@ -22275,7 +22127,6 @@ Three-year starter who was highly recruited out of high school,Active,NW
  Fights back to withstand reach block attempts,IAV,NW
  Fights back to withstand reach block attempts,EndsLw,NW
  Shows upper-body strength when steering lateral engagement back inside,IAV,NW
- Shows upper-body strength when steering lateral engagement back inside,POS,NW
  Shows upper-body strength when steering lateral engagement back inside,Quality,NW
  Shows upper-body strength when steering lateral engagement back inside,Strong,NW
  Shows upper-body strength when steering lateral engagement back inside,Power,NW
@@ -22351,7 +22202,6 @@ Has experience at center and guard,Role,NW
 Has experience at center and guard,PowAuPt,NW
 Has experience at center and guard,PowTot,NW
  Uses mass and girth to his advantage at point of attack,Virtue,NW
- Uses mass and girth to his advantage at point of attack,Name,NW
  Uses mass and girth to his advantage at point of attack,Strong,NW
  Uses mass and girth to his advantage at point of attack,Hostile,NW
  Uses mass and girth to his advantage at point of attack,Role,NW
@@ -22396,7 +22246,6 @@ Has experience at center and guard,PowTot,NW
  Knee bend works against him as a blocker,IAV,NW
  Ends up upright and on his tip-toes at times as drive blocker,WltTot,NW
  Ends up upright and on his tip-toes at times as drive blocker,Strong,NW
- Ends up upright and on his tip-toes at times as drive blocker,POS,NW
  Ends up upright and on his tip-toes at times as drive blocker,Power,NW
  Ends up upright and on his tip-toes at times as drive blocker,Active,NW
  Below-average getting power players steered out of gaps,Solve,NW
@@ -22462,7 +22311,6 @@ Burly with adequate arm length,SureLw,NW
 5 sacks over last two years,TrnLoss,NW
  Reads initial blocker movement and hustles to steal the angle,Strong,NW
  Reads initial blocker movement and hustles to steal the angle,Active,NW
- Reads initial blocker movement and hustles to steal the angle,Begin,NW
  Reads initial blocker movement and hustles to steal the angle,EndsLw,NW
  Reads initial blocker movement and hustles to steal the angle,PowPt,NW
  Reads initial blocker movement and hustles to steal the angle,PowTot,NW
@@ -22549,7 +22397,6 @@ Burly with adequate arm length,SureLw,NW
  Lacks upper-body suddenness to quickly rip away from blocks,Passive,NW
  Lacks upper-body suddenness to quickly rip away from blocks,Vice,NW
  Lacks upper-body suddenness to quickly rip away from blocks,EndsLw,NW
- Lacks upper-body suddenness to quickly rip away from blocks,POS,NW
  Lacks upper-body suddenness to quickly rip away from blocks,Quality,NW
  Lacks upper-body suddenness to quickly rip away from blocks,Ovrst,NW
  Lacks upper-body suddenness to quickly rip away from blocks,Hostile,NW
@@ -22679,7 +22526,6 @@ Space-eater with wide hips,Strong,NW
  Adequate initial quickness into the neutral zone,EndsLw,NW
  Adequate initial quickness into the neutral zone,Strong,NW
  Adequate initial quickness into the neutral zone,Active,NW
- Adequate initial quickness into the neutral zone,Begin,NW
  Adequate initial quickness into the neutral zone,Power,NW
  Adequate initial quickness into the neutral zone,IAV,NW
  Lower-body drive to push defenders off their marks,Quality,NW
@@ -22894,12 +22740,10 @@ Two-time state-champion wrestler with plus core strength,PowTot,NW
  Longer blockers can get into him and create stagnation,Active,NW
  Longer blockers can get into him and create stagnation,IAV,NW
  Longer blockers can get into him and create stagnation,Exprsv,NW
- Longer blockers can get into him and create stagnation,Begin,NW
  Longer blockers can get into him and create stagnation,EndsLw,NW
  Fairly easy to reach and seal for centers,Strong,NW
  Fairly easy to reach and seal for centers,Active,NW
  Fairly easy to reach and seal for centers,Exprsv,NW
- Fairly easy to reach and seal for centers,Begin,NW
  Fairly easy to reach and seal for centers,IAV,NW
  Fairly easy to reach and seal for centers,EndsLw,NW
  Fairly easy to reach and seal for centers,Virtue,NW
@@ -23004,7 +22848,6 @@ Two-time state-champion wrestler with plus core strength,PowTot,NW
  Below-average balance into and through contact to stay upright,PowOth,NW
  Below-average balance into and through contact to stay upright,PowTot,NW
  Below-average balance into and through contact to stay upright,Active,NW
- Below-average balance into and through contact to stay upright,POS,NW
  Small delay in catch-to-run transition,Passive,NW
  Small delay in catch-to-run transition,Persist,NW
  Small delay in catch-to-run transition,IAV,NW
@@ -23059,7 +22902,6 @@ Loose hips and plus timing for work-up blocks,IAV,NW
 " Way too hurried out of stance, creating excessive oversets",Active,NW
 " Way too hurried out of stance, creating excessive oversets",Strong,NW
 " Way too hurried out of stance, creating excessive oversets",Exprsv,NW
-" Way too hurried out of stance, creating excessive oversets",Begin,NW
 " Way too hurried out of stance, creating excessive oversets",IAV,NW
 " Way too hurried out of stance, creating excessive oversets",EndsLw,NW
 " Way too hurried out of stance, creating excessive oversets",Vice,NW
@@ -23072,7 +22914,6 @@ Loose hips and plus timing for work-up blocks,IAV,NW
  Struggles to catch up and redirect inside counters,Complet,NW
  Struggles to catch up and redirect inside counters,IAV,NW
  Struggles to catch up and redirect inside counters,TrnGain,NW
- Upper-body strength will need substantial improvement,POS,NW
  Upper-body strength will need substantial improvement,Quality,NW
  Upper-body strength will need substantial improvement,Strong,NW
  Upper-body strength will need substantial improvement,Power,NW
@@ -23141,7 +22982,6 @@ Loose hips and plus timing for work-up blocks,IAV,NW
 "* Passionate, aggressive runner",Strong,NW
 "* Passionate, aggressive runner",Passive,NW
 "* Passionate, aggressive runner",EMOT,NW
-"* Passionate, aggressive runner",AffOth,NW
 "* Passionate, aggressive runner",AffTot,NW
 "* Passionate, aggressive runner",Hostile,NW
 "* Passionate, aggressive runner",Active,NW
@@ -23253,7 +23093,6 @@ Loose hips and plus timing for work-up blocks,IAV,NW
  Not much of a pass-catching option,IndAdj,NW
 "Compact with good, lean mass and thick, well-defined arms",Feel,NW
 "Compact with good, lean mass and thick, well-defined arms",IndAdj,NW
-"Compact with good, lean mass and thick, well-defined arms",Name,NW
 "Compact with good, lean mass and thick, well-defined arms",Solve,NW
 "Compact with good, lean mass and thick, well-defined arms",IAV,NW
 "Compact with good, lean mass and thick, well-defined arms",Hostile,NW
@@ -23272,7 +23111,6 @@ Loose hips and plus timing for work-up blocks,IAV,NW
  Energetic charges in his rush attack,PowPt,NW
  Energetic charges in his rush attack,PowTot,NW
  Uses upper-body power to pull pass sets off-balance,Virtue,NW
- Uses upper-body power to pull pass sets off-balance,POS,NW
  Uses upper-body power to pull pass sets off-balance,Quality,NW
  Uses upper-body power to pull pass sets off-balance,Strong,NW
  Uses upper-body power to pull pass sets off-balance,Active,NW
@@ -23344,7 +23182,6 @@ Loose hips and plus timing for work-up blocks,IAV,NW
  Lacks desired broadness/mass for heavy lifting as run defender,Vice,NW
  Lacks desired broadness/mass for heavy lifting as run defender,EndsLw,NW
  Lacks desired broadness/mass for heavy lifting as run defender,Strong,NW
- Lacks desired broadness/mass for heavy lifting as run defender,Name,NW
  Lacks desired broadness/mass for heavy lifting as run defender,EVAL,NW
  Lacks desired broadness/mass for heavy lifting as run defender,Quality,NW
  Lacks desired broadness/mass for heavy lifting as run defender,Active,NW
@@ -23393,7 +23230,6 @@ Loose hips and plus timing for work-up blocks,IAV,NW
  Turns into an upright rusher at times,IAV,NW
  Turns into an upright rusher at times,TrnLoss,NW
  Turns into an upright rusher at times,Strong,NW
- Turns into an upright rusher at times,POS,NW
  Bull-rush potential is very average,Strong,NW
  Bull-rush potential is very average,Virtue,NW
  Bull-rush potential is very average,EndsLw,NW
@@ -23410,7 +23246,6 @@ Elite athletic talent with 4,IndAdj,NW
 35-second 40-yard dash and 42,Active,NW
 35-second 40-yard dash and 42,Ovrst,NW
 35-second 40-yard dash and 42,IAV,NW
-5-inch vertical jump at his pro day,POS,NW
 5-inch vertical jump at his pro day,Active,NW
 5-inch vertical jump at his pro day,Role,NW
 5-inch vertical jump at his pro day,Know,NW
@@ -23743,7 +23578,6 @@ Clearly has potential for greater development,Active,NW
  Should create workable separation with better route polish,Strong,NW
  Should create workable separation with better route polish,Active,NW
  Should create workable separation with better route polish,Exprsv,NW
- Should create workable separation with better route polish,Begin,NW
  Should create workable separation with better route polish,IAV,NW
  Should create workable separation with better route polish,EndsLw,NW
  Should create workable separation with better route polish,Virtue,NW
@@ -23820,7 +23654,6 @@ Clearly has potential for greater development,Active,NW
  Struggles to track and stack effectively downfield,SklTOT,NW
  Below-average upper-body and hand strength to win 50-50 balls,Solve,NW
  Below-average upper-body and hand strength to win 50-50 balls,IAV,NW
- Below-average upper-body and hand strength to win 50-50 balls,POS,NW
  Below-average upper-body and hand strength to win 50-50 balls,Quality,NW
  Below-average upper-body and hand strength to win 50-50 balls,Strong,NW
  Below-average upper-body and hand strength to win 50-50 balls,Power,NW
@@ -23964,7 +23797,6 @@ Unspectacular but rock-steady production throughout career,SklTOT,NW
  Creates contested catches by drifting in his routes,Strong,NW
  Creates contested catches by drifting in his routes,Active,NW
  Creates contested catches by drifting in his routes,Exprsv,NW
- Creates contested catches by drifting in his routes,Begin,NW
  Creates contested catches by drifting in his routes,IAV,NW
  Creates contested catches by drifting in his routes,EndsLw,NW
  Creates contested catches by drifting in his routes,Hostile,NW
@@ -24031,7 +23863,6 @@ Great combination of size and speed,Solve,NW
  Can be imposing vertical threat on occasion,IAV,NW
  Can be imposing vertical threat on occasion,PowOth,NW
  Can be imposing vertical threat on occasion,PowTot,NW
- Can be imposing vertical threat on occasion,POS,NW
  Can be imposing vertical threat on occasion,Hostile,NW
  Can be imposing vertical threat on occasion,Vice,NW
  Can be imposing vertical threat on occasion,EndsLw,NW
@@ -24149,7 +23980,6 @@ Good overall size with adequate length,SureLw,W
  Pops upright when attempting to get to cut-off blocks,Exert,W
  Pops upright when attempting to get to cut-off blocks,IAV,W
  Pops upright when attempting to get to cut-off blocks,Strong,W
- Pops upright when attempting to get to cut-off blocks,POS,W
  Pops upright when attempting to get to cut-off blocks,EndsLw,W
  Pops upright when attempting to get to cut-off blocks,Virtue,W
  Pops upright when attempting to get to cut-off blocks,SklOth,W
@@ -24205,7 +24035,6 @@ Team captain praised for high character,Exprsv,NW
  Quick and explosive with good lean mass,Active,NW
  Quick and explosive with good lean mass,PowOth,NW
  Quick and explosive with good lean mass,PowTot,NW
- Quick and explosive with good lean mass,Name,NW
  Nimble lateral bounce takes him inside the gaps,Strong,NW
  Nimble lateral bounce takes him inside the gaps,IndAdj,NW
  Nimble lateral bounce takes him inside the gaps,Active,NW
@@ -24404,7 +24233,6 @@ Team captain praised for high character,Exprsv,NW
 "Rare combination of height, weight and explosiveness",PowCoop,NW
 "Rare combination of height, weight and explosiveness",PowTot,NW
 "Rare combination of height, weight and explosiveness",PowOth,NW
- Posted 40-inch vertical leap with ridiculous total of 30 reps on bench press at pro day,POS,NW
  Posted 40-inch vertical leap with ridiculous total of 30 reps on bench press at pro day,Active,NW
  Posted 40-inch vertical leap with ridiculous total of 30 reps on bench press at pro day,Vice,NW
  Posted 40-inch vertical leap with ridiculous total of 30 reps on bench press at pro day,Ovrst,NW
@@ -24485,7 +24313,6 @@ Team captain praised for high character,Exprsv,NW
  Routes are very raw and need time to be corrected,Need,NW
  Routes are very raw and need time to be corrected,EndsLw,NW
  Upright and lacking vertical push in early stages of route,Strong,NW
- Upright and lacking vertical push in early stages of route,POS,NW
  Upright and lacking vertical push in early stages of route,Passive,NW
  Upright and lacking vertical push in early stages of route,Vice,NW
  Upright and lacking vertical push in early stages of route,EndsLw,NW
@@ -24805,7 +24632,6 @@ Adequate size and length,SureLw,NW
 " Missed time due to injury in 2016, 2017 and 2019",Hostile,NW
 " Missed time due to injury in 2016, 2017 and 2019",Vice,NW
 " Missed time due to injury in 2016, 2017 and 2019",WlbTot,NW
- Vertical speed will rush by him,POS,NW
  Modest burst to chase the route,Submit,NW
  Modest burst to chase the route,Virtue,NW
  Modest burst to chase the route,EVAL,NW
@@ -24926,11 +24752,9 @@ Feet for early mirror of release,Active,NW
 "Built with sturdy, Midwestern mass",Strong,W
 "Built with sturdy, Midwestern mass",Power,W
 "Built with sturdy, Midwestern mass",Quality,W
-"Built with sturdy, Midwestern mass",Name,W
  Hands are little charged up into first contact,Strong,W
  Hands are little charged up into first contact,Quality,W
  Hands are little charged up into first contact,Active,W
- Upper-body power to generate turn in kick-out blocks,POS,W
  Upper-body power to generate turn in kick-out blocks,Quality,W
  Upper-body power to generate turn in kick-out blocks,Virtue,W
  Upper-body power to generate turn in kick-out blocks,EVAL,W
@@ -24988,7 +24812,6 @@ Feet for early mirror of release,Active,NW
  Pad level rises too tall in initial lateral movements,IAV,W
  Pad level rises too tall in initial lateral movements,PowTot,W
  Pad level rises too tall in initial lateral movements,Quality,W
- Pad level rises too tall in initial lateral movements,Begin,W
  Pad level rises too tall in initial lateral movements,EndsLw,W
  Pad level rises too tall in initial lateral movements,PowPt,W
  Could have issues reaching the nose in zone,Strong,W
@@ -25200,7 +25023,6 @@ Plays like his hair is on fire,If,NW
  Strength in upper body to battle tight ends at point of attack,Virtue,NW
  Strength in upper body to battle tight ends at point of attack,PowOth,NW
  Strength in upper body to battle tight ends at point of attack,PowTot,NW
- Strength in upper body to battle tight ends at point of attack,POS,NW
  Strength in upper body to battle tight ends at point of attack,Quality,NW
  Strength in upper body to battle tight ends at point of attack,WltTot,NW
  Strength in upper body to battle tight ends at point of attack,Hostile,NW
@@ -25678,7 +25500,6 @@ Outstanding size and length with flashes of playmaking traits,Know,NW
  Agility and GPS to work around interior traffic,Active,NW
  Agility and GPS to work around interior traffic,Solve,NW
  Agility and GPS to work around interior traffic,IAV,NW
- Upper-body power to fling guards off of him,POS,NW
  Upper-body power to fling guards off of him,Quality,NW
  Upper-body power to fling guards off of him,Strong,NW
  Upper-body power to fling guards off of him,Role,NW
@@ -25769,7 +25590,6 @@ Outstanding size and length with flashes of playmaking traits,Know,NW
 " Body is split low, creating balance advantage through contact",Strong,NW
 " Body is split low, creating balance advantage through contact",Active,NW
 " Body is split low, creating balance advantage through contact",Exprsv,NW
-" Body is split low, creating balance advantage through contact",Begin,NW
 " Body is split low, creating balance advantage through contact",IAV,NW
 " Body is split low, creating balance advantage through contact",EndsLw,NW
 " Body is split low, creating balance advantage through contact",Work,NW
@@ -25933,7 +25753,6 @@ Added 20 pounds to his frame since coming into college,Academ,NW
  Below-average closing burst on the throw,AffTot,NW
  Speed-deficient when chasing vertical rabbits,Vice,NW
  Speed-deficient when chasing vertical rabbits,IndAdj,NW
- Speed-deficient when chasing vertical rabbits,POS,NW
  Doesn’t find deep balls consistently,Negate,NW
  Doesn’t find deep balls consistently,SV,NW
  Doesn’t find deep balls consistently,Passive,NW
@@ -26111,7 +25930,6 @@ Elite size and length for the position,Doctrin,NW
  Very heavy-handed with plus upper-body strength,Quality,NW
  Very heavy-handed with plus upper-body strength,Ovrst,NW
  Very heavy-handed with plus upper-body strength,Quan,NW
- Very heavy-handed with plus upper-body strength,POS,NW
  Very heavy-handed with plus upper-body strength,Power,NW
  Very heavy-handed with plus upper-body strength,Virtue,NW
  Very heavy-handed with plus upper-body strength,PowOth,NW
@@ -26254,7 +26072,6 @@ Elite size and length for the position,Doctrin,NW
  Jab and lateral shuffle create roadblock from press,Strong,NW
  Jab and lateral shuffle create roadblock from press,Active,NW
  Jab and lateral shuffle create roadblock from press,Exprsv,NW
- Jab and lateral shuffle create roadblock from press,Begin,NW
  Jab and lateral shuffle create roadblock from press,IAV,NW
  Jab and lateral shuffle create roadblock from press,EndsLw,NW
  Long arms shade downfield throws from trail position,Hostile,NW
@@ -26373,7 +26190,6 @@ Elite size and length for the position,Doctrin,NW
  Willing to submarine pulling linemen to set an edge,Exert,NW
  Willing to submarine pulling linemen to set an edge,IAV,NW
  Backpedal is upright and clunky,Strong,NW
- Backpedal is upright and clunky,POS,NW
  Gets hips opened prematurely by receivers,Submit,NW
  Gets hips opened prematurely by receivers,Passive,NW
  Gets hips opened prematurely by receivers,Role,NW
@@ -26450,12 +26266,10 @@ Elite size and frame,IAV,NW
  Needs extended runways to gather and open on intermediate routes,Need,NW
  Needs extended runways to gather and open on intermediate routes,EndsLw,NW
  Needs extended runways to gather and open on intermediate routes,Quan,NW
- Needs extended runways to gather and open on intermediate routes,POS,NW
  Needs extended runways to gather and open on intermediate routes,PowCoop,NW
  Needs extended runways to gather and open on intermediate routes,PowTot,NW
  Below-average vertical charge to threaten the coverage,Solve,NW
  Below-average vertical charge to threaten the coverage,IAV,NW
- Below-average vertical charge to threaten the coverage,POS,NW
  Below-average vertical charge to threaten the coverage,Strong,NW
  Below-average vertical charge to threaten the coverage,Quality,NW
  Below-average vertical charge to threaten the coverage,Hostile,NW
@@ -26669,7 +26483,6 @@ Good size and length,SureLw,NW
  Ability to dart into gaps and create disruption,EVAL,NW
  Ability to dart into gaps and create disruption,Active,NW
  Ability to dart into gaps and create disruption,Exprsv,NW
- Ability to dart into gaps and create disruption,Begin,NW
  Ability to dart into gaps and create disruption,IAV,NW
  Ability to dart into gaps and create disruption,EndsLw,NW
  Ability to dart into gaps and create disruption,Hostile,NW
@@ -26679,7 +26492,6 @@ Good size and length,SureLw,NW
  Creates problems inside the pocket with his spin counter,Strong,NW
  Creates problems inside the pocket with his spin counter,Active,NW
  Creates problems inside the pocket with his spin counter,Exprsv,NW
- Creates problems inside the pocket with his spin counter,Begin,NW
  Creates problems inside the pocket with his spin counter,IAV,NW
  Creates problems inside the pocket with his spin counter,EndsLw,NW
  Creates problems inside the pocket with his spin counter,Know,NW
@@ -26721,7 +26533,6 @@ Good size and length,SureLw,NW
  Needs to create a plan for early stages of the rush,Strong,NW
  Needs to create a plan for early stages of the rush,Active,NW
  Needs to create a plan for early stages of the rush,Exprsv,NW
- Needs to create a plan for early stages of the rush,Begin,NW
  Needs to create a plan for early stages of the rush,IAV,NW
  Needs to create a plan for early stages of the rush,Work,NW
 Explosive testing at Maryland pro day opened some eyes,Strong,W
@@ -27181,7 +26992,6 @@ Plays with good overall foot quickness,Know,W
  Upside talent if challenged and cultivated,Know,NW
  Upside talent if challenged and cultivated,IndAdj,NW
  Upside talent if challenged and cultivated,EndsLw,NW
- Upside talent if challenged and cultivated,Begin,NW
  Coverage can be loose and undisciplined at times,Quality,NW
  Relies on athletic ability over technique,Submit,NW
  Relies on athletic ability over technique,Passive,NW
@@ -27355,7 +27165,6 @@ Muscular frame and carries an NFL body,Quality,NW
  Bull rush picks up steam if he can create early movement,Strong,NW
  Bull rush picks up steam if he can create early movement,Active,NW
  Bull rush picks up steam if he can create early movement,Exprsv,NW
- Bull rush picks up steam if he can create early movement,Begin,NW
  Bull rush picks up steam if he can create early movement,IAV,NW
  Bull rush picks up steam if he can create early movement,EndsLw,NW
  Bull rush picks up steam if he can create early movement,PowPt,NW
@@ -27467,7 +27276,6 @@ Muscular frame and carries an NFL body,Quality,NW
 "* Always targets throwing arm, creating strip sacks",Strong,NW
 "* Always targets throwing arm, creating strip sacks",Power,NW
 "* Always targets throwing arm, creating strip sacks",Exprsv,NW
-"* Always targets throwing arm, creating strip sacks",Begin,NW
 "* Always targets throwing arm, creating strip sacks",EndsLw,NW
 "* Always targets throwing arm, creating strip sacks",Work,NW
 "* Always targets throwing arm, creating strip sacks",TrnLoss,NW
@@ -27479,7 +27287,6 @@ Muscular frame and carries an NFL body,Quality,NW
 * Plays with knee bend to stay under the pads of blockers,WlbTot,NW
 * Plays with knee bend to stay under the pads of blockers,Submit,NW
 * Plays with knee bend to stay under the pads of blockers,Passive,NW
-* Strong in his upper half,POS,NW
 * Strong in his upper half,Quan,NW
 * Slides into positioning before striking against move blocks,Passive,NW
 * Slides into positioning before striking against move blocks,Feel,NW
@@ -27522,7 +27329,6 @@ Muscular frame and carries an NFL body,Quality,NW
  Pressure rate and sack total dropped with step up in competition Struggles in overtaking blocker when he gets behind early in the rep,Hostile,NW
  Pressure rate and sack total dropped with step up in competition Struggles in overtaking blocker when he gets behind early in the rep,Virtue,NW
  Some tightness in upper body when attempting to flip the corner,Quality,NW
- Some tightness in upper body when attempting to flip the corner,POS,NW
  Some tightness in upper body when attempting to flip the corner,EndsLw,NW
  Plays with very average closing burst,Nonadlt,NW
  Plays with very average closing burst,IndAdj,NW
@@ -27544,7 +27350,6 @@ Good size with heavy pads as tackler,IAV,NW
 Good size with heavy pads as tackler,Strong,NW
 Good size with heavy pads as tackler,EVAL,NW
 Good size with heavy pads as tackler,Quality,NW
- Upper-body strength to set edge from the slot,POS,NW
  Upper-body strength to set edge from the slot,Quality,NW
  Upper-body strength to set edge from the slot,Strong,NW
  Upper-body strength to set edge from the slot,Power,NW
@@ -27621,7 +27426,6 @@ Active hands and sudden feet for press release,Strong,NW
  Stair-steps defender off the route,Strong,NW
  Stair-steps defender off the route,Active,NW
  Stair-steps defender off the route,Role,NW
- Crisp short-area footwork on intermediate routes,POS,NW
  Crisp short-area footwork on intermediate routes,PowCoop,NW
  Crisp short-area footwork on intermediate routes,PowTot,NW
  Puts head down and drives hard into go routes,Strong,NW
@@ -28133,7 +27937,6 @@ Selected as team captain his senior season,RspTot,NW
  Punches with inside hands,Active,W
  Punches with inside hands,Exert,W
  Punches with inside hands,IAV,W
- Good upper-body power to displace edge attacks,POS,W
  Good upper-body power to displace edge attacks,Quality,W
  Good upper-body power to displace edge attacks,Strong,W
  Good upper-body power to displace edge attacks,Active,W
@@ -28296,7 +28099,6 @@ Easy to feel his play passion and edge on tape,EMOT,W
 Easy to feel his play passion and edge on tape,Nonadlt,W
 Easy to feel his play passion and edge on tape,IndAdj,W
 Easy to feel his play passion and edge on tape,Strong,W
-Easy to feel his play passion and edge on tape,AffOth,W
 Easy to feel his play passion and edge on tape,AffTot,W
  Plays with excellent balance and body control,Nonadlt,W
  Plays with excellent balance and body control,IndAdj,W
@@ -28388,7 +28190,6 @@ Easy to feel his play passion and edge on tape,AffTot,W
  Separation success declines against quality corners,SklOth,W
  Separation success declines against quality corners,SklTOT,W
  Too upright into his breaks,Strong,W
- Too upright into his breaks,POS,W
  Too upright into his breaks,Passive,W
  Too upright into his breaks,IAV,W
  Too upright into his breaks,PowTot,W
@@ -28422,7 +28223,6 @@ Easy to feel his play passion and edge on tape,AffTot,W
  Needs to carve out more defined catch space underneath,TrnGain,W
 "Big, burly and wide with NFL mass",Strong,NW
 "Big, burly and wide with NFL mass",Quan,NW
-"Big, burly and wide with NFL mass",Name,NW
 """ Snaps hands into centers shoulders first after snap as zero-technique""",Active,NW
 """ Snaps hands into centers shoulders first after snap as zero-technique""",Exert,NW
 """ Snaps hands into centers shoulders first after snap as zero-technique""",Strong,NW
@@ -28681,7 +28481,6 @@ Insane college production over just three seasons,WltTot,NW
  Face-up rushing attack is there for blocker to punch,Active,NW
  Face-up rushing attack is there for blocker to punch,Exert,NW
  Rush is upright and lacking quality hand work,Strong,NW
- Rush is upright and lacking quality hand work,POS,NW
  Rush is upright and lacking quality hand work,Passive,NW
  Rush is upright and lacking quality hand work,Vice,NW
  Rush is upright and lacking quality hand work,EndsLw,NW
@@ -28819,7 +28618,6 @@ Explosive athlete with rare initial burst,Virtue,NW
 Explosive athlete with rare initial burst,Exprsv,NW
 Explosive athlete with rare initial burst,Ovrst,NW
 Explosive athlete with rare initial burst,EVAL,NW
-Explosive athlete with rare initial burst,Begin,NW
 Explosive athlete with rare initial burst,EndsLw,NW
 Explosive athlete with rare initial burst,IAV,NW
  Possesses NFL build with sturdy frame and 10,PowOth,NW
@@ -28958,7 +28756,6 @@ Explosive athlete with rare initial burst,IAV,NW
 * Blasts rushers with punishing shoulders to the gut,PowOth,NW
 * Blasts rushers with punishing shoulders to the gut,PowTot,NW
 * Blasts rushers with punishing shoulders to the gut,Exert,NW
-* Ran intermediate routes out of backfield * Lacks patience and instincts to feel developing creases * Vision is below par,POS,NW
 * Ran intermediate routes out of backfield * Lacks patience and instincts to feel developing creases * Vision is below par,PowCoop,NW
 * Ran intermediate routes out of backfield * Lacks patience and instincts to feel developing creases * Vision is below par,PowTot,NW
 * Ran intermediate routes out of backfield * Lacks patience and instincts to feel developing creases * Vision is below par,Passive,NW
@@ -29141,7 +28938,6 @@ Consistent player,EndsLw,NW
  Creates early leverage with wider inside release,Strong,W
  Creates early leverage with wider inside release,Active,W
  Creates early leverage with wider inside release,Exprsv,W
- Creates early leverage with wider inside release,Begin,W
  Creates early leverage with wider inside release,IAV,W
  Creates early leverage with wider inside release,EndsLw,W
  Capable footwork for quality whip routes,Strong,W
@@ -29191,7 +28987,6 @@ Consistent player,EndsLw,NW
  Needs runway to break off intermediate route breaks,EndsLw,W
  Needs runway to break off intermediate route breaks,IAV,W
  Needs runway to break off intermediate route breaks,PowTot,W
- Needs runway to break off intermediate route breaks,POS,W
  Needs runway to break off intermediate route breaks,PowCoop,W
 """ Downfield speed isnt much of a threat""",Passive,W
 """ Downfield speed isnt much of a threat""",IAV,W

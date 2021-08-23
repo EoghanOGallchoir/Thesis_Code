@@ -1,0 +1,102 @@
+---
+title: "Dataset_Examples"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+
+```{r}
+library(kableExtra)
+library(magrittr)
+webshot::install_phantomjs()
+```
+
+```{r}
+# one 
+results <- read.csv('C:/Users/Owen/Desktop/college stuff/AI Masters/Thesis/Thesis_Code/Thesis Datasets/1_sentence_data_2021.csv')
+results2 <- results[sample.int(4770, 15),]
+
+kable(results2, "html", booktabs= TRUE, longtable = TRUE, col.names = c("ID", "Position", "Scouting Report Sentence(s)", "Race"), row.names = F) %>%
+ kable_styling(bootstrap_options = c("striped", "hold_position", "repeat_header"), fixed_thead = T) %>%
+  save_kable(file="1_sentence.png")
+```
+
+```{r}
+nrow(results)
+```
+
+```{r}
+# all
+results <- read.csv('C:/Users/Owen/Desktop/college stuff/AI Masters/Thesis/Thesis_Code/Thesis Datasets/dataset_2021_weka.csv')
+results2 <- results[sample.int(259, 5),]
+
+kable(results2, "html", booktabs= TRUE, longtable = TRUE, col.names = c("ID", "Position", "Scouting Report Sentence(s)", "Race"), row.names = F) %>%
+ kable_styling(bootstrap_options = c("striped", "hold_position", "repeat_header"), fixed_thead = T) %>%
+  save_kable(file="all_sentence.png")
+```
+```{r}
+# two
+results <- read.csv('C:/Users/Owen/Desktop/college stuff/AI Masters/Thesis/Thesis_Code/Thesis Datasets/2_sentence_data_2021.csv')
+results2 <- results[sample.int(2481, 15),]
+
+kable(results2, "html", longtable = TRUE, col.names = c("ID", "Position", "Scouting Report Sentence(s)", "Race"), row.names = F) %>%
+ kable_styling(bootstrap_options = c("striped", "hold_position", "repeat_header"), fixed_thead = T) %>%
+  save_kable(file="2_sentence.png")
+```
+
+```{r}
+# five
+results <- read.csv('C:/Users/Owen/Desktop/college stuff/AI Masters/Thesis/Thesis_Code/Thesis Datasets/5_sentence_data_2021.csv')
+results2 <- results[sample.int(1052, 10),]
+
+
+kable(results2, "html", booktabs= TRUE, col.names = c("ID", "Position", "Scouting Report Sentence(s)", "Race"), row.names = F) %>%
+ kable_styling(bootstrap_options = c("striped", "hold_position", "repeat_header"), fixed_thead = T) %>%
+  save_kable(file="5_sentence.png")
+```
+
+
+
+```{r}
+# enquirer
+results <- read.csv('C:/Users/Owen/Desktop/college stuff/AI Masters/Thesis/Thesis_Code/Thesis Datasets/Enquirer_Comparison_filtered_sentiment.csv')
+results2 <- results[order(-results[[4]]),]
+results3 <- results2[sample.int(56, 10),]
+
+kable(results3, "html", booktabs= TRUE, col.names = c("Sentiment", "% of words with sentiment in white reports", "% of words with sentiment in non-white reports", "relative % difference"), row.names = F) %>%
+ kable_styling(bootstrap_options = c("striped", "hold_position", "repeat_header"), fixed_thead = T) %>%
+  save_kable(file="enquirer.png")
+```
+
+
+
+
+
+```{r}
+# sent tagged
+results <- read.csv('C:/Users/Owen/Desktop/college stuff/AI Masters/Thesis/Thesis_Code/Thesis Datasets/sent_tagged.csv')
+
+results2 <- results[sample.int(29137, 20),]
+
+kable(results2, "html", booktabs= TRUE, col.names = c("Sentence", "Tag", "Race"), row.names = F) %>%
+ kable_styling(bootstrap_options = c("striped", "hold_position", "repeat_header"), fixed_thead = T) %>%
+  save_kable(file="1_sent_gi_tagged.png")
+```
+```{r}
+# sent tagged 2
+results <- read.csv('C:/Users/Owen/Desktop/college stuff/AI Masters/Thesis/Thesis_Code/Thesis Datasets/sent_tagged.csv')
+
+results2 <- results[21:29, ]
+
+kable(results2, "html", booktabs= TRUE, col.names = c("Sentence", "Tag", "Race"), row.names = F) %>%
+ kable_styling(bootstrap_options = c("striped", "hold_position", "repeat_header"), fixed_thead = T) %>%
+  save_kable(file="1_sent_gi_tagged_specific.png")
+```
+
+
+

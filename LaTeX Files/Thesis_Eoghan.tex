@@ -32,6 +32,10 @@
 \usepackage{setspace}
 \usepackage[utf8]{inputenc}
 \usepackage[table]{xcolor}
+
+\usepackage{emerald}
+\usepackage{soul}
+
 \setstretch{1.5}
 %\onehalfspacing
 % SPECIAL COMMANDS
@@ -66,7 +70,7 @@
 % text before "In partial fulfillment of the requirements for the degree of" in .cls file/line 153\
 % replace PROGRAMME with Data Analytics, Artificial Intelligence, or Artificial Intelligence - Online
 \degree{MSc in Artificial Intelligence}
-\degreedate{August 17, 2021}
+\degreedate{August 23, 2021}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% uncomment if glossary needed, see examples in file
@@ -95,8 +99,8 @@ I, Eoghan Ó Gallchóir, do hereby declare that this thesis entitled {\it An Inv
  It has not been previously submitted, in part or whole, to any university or institution for any degree, diploma, or other qualification. 
 \newline
 
-\begin{tabular}{@{}p{.5in}p{4in}@{}}
-Signature: & ~~\hrulefill \\
+\begin{tabular}{@{}p{4in}p{4in}@{}}
+Signature: {\ECFJD~~Eoghan Ó Gallchóir~~}
 \end{tabular}
 \newpage
 
@@ -114,7 +118,7 @@ Signature: & ~~\hrulefill \\
 To do after results have been determined
 %It should be terse and usually written in the present tense and impersonal style: "A new graph community detection algorithm is proposed based on spectral features. It is compared against several strong baselines ...".
 
-\textbf{Keywords: } Sentiment Analysis, Text Classification, Machine Learning, Natural Language Processing, Harvard General Inquirer
+\textbf{Keywords: } Machine Learning, Natural Language Processing, Harvard General Inquirer, Sentiment Analysis, Text Classification
 \end{abstracts}
 
 
@@ -383,14 +387,118 @@ as well as the difference between them. For more information on all datasets cre
 
 \chapter{Data}
 \label{chap:data}
-To do before monday
+This chapter describes all data gathered for the purpose of experimentation.
 \section{Classification Data}
 \label{sec:class_data}
-How many sentences, players, datasets, etc.
-*** Lots of R tables to show data ***
+For the classification experiment, 4 different datasets were created. As mentioned in the \hyperref[chap:methodology]{Methodology chapter}, each dataset has a standardized structure. Column names of:
+\begin{itemize}
+  \item Player ID - Given to provide player anonymity, each player has their own unique identifier number. This becomes important in the 1-sentence, 2-sentence, and 5-sentence datasets because as the data becomes more divided, player sentences can
+        still be grouped by their ID.
+  \item Postion - Abbreviated player position. In this data, 17 player positions arose: \begin{itemize}
+    \item C - Center.
+    \item CB - Cornerback.
+    \item DE - Defensive End.
+    \item DT - Defensive Tackle.
+    \item EDGE - Edgerusher.
+    \item FB - Fullback.
+    \item G- Guard.
+    \item K - Kicker.
+    \item LB - Linebacker.
+    \item LS - Long Snapper.
+    \item OT - Offensive Tackle.
+    \item P - Punter.
+    \item QB - Quarterback.
+    \item RB - Running Back.
+    \item SAF - Safety.
+    \item TE - Tight End.
+    \item WR - Wide Receiver.
+  \end{itemize}
+  \item Scouting Report Sentence(s) - These are sentences taken from a players strength and weaknesses as described on NFL.com.
+  \item Player Race - player race is denoted as either \textbf{W} - White or \textbf{NW} - Non-White.
+\end{itemize}
+
+\subsection{All Sentence Dataset}
+This is the first dataset that was obtained, and is refered to in this paper as the master dataset. All other datasets pertaining to the classification experiment is derived from it. It contains:
+\begin{itemize}
+  \item 259 player rows in the format discussed above.
+  \item Each player has an average of 17 sentences in their report. Player ID 1 has the most sentences at 31, player ID 225 has the least sentences associated with them at 4.
+  \item Of the 259 players, 213 have been classified as NW and 46 have been classed as W.
+\end{itemize}
+
+\begin{figure}[hb]
+  \centering
+  \begin{minipage}{1\textwidth}
+    \centering
+    \includegraphics[width=1\linewidth]{Figures/all_sentence.png}
+    \captionof{figure}{Random sample of Master dataset rows}
+    \label{fig:master_dataset_sample}
+  \end{minipage}%
+\end{figure}
+
+\subsection{1-Sentence Dataset}
+This dataset is the master dataset split into 1-sentence rows. It consists of 4511 player rows. Of those rows, 3726 have been classified as NW and 785 have been classed as W.
+
+\begin{figure}[hb]
+  \centering
+  \begin{minipage}{1\textwidth}
+    \centering
+    \includegraphics[width=1\linewidth]{Figures/1_sentence.png}
+    \captionof{figure}{Random sample of 1-Sentence dataset rows}
+    \label{fig:1-sentence_dataset_sample}
+  \end{minipage}%
+\end{figure}
+
+\subsection{2-Sentence Dataset}
+This data has also been garnered from the master dataset, with each row having 2 non-repeating sentences. As some players had a number of scouting report sentences not divisible by 2,
+a random, previously seen sentence of theirs was randomly added to the data to complete that 2-sentence row. This was done by using modulo to get the sentences that needed supplementing.
+There are 2448 rows in this dataset, 2022 of which are classified as NW and 426 as W. See \hyperref[chap:Figures]{Appendix B} for a 2-Sentence data example.
+
+\subsection{5-Sentence Dataset}
+Similar to the 2-sentence dataset, this data was also pulled from the master dataset. Modulus was also used here to find rows lacking the 5 sentences needed. A random sample, the size of the need
+of the row was taken from that players own pool of sentences. Steps were taken to ensure none of the sampled sentences were already part of the row in need. There are 1052 row in this dataset, 866 
+of which have been classified as NW and 186 classed as W.
+
+\begin{figure}[!htb]
+  \centering
+  \begin{minipage}{1\textwidth}
+    \centering
+    \includegraphics[width=1\linewidth]{Figures/5_sentence.png}
+    \captionof{figure}{Random sample of 5-Sentence dataset rows}
+    \label{fig:5-sentence_dataset_sample}
+  \end{minipage}%
+\end{figure}
+
 \section{Sentiment Analysis Data}
 \label{sec:senti_data}
 
+\subsection{The GI dictionary}
+The dataset which the Python GI dictionary helps create is GI tag comparison dataset. It consists of 4 columns:
+\begin{itemize}
+  \item Sentiment - A GI tag which appears at least once in the master dataset. There were 156 GI tags found in.
+  \item \% of words with sentiment in white reports - The percentage of words that some GI tag is associated with in W reports.
+  \item \% of words with sentiment in non-white reports - The percentage of words that some GI tag is associated with in NW reports.
+  \item Relative \% difference - The relative difference in occurences of a GI tag in W and NW reports
+\end{itemize}
+From these 156 tags, 56 were deemed as relevant, a sample of which can be seen \hyperref[chap:Figures]{in the Appendix}.
+
+\subsection{GI Tagged Dataset}
+The GI tagged dataset is an almalgamation of the 1-Sentence dataset and the dataset filtered above. Given that one word can have many GI tags associated with it, this dataset contains
+29137 rows. Each row has:
+\begin{itemize}
+  \item Sentence - The player report sentence in question.
+  \item Tag - A GI tag associated with a word in that sentence.
+  \item Race - The players ethnicity.
+\end{itemize}
+
+\begin{figure}[ht!b]
+  \centering
+  \begin{minipage}{1\textwidth}
+    \centering
+    \includegraphics[width=1\linewidth]{Figures/1_sent_gi_tagged_specific.png}
+    \captionof{figure}{Example of a sentence with multiple GI tags}
+    \label{fig:1-sentence_gi_tag_example}
+  \end{minipage}%
+\end{figure}
 
 \chapter{Experiments}
 \label{chap:experiments}
@@ -449,7 +557,29 @@ what is a significant difference for sentiment analysis score?
 \chapter{Code} 
 \label{chap:Code}
 
-%\chapter{Appendix-B-Title} 
-%\label{chap:appendix_b}
+\chapter{Figures} 
+\label{chap:Figures}
+
+\begin{figure}[htb]
+  \centering
+  \begin{minipage}{1\textwidth}
+    \centering
+    \includegraphics[width=1\linewidth]{Figures/2_sentence.png}
+    \captionof{figure}{Random sample of 2-Sentence dataset rows}
+    \label{fig:2-sentence_dataset_sample}
+  \end{minipage}%
+\end{figure}
+
+
+\begin{figure}[!htb]
+  \centering
+  \begin{minipage}{1\textwidth}
+    \centering
+    \includegraphics[width=1\linewidth]{Figures/enquirer.png}
+    \captionof{figure}{Random 10 tag sample of GI tag comparison dataset}
+    \label{fig:GI_tag_comp}
+  \end{minipage}%
+\end{figure}
+
 
 \end{document}
