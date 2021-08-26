@@ -17,16 +17,16 @@
 \usepackage[table]{xcolor}
 \usepackage{epigraph}
 \usepackage{graphicx}
-%\usepackage{subfigure}
+\usepackage{subfigure}
 \usepackage{caption}
-\usepackage{subcaption}
+%\usepackage{subcaption}
 \usepackage{hyperref}
 \usepackage{tabularx}
 \usepackage{float}
 \usepackage{longtable}
 \usepackage[pdftex]{graphicx}
 \usepackage{pdfpages}
-%\usepackage{tabularx}
+\usepackage{tabularx}
 \usepackage{pdflscape}
 \usepackage[acronym,toc]{glossaries}
 \usepackage{setspace}
@@ -35,6 +35,9 @@
 
 \usepackage{emerald}
 \usepackage{soul}
+\usepackage{makecell}
+\usepackage{booktabs}
+\usepackage{adjustbox}
 
 \setstretch{1.5}
 %\onehalfspacing
@@ -70,7 +73,7 @@
 % text before "In partial fulfillment of the requirements for the degree of" in .cls file/line 153\
 % replace PROGRAMME with Data Analytics, Artificial Intelligence, or Artificial Intelligence - Online
 \degree{MSc in Artificial Intelligence}
-\degreedate{August 23, 2021}
+\degreedate{August 26, 2021}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% uncomment if glossary needed, see examples in file
@@ -143,15 +146,15 @@ having 1 pick per round. With 32 teams in the league, that is a total of 224 sel
 receiving a higher pick in the draft. This is seen as a way to increase the competitiveness in the league, theoritically the worse the 
 team is, the higher selection they have so they will get a better player. Also, the team with the 1st pick in the first round (no.1 overall), also 
 receive the 1st pick in the second round (no.33 overall), and so on and on. It is however extremely difficult to evaluate college-level players,
-for example 45\% of quarterbacks taken in the first round of the NFL draft were no longer on a team 5 years after they were drafted \citep{qbSuccess}.
-Currently there are 350 Division 1 universities in America \citep{NCAA}, this status
+for example 45\% of quarterbacks taken in the first round of the NFL draft were no longer on a team 5 years after they were drafted \footnote{\url{https://football.pitcherlist.com/pessimists-guide-to-the-nfl-draft/}}.
+Currently there are 350 Division 1 universities in America \footnote{\url{https://www.ncaa.org/about/division-i-schools}}, this status
 essentially describes the standard their sports programmes are at, Division 1 being the highest. This is where most
 NFL players come from. Due to this size, it is unrealistic to expect that every NFL coach can assess every player of
 interest to him to draft onto his team, so teams rely on scouting reports, from scouts they either hire or trust, to
 help inform them in deciding on who to draft. These scouting reports describes a players physical and cognitive
-attributes in the form of a short paragraph, also describing his strengths and weaknesses. Most prospective players also attend a draft combine, which essentially
-is a standardized workout and assessment used to quantify their abilities. American sports media also produces
-similar player analysis \citep{KellyRinger}, as well as game previews and post-game reports.
+attributes in the form of a short paragraph, also describing his strengths and weaknesses. An example of these strength and weaknesses can be seen in \hyperref[fig:bateman_s]{Figure 1.1} and \hyperref[fig:bateman_w]{Figure 1.2}. 
+Most prospective players also attend a draft combine, which essentially is a standardized workout and assessment used to quantify their abilities. American sports media also produces
+similar player analysis \footnote{\url{https://nfldraft.theringer.com/mock-draft}}, as well as game previews and post-game reports.
 
 \begin{figure}[hb]
   \centering
@@ -173,16 +176,17 @@ similar player analysis \citep{KellyRinger}, as well as game previews and post-g
 Studies done on the American sports industry and its media has been time and time again shown that racism exists in sports media. One study by \citet{Viklund2009}
 showed that racial bias still exists in NFL commentary, with the problem persisting across serveral different television network coverages.
 The NFL is in a unique position for analysis as there is a huge
-discrepancy in both players of colour and people of colour not only in team coaching and executive positions \citep{Lapchick2020}, but in
-reporting roles in mainstream media \citep{Lapchick2018}. In the 2020/2021 season of the NFL, players of colour accounted for 69.4\% of 
-all players, while there were only 4 head coaches of colour in the league in that same season (12.5\% of all head coaches). Similarily, it was found by \citet{Lapchick2018} that 85\% of sports editors were white, and 80.3\% and 82.1\% of columnists and reporters were white, respectively.
+discrepancy in both players of colour and people of colour not only in team coaching and executive positions \footnote{\url{https://bit.ly/3gxzsEu}}, but in
+reporting roles in mainstream media \footnote{\url{https://bit.ly/3mvzsbI}}. In the 2020/2021 season of the NFL, players of colour accounted for 69.4\% of 
+all players, while there were only 4 head coaches of colour in the league in that same season (12.5\% of all head coaches). Similarily, it was found that 85\% 
+of sports editors were white, and 80.3\% and 82.1\% of columnists and reporters were white, respectively.
 
 \begin{figure}[hb]
   \centering
   \begin{minipage}{1\textwidth}
     \centering
     \includegraphics[width=1\linewidth]{Figures/Female_Enrolled_v_Disciplined.png}
-    \captionof{figure}{Comparison of Racial Representation Among Enrolled Vs. Disciplined Females \citep{WrightRobin}}
+    \captionof{figure}{Comparison of Racial Representation Among Enrolled Vs. Disciplined Females}
     \label{fig:Female_Rep}
   \end{minipage}%
 \end{figure}
@@ -193,13 +197,13 @@ all players, while there were only 4 head coaches of colour in the league in tha
 Implicit bias has been described by \citet{imp_bias} as attitudes that subconsciously affect our actions and decisions. These attitudes can be either
 positive or negative, and are activated unintentionally. This is the opposit of explicit(or conscious) bias, where attitudes are intentionally affecting our
 actions. Given how implicit bias is present in every one of us, it can take many different forms in many different areas of life. For example in education, 
-a study by \citet{WrightRobin} examined the rates of disciplinary actions in the Ohio education system faced not only by students of different races but also compared those rates on a per gender 
-basis. It was found that:
+a study \footnote{\url{http://kirwaninstitute.osu.edu/implicit-bias-training/resources/race-matters.pdf}} examined the rates of disciplinary actions in the 
+Ohio education system faced not only by students of different races but also compared those rates on a per gender basis. It was found that:
 \begin{itemize}
   \item black students received a disproportionate amount of discipline compared to their percentage of enrollment.
   \item black female students experienced the highest level of overrepresentation.
 \end{itemize}
-This clearly shows how prevalent and damaging bias can be.
+This clearly shows how prevalent and damaging bias can be. The study's results can be seen in \hyperref[fig:Female_Rep]{Figure 1.3}.
 \subsection{Bias in Media}
 Media has long played a role in shaping how some people view minority groups and race at large \citep{Greenberg2002Minorities}.
 \citet{mediastudy} found the existence of both gender and racial stereotyping on television. Viewing women and minority
@@ -221,10 +225,10 @@ This thesis is divided into seven chapters.
 \begin{itemize}
   \item Chapter 1 provides background information and puts the investigation into context.
   \item Chapter 2 reviews current work in this domain, as well as literature review of papers on media bias, classification algoritms, and sentiment analysis techniques.
-  \item Chapter 3 is a detailed look at the models created to both analyse player sentiment and classify player ethicity.
+  \item Chapter 3 is a detailed look at the methods used to both analyse player sentiment and classify player ethicity.
   \item Chapter 4 describes the data created for and during the experiments.
   \item Chapter 5 details the experimental settings.
-  \item Chapter 6 provides the experiment results and interpretation.
+  \item Chapter 6 provides experiment results and interpretation.
   \item Chapter 7 gives a final review of the results in the context of the aim of this paper.
 \end{itemize}
 
@@ -268,7 +272,7 @@ Furthermore, \citet{BalancingMethods} also found that random over-sampling was l
 
 \section{Existing Work on Sports Media}
 American sports, with American Football and the National Basketball League (NBA) specifically, are in a unique position, with the majority
-of their players being non-white but other positions, beit coaching positions, executive positions or media positions being of a white majority \citep{Lapchick2020}.
+of their players being non-white but other positions, beit coaching positions, executive positions or media positions being of a white majority \footnote{\url{https://bit.ly/3gxzsEu}}.
 This has caused the two sports to be scrutinized more than most for bias in their respective media.
 Studies have been conducted into the language used by television announcers or commentators. They give play-by-play description of what is happening at any given
 time during the game. More often than not they are paired with an analyst, whose role is to provide expert analysis and background information about a player or team. 
@@ -303,7 +307,8 @@ The data needed to perform the experiments proposed was not available from any r
 be obtained from the official NFL.com website \footnote{\url{https://www.nfl.com/draft/tracker/picks?year=2021}}. Beautiful Soup \footnote{\url{https://beautiful-soup-4.readthedocs.io/en/latest/}} (BS)
 was used to obtain all player information from the most recent (2021) draft. Here is where the player in-depth profile URL link was also captured, which will also be parsed to find information to
 make up the scouting report column of the datasets. As the web page in question uses Javascript to load its content, Chromium and Selenium was used to connect to the web page and allow the content to load before obtaining the information
-needed to create the datasets. The page's Javascript loaded every player name, player position and player profile URL link under the same CSS tag, allowing for functions to iteratively grab the data.
+needed to create the datasets. The page's Javascript loaded every player name, player position and player profile URL link under the same CSS tag, allowing for functions to iteratively grab the data. Part of the web page
+can be seen in \hyperref[fig:NFL_draft]{Figure 3.1}.
 The player scouting report was was obtained in a similar manner, using the aforementioned URL link with BS to get the player strength and weaknesses. The final column of the dataset, player race, 
 was manually added, as there is no record of it on the web pages parsed. Each row in the dataset consists of many sentences pertaining to one player. To test the the different machine learning algorithms 
 on how much information they need, the master dataset was split into 1-sentence, 2-sentence, and 5-sentence datasets. For more information on all the datasets created, see \hyperref[sec:class_data]{Chapter 4}.
@@ -324,7 +329,9 @@ The Harvard General Inquirer dictionary is available to download for use from th
 dictionary of key-value pairs was created, the key being a stemmed word from the GI dictionary file and the values being each sentiment associated with it. With this dictionary, new datasets were created by 
 applying the dictionary to the datasets created in the section above. This created a GI tagged version of the 1-sentence, 2-sentence, 5-sentence, and master dataset. The 1 sentence GI tagged 
 dataset is what shall be used to perform the sentiment analysis experiment described later in the chapter.
-
+The Harvard GI dictionary was also used to created an integer tagged version of the 1-sentence, 2-sentence, 5-sentence and master dataset. The dataset(s) columns were every GI tag found in the master dataset and 
+the players ethnicity. Each row contained either a 1, indicating the gi tag was present in some sentence, or a 0, to indicate no presence of the tag. This was done in an attempt to improve the accuracy and f1-score Of
+the GI tagged version of the aforementioned datasets. This collection of datasets shall be henceforth referred to as the binary-GI tagged group of datasets.
 
 \section{Classification}
 \label{sec:sci-kit_label}
@@ -342,9 +349,10 @@ Specifically:
 After this pre-processing, each report instance was then converted to a matrix of token counts through vectorization.
 
 \subsection{Data Imbalance}
-The data imbalance in the datasets in this thesis was rectified through oversampling of the minority, in this case white player, class. To do this, the imbalanced-learn libary \citep{imb-learn} is used.
+The data imbalance in the datasets in this thesis was rectified through oversampling of the minority, in this case white player, class. To do this, the \texttt{imbalanced-learn} libary \citep{imb-learn} is used.
 Imbalanced-learn is an MIT-licensed library that uses scikit-learn that provided tools to deal with imbalanced classes during classification problems. It is an open source library that has
-both under-sampling and over-sampling methods. It is also fully compatible with scikit-learn features. In this experiment, an imbalanced-learn pipeline was used.
+both under-sampling and over-sampling methods. It is also fully compatible with scikit-learn features. In this experiment, an imbalanced-learn pipeline was used. Over-sampling was implemented to oversample
+the minority class and thus even the dataset.
 
 \subsection{Algorithms}
 To explore how many sentences are needed to produce the most accurate result, different ML algorithms were used. All algorithms were implemented with scikit-learn \citep{scikit-learn} 
@@ -413,7 +421,7 @@ For the classification experiment, 4 different datasets were created. As mention
     \item TE - Tight End.
     \item WR - Wide Receiver.
   \end{itemize}
-  \item Scouting Report Sentence(s) - These are sentences taken from a players strength and weaknesses as described on NFL.com.
+  \item Scouting Report Sentence(s) - These are sentences taken from a players strength and weaknesses list as described on NFL.com.
   \item Player Race - player race is denoted as either \textbf{W} - White or \textbf{NW} - Non-White.
 \end{itemize}
 
@@ -434,9 +442,10 @@ This is the first dataset that was obtained, and is refered to in this paper as 
     \label{fig:master_dataset_sample}
   \end{minipage}%
 \end{figure}
-
+Some of this master dataset can be seen in \hyperref[fig:master_dataset_sample]{Figure 4.1}.
 \subsection{1-Sentence Dataset}
-This dataset is the master dataset split into 1-sentence rows. It consists of 4511 player rows. Of those rows, 3726 have been classified as NW and 785 have been classed as W.
+This dataset is the master dataset split into 1-sentence rows. It consists of 4511 player rows. Of those rows, 3726 have been annotated as NW and 785 have been classed as W. An example of
+this dataset can be seen below in \hyperref[fig:1-sentence_dataset_sample]{Figure 4.2}.
 
 \begin{figure}[hb]
   \centering
@@ -451,12 +460,22 @@ This dataset is the master dataset split into 1-sentence rows. It consists of 45
 \subsection{2-Sentence Dataset}
 This data has also been garnered from the master dataset, with each row having 2 non-repeating sentences. As some players had a number of scouting report sentences not divisible by 2,
 a random, previously seen sentence of theirs was randomly added to the data to complete that 2-sentence row. This was done by using modulo to get the sentences that needed supplementing.
-There are 2448 rows in this dataset, 2022 of which are classified as NW and 426 as W. See \hyperref[chap:Figures]{Appendix B} for a 2-Sentence data example.
+There are 2448 rows in this dataset, 2022 of which are classified as NW and 426 as W. See \hyperref[fig:2-sentence_dataset_sample]{Figure 4.3} for a 2-Sentence data example.
+
+\begin{figure}[htb]
+  \centering
+  \begin{minipage}{1\textwidth}
+    \centering
+    \includegraphics[width=1\linewidth]{Figures/2_sentence.png}
+    \captionof{figure}{Random sample of 2-Sentence dataset rows}
+    \label{fig:2-sentence_dataset_sample}
+  \end{minipage}%
+\end{figure}
 
 \subsection{5-Sentence Dataset}
 Similar to the 2-sentence dataset, this data was also pulled from the master dataset. Modulus was also used here to find rows lacking the 5 sentences needed. A random sample, the size of the need
 of the row was taken from that players own pool of sentences. Steps were taken to ensure none of the sampled sentences were already part of the row in need. There are 1052 row in this dataset, 866 
-of which have been classified as NW and 186 classed as W.
+of which have been classified as NW and 186 classed as W. An example of this dataset is below.
 
 \begin{figure}[!htb]
   \centering
@@ -467,6 +486,7 @@ of which have been classified as NW and 186 classed as W.
     \label{fig:5-sentence_dataset_sample}
   \end{minipage}%
 \end{figure}
+
 
 \section{Sentiment Analysis Data}
 \label{sec:senti_data}
@@ -479,7 +499,17 @@ The dataset which the Python GI dictionary helps create is GI tag comparison dat
   \item \% of words with sentiment in non-white reports - The percentage of words that some GI tag is associated with in NW reports.
   \item Relative \% difference - The relative difference in occurences of a GI tag in W and NW reports
 \end{itemize}
-From these 156 tags, 56 were deemed as relevant, a sample of which can be seen \hyperref[chap:Figures]{in the Appendix}.
+From these 156 tags, 56 were deemed as relevant, a sample of which can be seen \hyperref[fig:GI_tag_comp]{Figure 4.5}.
+
+\begin{figure}[!htb]
+  \centering
+  \begin{minipage}{1\textwidth}
+    \centering
+    \includegraphics[width=1\linewidth]{Figures/enquirer.png}
+    \captionof{figure}{Random 10 tag sample of GI tag comparison dataset}
+    \label{fig:GI_tag_comp}
+  \end{minipage}%
+\end{figure}
 
 \subsection{GI Tagged Dataset}
 The GI tagged dataset is an almalgamation of the 1-Sentence dataset and the dataset filtered above. Given that one word can have many GI tags associated with it, this dataset contains
@@ -489,7 +519,7 @@ The GI tagged dataset is an almalgamation of the 1-Sentence dataset and the data
   \item Tag - A GI tag associated with a word in that sentence.
   \item Race - The players ethnicity.
 \end{itemize}
-
+See \hyperref[fig:1-sentence_gi_tag_example]{Figure 4.5} for an example of a sentence that has multiple GI tags associated with it.
 \begin{figure}[ht!b]
   \centering
   \begin{minipage}{1\textwidth}
@@ -499,38 +529,260 @@ The GI tagged dataset is an almalgamation of the 1-Sentence dataset and the data
     \label{fig:1-sentence_gi_tag_example}
   \end{minipage}%
 \end{figure}
+This was the data used to perform sentiment analysis on a tag-by-tag basis.
 
-\chapter{Experiments}
+
+\chapter{Experimental Settings}
 \label{chap:experiments}
-Your goal is to give a complete description of your experiments, sufficient for 
-another researcher to read your document and reproduce your results.
-
+Described below is the complete experimental settings of the classification and sentiment analysis experiments. All experiments were completed using Python and the settings have been written 
+to reflect this.
 \section{Classification Settings}
-can also talk about what and how preprocessing was done
+The classification experiment is the most setting intensive of the 2 experiments. All 12 sentence datasets were used here. Following from the model desribed in \hyperref[chap:methodology]{Chapter 3},
+the following settings were used to produce results. Before any experiments were run, text preprocessing was performed on the player report of the datasets that were read in:
+\begin{itemize}
+  \item With the NLTK library, stopword data was imported and set to 'english'.
+  \item All punctuation was removed using the \texttt{string} library.
+  \item Stemming was then done using NLTK's \texttt{PorterStemmer} function.
+\end{itemize}
+Each row of data was processed like this, the model extracting the processed player report and its label (W, NW). Scikit-learn's \texttt{{\it train{\_}test{\_}split}} function was then used to split the data into training
+and test sets. This function had 2 settings, the train/test size split, which was set to 75/25, and \texttt{shuffle}, a boolean on whether or not to shuffle the data before splitting. This was assigned to \texttt{True}.
+An instance of scikit-learn's \texttt{CountVectorizer} was then used. The function was given a ``strict'' setting in dealing with character it does not recognise. It was also set to also only vectorize unigrams. The vectorizer
+was then trained on the training set features and applied to.
 \subsection{Data Imbalance}
-imb pipeline settings
+Data imbalance was corrected using imbalanced-learn's {\it Pipeline} classs. It requires a list of inputs to transform and sample the data. In this experiments case, the class was given a sampling strategy to resample all classes but the majority class,
+and the ML algorithm to be used. Each ML algorithms settings are described in the \hyperref[sec:algor]{following subsection}.
 
 \subsection{Algorithms}
 \label{sec:algor}
-75/25 split, vectorization,
+Scikit-learn is used to implement all 4 ML algorithms used in this experiment. The library provides the ability to alter many aspects of each algorithm, so each algorithm's parameter were kept as default unless otherwise stated.
+\begin{itemize}
+  \item LR - This algorithm uses L2 regularization with a Limited-memory BGFS (Broyden-Fletcher-Goldfarb-Shanno) algorithm as its solver. The maximum amount of iterations for thes solver to converge has been set to 100.
+  \item NB - The scikit-learn class \texttt{MultinomialNB} was used to implement the Naive Bayesian algorithm. This is because it is able to use the vectorization for text classification. The additive Laplace smoothing parameter was set to 1.
+  \item SVM - The \texttt{SVC} (Support Vector Classification) class was used to imitate an SVM algorithm. A Radial Basis Function (RBF) was used as the kernel as it produced the best results. L2 regularization was also used.
+  \item SGD - The SGD algorithm is implemented using the \texttt{SGDClassifier} class. The algorithms loss function was the hinge loss function. Again, L2 was the penalty used. The alpha value used was set to 0.0001. This was used to computer
+              the learning rate as the learning rate parameter was set to ``optimal''. The training data for SDG was also shuffled after every epoch.
+\end{itemize}
+For each algorithm, the parameter \texttt{random\_state} was set to a constant integer number, for result reproducability.
 \subsection{Evaluation}
-eval settings - f1 score, cross Val Score settings, stratified fold settings
+10-fold cross validation was implemented using the \texttt{RepeatedStratifiedFold} class. 10 splits were specified for the number of folds. 3 cross-validator repeats were also specified. Score evaluation was then done through the \texttt{cross\_val\_score}
+function. This used the pipeline built, and accepted a data list of the sentences to classify and the data list of player race as its target variable. 2 scoring metrics were recorded, algorithm \texttt{accuracy} and algorithm \texttt{f1-score}. These scoring functions
+were passed into the \texttt{cross\_validate} evaluator. The result was the mean of the 10 scores, 1 from each of the folds performed. Experiment results and analysis is discussed in \hyperref[chap:results]{Chapter 6}.
 
 \section{Sentiment Analysis Settings}
-
+The sentiment analysis experiment uses a Python implementation of the Harvard GI dictionary, its creation discussed here. The \texttt{pysentiment2} \footnote{\url{https://pypi.org/project/pysentiment2/}} library was used to tokenize each player report column in each row. This library was used over other tokenization
+methods as it contains the Harvard GI dictionary as its library, an instance of which can be called for the purpose of tokenization. This was used to tokenize every player report sentence in the 1-sentence dataset, an example of which can be seen in  \hyperref[fig:1-sentence_gi_tag_example]{Figure 4.4}. \par
+This dataset, along with the maunually filtered GI tags list, is the input to the model that gets the average sentiment for each GI tag for all W and NW sentences associated with that tag. Each row in the dataset is read and the sentence's polarity calculated using \texttt{pysentiment2}'s tokenization and sentiment score
+functions. These functions were used in their default settings. The model then adds this polarity score to either the W polarity score or the NW polarity score. Once the dataset has been iterated through, it outputs the average W and NW polarity for the GI tag in question, as well as the difference between the two polarities. 
+The model produces this result for every GI tag it is given.
 
 \chapter{Results}
 \label{chap:results}
 Results first, using figures and tables, with little commentary and no interpretation.
 Then analysis and interpretation.
-
+The results chapter presents the findings from both experiments described in the Methodology and Experiments chapters.
 \section{Classification}
-\subsection{Experiment Results}
-\subsection{Interpretation}
-Remember to show examples
+This section presents results in relation to the classification experiment. Overall, 12 different datasets were passed through the model, totaling 96 outputted results between the accuracy and f1-score. 
+Both higher accuracy and F1-Score indicates better performance of the algorithm. From our results we can interpret how much information different algorithms need to produce the best results possible.\par
+
+\subsection{1-Sentence Results}
+\begin{table}[!h]
+  \begin{adjustbox}{center,max width=\linewidth}
+    \begin{tabular}{l|cccc}
+      \toprule
+      \bf Algorithm & \bf \stackbox[c]{Raw Sentences} & \bf \stackbox[c]{GI Tagged\\ Sentences}& \bf \stackbox[c]{Binary-GI \\Sentences}  \\
+      \midrule
+      Logistic Regression         & 0.71         & 0.645         & 0.565                \\
+      Naive Bayes                 & 0.681        & 0.628         & 0.579                \\
+      Support Vector Machine      & 0.806        & 0.723         & 0.682                \\
+      Stochastic Gradient Descent & 0.706        & 0.636         & 0.562                \\
+    \bottomrule
+    \end{tabular}
+  \end{adjustbox}
+  \caption{1-Sentence Classification Accuracy}
+  \label{tab:1S_accuracy}
+\end{table}
+
+\begin{table}[!h]
+  \begin{adjustbox}{center,max width=\linewidth}
+    \begin{tabular}{l|cccc}
+      \toprule
+      \bf Algorithm & \bf \stackbox[c]{Raw Sentences} & \bf \stackbox[c]{GI Tagged\\ Sentences}& \bf \stackbox[c]{Binary-GI \\Sentences} \\
+      \midrule
+      Logistic Regression             & 0.313        & 0.27         & 0.301              \\
+      Naive Bayes                     & 0.339        & 0.286        & 0.291              \\
+      Support Vector Machine          & 0.181        & 0.239        & 0.251              \\
+      Stochastic Gradient Descent     & 0.294        & 0.261        & 0.284              \\
+    \bottomrule
+    \end{tabular}
+  \end{adjustbox}
+  \caption{1-Sentence Classification F1-Scores}
+  \label{tab:1S_f1}
+\end{table}
+
+In the context of the 1-Sentence datasets, Table 6.1 shows that the SVM algorithm produced the best classification accuracy results across all 3 different dataset types. LR, NB, and SGD all had similar scores
+across the 3 dataset types. Overall, the raw sentences version of the 1-Sentence dataset gave the highest accuracy, with the GI Tagged 1-Sentence giving the 2nd highest results. \par
+The NB algorithm gave the single highest F1-score, and was consistently high overall. Again, SGD and LR shared similar results. SVM produced the worst F1-Scores in Table 6.2 for each of the 3 dataset types.
+
+\subsection{2-Sentence Results}
+\begin{table}[!h]
+  \begin{adjustbox}{center,max width=\linewidth}
+    \begin{tabular}{l|cccc}
+      \toprule
+      \bf Algorithm & \bf \stackbox[l]{Raw Sentences} & \bf \stackbox[c]{GI Tagged\\ Sentences}& \bf \stackbox[c]{Binary-GI \\Sentences}  \\
+      \midrule
+      Logistic Regression         & 0.754        & 0.691         & 0.603                \\
+      Naive Bayes                 & 0.746        & 0.675         & 0.603             \\
+      Support Vector Machine      & 0.83         & 0.77          & 0.738          \\
+      Stochastic Gradient Descent & 0.759        & 0.689         & 0.616               \\
+    \bottomrule
+    \end{tabular}
+  \end{adjustbox}
+  \caption{2-Sentence Classification Accuracy}
+  \label{tab:2S_accuracy}
+\end{table}
+
+\begin{table}[!h]
+  \begin{adjustbox}{center,max width=\linewidth}
+    \begin{tabular}{l|cccc}
+      \toprule
+      \bf Algorithm & \bf \stackbox[l]{Raw Sentences} & \bf \stackbox[c]{GI Tagged\\ Sentences}& \bf \stackbox[c]{Binary-GI \\Sentences} \\
+      \midrule
+      Logistic Regression             & 0.333       & 0.257         & 0.311                  \\
+      Naive Bayes                     & 0.396       & 0.293         & 0.3                \\
+      Support Vector Machine          & 0.19        & 0.218         & 0.253                  \\
+      Stochastic Gradient Descent     & 0.308       & 0.246         & 0.294                 \\
+    \bottomrule
+    \end{tabular}
+  \end{adjustbox}
+  \caption{2-Sentence Classification F1-Scores}
+  \label{tab:2S_f1}
+\end{table}
+
+From Table 6.3, again the SVM algorithm has the best accuracy results, in this case for the 2-Sentence datasets. Each of the other 3 algorithms scored similarily
+in each of the 3 dataset types. The raw sentence dataset type produced the highest accuracy in all 4 machine learning algorithms. The Binary-GI tagged
+sentences had the worst accuracy performance for each algorithm.\par
+Table 6.4 indicates that the NB algorithm produced the highest F1-Scores in the Raw Sentences and GI Tagged Sentences datasets. LR and SGD had similar results here too. SVM produced the
+lowest F1-Scores in each dataset type. Like the 1-Sentence dataset, the raw sentences dataset type performed the best.
+
+\subsection{5-Sentence Results}
+
+\begin{table}[!h]
+  \begin{adjustbox}{center,max width=\linewidth}
+    \begin{tabular}{l|cccc}
+      \toprule
+      \bf Algorithm & \bf \stackbox[l]{Raw Sentences} & \bf \stackbox[c]{GI Tagged\\ Sentences}& \bf \stackbox[c]{Binary-GI \\Sentences}  \\
+      \midrule
+      Logistic Regression         & 0.816        & 0.732         & 0.723                \\
+      Naive Bayes                 & 0.833        & 0.739         & 0.686             \\
+      Support Vector Machine      & 0.842        & 0.742         & 0.771          \\
+      Stochastic Gradient Descent & 0.816        & 0.738         & 0.735               \\
+    \bottomrule
+    \end{tabular}
+  \end{adjustbox}
+  \caption{5-Sentence Classification Accuracy}
+  \label{tab:5S_accuracy}
+\end{table}
+
+\begin{table}[!h]
+  \begin{adjustbox}{center,max width=\linewidth}
+    \begin{tabular}{l|cccc}
+      \toprule
+      \bf Algorithm & \bf \stackbox[l]{Raw Sentences} & \bf \stackbox[c]{GI Tagged\\ Sentences}& \bf \stackbox[c]{Binary-GI \\Sentences} \\
+      \midrule
+      Logistic Regression             & 0.459       & 0.285          & 0.32                  \\
+      Naive Bayes                     & 0.55        & 0.312          & 0.328                \\
+      Support Vector Machine          & 0.253       & 0.242          & 0.249                  \\
+      Stochastic Gradient Descent     & 0.399       & 0.263          & 0.298                 \\
+    \bottomrule
+    \end{tabular}
+  \end{adjustbox}
+  \caption{5-Sentence Classification F1-Scores}
+  \label{tab:5S_f1}
+\end{table}
+
+From Table 6.5, it can be seen that all 4 algorithms performed well on the raw sentences dataset, each scoring over 80\% accuracy. SVM and NB had the
+highest results overall, though all 4 algorithms scored similarily. Raw Sentences again had the highest accuracy, with the GI Tagged and Binary-GI sentences
+reporting similar accuracy results for each of the algorithms used.  \par
+In Table 6.6, NB has the best F1-score in all of the 5-Sentence dataset types, followed by LR. In the 5-sentence experiment, a clear separation can be seen between 
+the 4 machine learning algorithms. The Binary-GI dataset outperformed the GI Tagged dataset here. SVM performed the worst of the 4 algorithms in each dataset type.
+
+\subsection{All Sentence Results}
+
+\begin{table}[!h]
+  \begin{adjustbox}{center,max width=\linewidth}
+    \begin{tabular}{l|cccc}
+      \toprule
+      \bf Algorithm & \bf \stackbox[l]{Raw Sentences} & \bf \stackbox[c]{GI Tagged\\ Sentences}& \bf \stackbox[c]{Binary-GI \\Sentences}  \\
+      \midrule
+      Logistic Regression         & 0.824         & 0.774         & 0.723                \\
+      Naive Bayes                 & 0.829        & 0.829          & 0.686             \\
+      Support Vector Machine      & 0.828        & 0.781          & 0.771          \\
+      Stochastic Gradient Descent & 0.828        & 0.787          & 0.735               \\
+    \bottomrule
+    \end{tabular}
+  \end{adjustbox}
+  \caption{All-Sentence Classification Accuracy}
+  \label{tab:All_S_accuracy}
+\end{table}
+
+\begin{table}[!h]
+  \begin{adjustbox}{center,max width=\linewidth}
+    \begin{tabular}{l|cccc}
+      \toprule
+      \bf Algorithm & \bf \stackbox[l]{Raw Sentences} & \bf \stackbox[c]{GI Tagged\\ Sentences}& \bf \stackbox[c]{Binary-GI \\Sentences} \\
+      \midrule
+      Logistic Regression             & 0.431        & 0.266         & 0.304                  \\
+      Naive Bayes                     & 0.457        & 0.28          & 0.262                \\
+      Support Vector Machine          & 0.047        & 0.405         & 0.169                  \\
+      Stochastic Gradient Descent     & 0.391        & 0.261         & 0.261                 \\
+    \bottomrule
+    \end{tabular}
+  \end{adjustbox}
+  \caption{All-Sentence Classification F1-Scores}
+  \label{tab:All_S_f1}
+\end{table}
+
+In Table 6.7, it can be seen that all 4 algorithms performed very similarily on the all-sentence \footnote{The all-sentence datasets is the master dataset, the master dataset GI Tagged and Binary-GI'ed}, 
+raw sentences dataset type. NB had the highest accuracy for the GI Tagged dataset and the lowest accuracy on the Binary-GI dataset type. LR and SGD had similar accuracy across all dataset types. The raw sentence
+dataset type lent itself to providing the highest accuracy. Binary-GI produced slightly worse accuracy results than GI Tagged. \par
+Table 6.8 shows that the NB algorithm produced the best F1-Score for Raw Sentences, SVM produced the highest F1-Score for the GI Tagged sentences, and LR the highest for Binary-GI. SVM produced poor results
+for both Raw Sentences and Binary-GI. As a whole, Raw Sentences provided the highest F1-Scores, while GI Tagged and Binary-GI gave similar scores.
+
+
+\subsection{Results Interpretation}
+From the results of each of the 4 (1-Sentence, 2-Sentence, 5-Sentence, All-Sentence) sentence level experiments, several interpretations can be made, firstly with regards to accuracy:
+\begin{itemize}
+  \item Of the 3 dataset types (Raw Sentences, GI Tagged, Binary-GI) it is clear that the Raw Sentences version of each of the 4 sentence levels produced the highest accuracy, regardless of what algorithm was used. The Raw
+        Sentences 4 gave a mean accuracy of 78.8\%, with GI Tagged and Binary-GI only achieving accuracy levels of 72.3\% and 65.7\% respectively.
+  \item The SVM algorithm stood out as having the highest accuracy overall, with the algorithm averaging an accuracy of 77.2\% across all dataset types and sentence levels. The other 3 algorithms varied in their
+         accuracy standings across the 4 sentence levels, but had extremely similar average accuracy with, SGD averaging 70.8\%, LR averaging 70.7\%, and NB averaging 70.6\%.
+  \item Another result we can extrapolate from the tables shown is the accuracy on a sentence level to sentence level basis across the 3 dataset types. The 1-Sentence, 2-Sentence, 5-Sentence, All-Sentence dataset had an average
+        accuracy of 66\%, 70.6\%, 74.4\%, and 78.3\% respectively. This shows that the more data in the scouting report available to each algorithm, the better it can classify the player.
+\end{itemize} 
+
+The F1-Score results shall also be discussed. One generic finding from the F1-Score is that LR, NB, and SGD had a higher recall metric score than precision score. The SVM F1-Scores always produced a balance of the two metrics. 
+Several more interpretations can be made from the F1-Score results:
+\begin{itemize}
+  \item Like the accuracy results, the Raw Sentence version of each of the 4 sentence levels gave the highest F1-Score in comparison to GI tagged and Binary-GI, achieving an average F1-Score of 0.34, compared to GI tagged's 0.27 
+         and Binary-GI's 0.28. Binary-GI's F1-Score being similar to GI Tagged was unexpected given that GI Tagged far outperforms Binary-GI in terms of accuracy.
+  \item The NB algorithm had the highest average F1-Score across all dataset types and sentence levels, with a score of 0.34,. LR was second best in this respect,
+        averaging 0.32. SGD averaged 0.30. SVM performed by far the worst, averaging only 0.22. This is due to the fact that the other 3 algorithms recall was much higher than SVM's at every sentence level with every dataset type.
+  \item Finally, the 5-Sentence type had the highest average F1-Score of the 4 sentence levels, averaging 0.33. The 1-Sentence, 2-Sentence and All-Sentence were bunched together in terms of score, achieving an average of 0.28, 0.28, and
+        0.29 respectively. This means that the NB algorithm on the 5-Sentence Raw Sentence dataset had the best individual score with 0.55.
+\end{itemize}
+
+Overall, this experiment showed that the Raw Sentence type was the best for text classification regardless of sentence level. This is because of how well the word vectorizer works with sentence data. It also showed that the Binary-GI was the worst
+dataset type for classification. This is due to the sparse nature of the dataset, as only a 5 to 10 columns would be set to 1 on each row. The number of features was also a cause of low performance, as the dataset had 156 features, 1 feature for every 
+GI Tag found in all the data. Something interesting from these results was the difference in result order of the algorithms between accuracy and F1-score. Accuracy results went: SVM with the highest average, then SGD, then LR, then NB. F1-Scores was the 
+reverse of this: NB producing the highest, LR, SGD, and SVM following in that order. One of the reasons is because of NB, LR, and SGD's high recall metrics. High precision was the reason SVM was able to achieve such high accuracy. \par
+From the classification accuracy produced in this paper, it can be concluded that \textbf{W} and \textbf{NW} players can be classified to a high degree of accuracy using machine learning methods of text classification. 
 
 \section{Sentiment Analysis}
+
 \subsection{Experiment Results}
+figs and tables
+
+
 \subsection{Interpretation}
 Remember to show examples
 
@@ -541,9 +793,16 @@ Here you must zoom back out to evaluate the thesis. Mention limitations and weak
 \section{Thesis Evaluation}
 What i wanted to do, and what i learned
 \subsection{Contributions}
+datasets created, 1,2,5 and 1-GI tagged. showed ML strengths.  
 \subsection{Weaknesses}
 what is a significant difference for sentiment analysis score?
+dataset small as oversampling needed.
+No DeepL methods for classification.
+choosing GI tags when filtering
 \section{Future Work}
+DeepL methods for classification.
+Classify on GI tags of sentences
+bigger dataset
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \bibliographystyle{plainnat}                  % to give author-year style
@@ -556,30 +815,7 @@ what is a significant difference for sentiment analysis score?
 \appendix
 \chapter{Code} 
 \label{chap:Code}
-
-\chapter{Figures} 
-\label{chap:Figures}
-
-\begin{figure}[htb]
-  \centering
-  \begin{minipage}{1\textwidth}
-    \centering
-    \includegraphics[width=1\linewidth]{Figures/2_sentence.png}
-    \captionof{figure}{Random sample of 2-Sentence dataset rows}
-    \label{fig:2-sentence_dataset_sample}
-  \end{minipage}%
-\end{figure}
-
-
-\begin{figure}[!htb]
-  \centering
-  \begin{minipage}{1\textwidth}
-    \centering
-    \includegraphics[width=1\linewidth]{Figures/enquirer.png}
-    \captionof{figure}{Random 10 tag sample of GI tag comparison dataset}
-    \label{fig:GI_tag_comp}
-  \end{minipage}%
-\end{figure}
+See \href{https://github.com/EoghanOGallchoir/Thesis_Code}{GitHub repository} for thesis code and data (repo currently private).
 
 
 \end{document}

@@ -1,4 +1,4 @@
-\begin{thebibliography}{25}
+\begin{thebibliography}{19}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -15,11 +15,12 @@ Gustavo E. A. P.~A. Batista, Ronaldo~C. Prati, and Maria~Carolina Monard.
 \newblock \doi{10.1145/1007730.1007735}.
 \newblock URL \url{https://doi.org/10.1145/1007730.1007735}.
 
-\bibitem[Castañeda(2018)]{Castaneda}
-Mari Castañeda.
+\bibitem[Casta{\~n}eda(2018)]{Castaneda}
+M.~Casta{\~n}eda.
 \newblock The power of (mis)representation: Why racial and ethnic stereotypes
   in the media matter.
-\newblock Technical report, University of Massachusetts Amherst, 2018.
+\newblock In \emph{The Power of (Mis)Representation: Why Racial and Ethnic
+  Stereotypes in the Media Matter}, 2018.
 
 \bibitem[Dharmadhikari et~al.(2011)Dharmadhikari, Ingle, and
   Kulkarni]{Dharmadhikari2011EmpiricalSO}
@@ -32,24 +33,17 @@ S.~Dharmadhikari, M.~Ingle, and P.~Kulkarni.
 \bibitem[Greenberg et~al.(2002)Greenberg, Mastro, and
   Brand]{Greenberg2002Minorities}
 B.~Greenberg, Dana~E. Mastro, and Jeffrey~E. Brand.
-\newblock Minorities and the mass media: Television into the 21st century,
-  2002.
+\newblock Minorities and the mass media: Television into the 21st century.
+\newblock In \emph{Minorities and the mass media: Television into the 21st
+  century}, 2002.
 
-\bibitem[Kelly(2021)]{KellyRinger}
-Danny Kelly.
-\newblock Nfl draft guide.
-\newblock https://nfldraft.theringer.com/mock-draft, 2021.
-
-\bibitem[Lapchick(2018)]{Lapchick2018}
-Richard~E. Lapchick.
-\newblock \emph{The 2018 Associated Press Sports Editors Racial and Gender
-  Report Card}.
-\newblock TIDES, 2018.
-
-\bibitem[Lapchick(2020)]{Lapchick2020}
-Richard~E. Lapchick.
-\newblock \emph{The 2020 Racial and Gender Report Card}.
-\newblock TIDES, 2020.
+\bibitem[Harrison(2000)]{Viklund2009}
+C.~Keith Harrison.
+\newblock Chapter seven: Brains, brawn, and pigskin balls: Racism and athletic
+  manifestation in society.
+\newblock \emph{Counterpoints}, 107:\penalty0 103--121, 2000.
+\newblock ISSN 10581634.
+\newblock URL \url{http://www.jstor.org/stable/42975921}.
 
 \bibitem[Lema{{\^i}}tre et~al.(2017)Lema{{\^i}}tre, Nogueira, and
   Aridas]{imb-learn}
@@ -85,23 +79,12 @@ Fang Miao, Pu~Zhang, Libiao Jin, and Hongda Wu.
   2018.
 \newblock \doi{10.1109/IHMSC.2018.10117}.
 
-\bibitem[Miklius(2019)]{qbSuccess}
-Michael Miklius.
-\newblock Nfl draft prep: How successful are first round picks?
-\newblock https://football.pitcherlist.com/pessimists-guide-to-the-nfl-draft/,
-  2019.
-
 \bibitem[Mouthami et~al.(2013)Mouthami, Devi, and Bhaskaran]{SentiAnalysis}
 K.~Mouthami, K.~Nirmala Devi, and V.~Murali Bhaskaran.
 \newblock Sentiment analysis and classification based on textual reviews.
 \newblock In \emph{2013 International Conference on Information Communication
   and Embedded Systems (ICICES)}, pages 271--276, 2013.
 \newblock \doi{10.1109/ICICES.2013.6508366}.
-
-\bibitem[NCAA(2019)]{NCAA}
-NCAA.
-\newblock Division i schools.
-\newblock https://www.ncaa.org/about/division-i-schools, 2019.
 
 \bibitem[Pedregosa et~al.(2011)Pedregosa, Varoquaux, Gramfort, Michel, Thirion,
   Grisel, Blondel, Prettenhofer, Weiss, Dubourg, Vanderplas, Passos,
@@ -165,19 +148,6 @@ Cheryl Staats, Kelly Capasto, Lena Tenney, and Sarah Mamo.
 Philip~J. Stone, Dexter~C. Dunphy, Marshall~S. Smith, and Daniel~M. Ogilvie.
 \newblock \emph{The General Inquirer: A Computer Approach to Content Analysis}.
 \newblock MIT Press, Cambridge, MA, 1966.
-
-\bibitem[Viklund(2009)]{Viklund2009}
-Pat Viklund.
-\newblock \emph{Brains versus Brawn: An Analysis of Stereotyping and Racial
-  Bias in National Football League Broadcasts}.
-\newblock PhD thesis, Boston College, 2009.
-
-\bibitem[Wright(2016)]{WrightRobin}
-Robin~A. Wright.
-\newblock Race matters... and so does gender.
-\newblock
-  http://kirwaninstitute.osu.edu/implicit-bias-training/resources/race-matters.pdf,
-  2016.
 
 \bibitem[Yadav and Shukla(2016)]{k-fold_cross}
 Sanjay Yadav and Sanyam Shukla.
