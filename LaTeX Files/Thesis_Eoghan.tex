@@ -38,8 +38,15 @@
 \usepackage{makecell}
 \usepackage{booktabs}
 \usepackage{adjustbox}
-
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows}
 \setstretch{1.5}
+\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=black, fill=red!30]
+\tikzstyle{io} = [trapezium, trapezium left angle=70, trapezium right angle=110, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=blue!30]
+\tikzstyle{process} = [rectangle, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=orange!30]
+\tikzstyle{decision} = [diamond, minimum width=3cm, minimum height=1cm, text centered, text width=3cm, draw=black, fill=green!30]
+\tikzstyle{arrow} = [thick,->,>=stealth]
+
 %\onehalfspacing
 % SPECIAL COMMANDS
 % correct bad hyphenation
@@ -57,7 +64,7 @@
 
 
 % HEADER
-\title{\Large{An Investigation into Biased Language in the American Sport Industry}}
+\title{\Large{Using Language Processing Techniques to Measure Bias in the American Football Media Industry}}
 
   \author{Eoghan Ó Gallchóir (16339936)}
   \collegeordept{School of Computer Science}
@@ -73,7 +80,7 @@
 % text before "In partial fulfillment of the requirements for the degree of" in .cls file/line 153\
 % replace PROGRAMME with Data Analytics, Artificial Intelligence, or Artificial Intelligence - Online
 \degree{MSc in Artificial Intelligence}
-\degreedate{August 26, 2021}
+\degreedate{August 30, 2021}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% uncomment if glossary needed, see examples in file
@@ -97,7 +104,7 @@
 % replace PROGRAMME with Data Analytics, Artificial Intelligence, or Artificial Intelligence - Online
 \textbf{DECLARATION} 
 
-I, Eoghan Ó Gallchóir, do hereby declare that this thesis entitled {\it An Investigation into Biased Language in the American Sport Industry},
+I, Eoghan Ó Gallchóir, do hereby declare that this thesis entitled {\it Using Language Processing Techniques to Measure Bias in the American Football Media Industry},
  is a bonafide record of research work done by me for the award of MSc in Artificial Intelligence from National University of Ireland, Galway. 
  It has not been previously submitted, in part or whole, to any university or institution for any degree, diploma, or other qualification. 
 \newline
@@ -118,7 +125,11 @@ Signature: {\ECFJD~~Eoghan Ó Gallchóir~~}
 % THESIS ABSTRACT
 \begin{abstracts}
 %The abstract should summarize the substantive results of the work and not merely list topics to be discussed. An abstract is an outline/brief summary of your paper and your whole project ... 
-To do after results have been determined
+This thesis uses language processing techniques to investigate bias between white and non-white players in the American football media industry. The work done in this thesis focuses on data found online, with 
+text classification and sentiment analysis being performed on the datasets created. The main aim is to find if language used to decribe American football players was biased in some way. One method is to use
+a different number of machine learning algorithms to perform text classification on the data obtained from American football media sources. Given that this data has a severe imbalance, balancing methods are
+also implemented. Another method is to use a General Inquirer dictionary to attach categories to sentences, and then perform sentiment analysis on those sentences. The final results from both experiments is that
+there is a bias to be found from media sources when writing about white and non-white players.
 %It should be terse and usually written in the present tense and impersonal style: "A new graph community detection algorithm is proposed based on spectral features. It is compared against several strong baselines ...".
 
 \textbf{Keywords: } Machine Learning, Natural Language Processing, Harvard General Inquirer, Sentiment Analysis, Text Classification
@@ -135,8 +146,9 @@ To do after results have been determined
 \chapter{Introduction}
 \label{chap:introduction}
 \setcounter{page}{7}
-The work carried out in this project involves classifying sentiment towards white and non-white
-American football players. This is done through machine learning models.
+The work carried out in this project involves classifying sentiment towards white and non-white American football players. This is done through machine learning models. Classification shall be carried out on football player scouting
+reports, with accuracy and f1-score being the measure of machine learning algorithms performance. Another experiment that shall be implemented is the sentiment analysis of the same scouting reports. NLP preprocessing and tokenisation 
+techniques shall be an integral part of both experiments. \par
 
 \section{Background}
 When players first enter any of the 4 major American sports (baseball, basketball, football and hockey) they are
@@ -235,17 +247,24 @@ This thesis is divided into seven chapters.
 
 \chapter{Literature Review}
 \label{chap:lit_review}
-This chapter covers existing literature that relate to the core topics of this thesis.
+This chapter covers existing literature that relate to the core topics of this thesis. The core topics of this thesis are:
+\begin{itemize}
+  \item Sentiment Analysis - This is the process of classifying emotion expressed by a text.
+  \item Using Inquirer Dicitonaries - These are tools that assign words to dictionary-supplied categories.
+  \item Text Classification - A machine learning technique that uses an algorithm to assign text a pre-defined label.
+  \item Data Imbalance - When a dataset has an uneven class distribution.
+\end{itemize} \par
+
 \section{Sentiment Analysis}
 \subsection{Basic Classification}
-Sentiment analysis is the process in which the attitude or emotion expressed by a text is classified. This is done through natural language processing techniques. The rise of social media applications, Twitter in particular, 
+This is done through natural language processing techniques. The rise of social media applications, Twitter in particular, 
 has only increased interest in sentiment analysis. As NFL scouting reports are subjective, opinion-based documents, it is important to understand current classification methods of textual reviews. Experiments conducted by 
 \citet{SentiAnalysis} showed that sentiment analysis of textual (in their case movie reviews) reviews could be classified at a document level. The research conducted does prove that large scale sentiment analysis of documents can
 produce concrete results due to its use of the Cornell movie-review corpora. However, documents were not classified beyond positive and negative sentiment. While this binary classification is somewhat useful,
 no specific information can be obtained from this, which is why Inquirer dictionaries shall be utilised in experiments conducted in later chapters of this paper.
 
 \subsection{Using an Inquirer Dictionary}
-Inquirer dictionaries are essentially tools to map words to dictionary-supplied categories. The General Inquirer (GI) dictionary is the most widely used in semantic analysis research, containing over 182 categories in all \citep{stone66}, 
+The General Inquirer (GI) dictionary is the most widely used in semantic analysis research, containing over 182 categories in all \citep{stone66}, 
 far surpassing simple positive or negative sentiment that we have seen before. Currently, this dictionary is a combination of the Harvard IV-4, the Lasswell dictionaries, as well as contributions based on the social cognition work of 
 Semin and Fiedler. A study by \citet{SentiGI} uses this GI dictionary to perform computer-assisted semantic analysis on product reviews on consumer opinion web sites. Outside of the positive and negative tags, 11 categories 
 were found relevant to their research. Pollach's findings corroborated earlier experiments pertaining to word frequencies, causing them to conclude that these product reviews follow ``implicit genre rules regarding content, format 
@@ -253,26 +272,26 @@ and language''. This analysis shows that using an Inquirer dictionary yields res
 in the Experiments chapter of this paper will have a similar corpus scope, and it is promising that multiple Inquirer categories were still discovered. A similar or higher number of categories should be found in the subject of NFL scouting reports.
 
 \section{Text Classification with Machine Learning Algorithms}
-Text classification is one of the core topics of this paper, and shall be the subject of one of the experiments performed in the experiments chapter. \citet{Chinese_textC} showed that the Support Vector Machine (SVM) algorithm was the most accurate for 
+Text classification is one of the core topics of this thesis, and shall be the subject of one of the experiments performed in the experiments chapter. \citet{Chinese_textC} showed that the Support Vector Machine (SVM) algorithm was the most accurate for 
 multi-label classification, albeit only slightly more accurate than the much quicker Naive Bayes (NB) algorithm. Due to this the SVM algorithm is only seen as appropriate for use with smaller datasets. The experiment is relevant to this paper due to the fact
 that both the SVM algorithm and Naive Bayesian algorithm was implemented by the scikit-learn package and produced desirable results. More information on scikit-learn can be found in \hyperref[sec:sci-kit_label]{section 3.3}. Another one of its strengths
-is the use of precision and recall in addition to the F1-score. This gives context to the F1-score. A weakness of this paper is that the smaller classes have better results than the big classes, which would lead to a reducution in expected accuracy under
+is the use of precision and recall in addition to the F1-score. This gives context to the F1-score. A weakness of this experiment is that the smaller classes have better results than the big classes, which would lead to a reducution in expected accuracy under
 practical circumstances.
 \paragraph{}
 \citet{Dharmadhikari2011EmpiricalSO} also posited that SVM is one of the most effective text classification algorithms due to its ability to manage large spaces of features. The two papers also agree its unwieldy comptuational 
-demands.The papers findings also takes into account NLP techniques and how it can be used to improve classification results. A major weakness of this paper is the lack of experiments showing its findings, focusing entirely on existing literature. Another
+demands.The study's findings also takes into account NLP techniques and how it can be used to improve classification results. A major weakness of this paper is the lack of experiments showing its findings, focusing entirely on existing literature. Another
 algorithm that can be used for text classification is Stochastic Gradient Descent (SGD). It performs well with sparse and high dimensional data \citep{SVM_SGD}. \citet{Arabic_SGD_LR} found that on large, multi-label datasets, both SGD and Logistic Regression
 had the highest F1-score in comparison to SVM and NB approaches.
 
 \section{Dataset Imbalance}
-Data imbalance occurs in many real world domains. Given that 70\% of NFL players are non-white, this applies to the problem domain of this paper. \citet{imbalanced_data} shows that imbalanced data affects the performance of normal classification, with balanced 
+Data imbalance occurs in many real world domains. Given that 70\% of NFL players are non-white, this applies to the problem domain of this thesis. \citet{imbalanced_data} shows that imbalanced data affects the performance of normal classification, with balanced 
 datasets achieving a higher average F1-score. It was found that the difference in classification performance between balanced and imbalanced data grew as the degree of imbalance distribution grew. One weakness of the experiments by \citet{imbalanced_data} 
 is that it did not involve any text classification, something that is a core component of the experiments proposed in later in this paper. Oversampling the minority class, especially in datasets with a large discrepancy provided good results \citep{BalancingMethods}.
 Furthermore, \citet{BalancingMethods} also found that random over-sampling was less computationally expensive than other methods to balance datasets. 
 
 \section{Existing Work on Sports Media}
 American sports, with American Football and the National Basketball League (NBA) specifically, are in a unique position, with the majority
-of their players being non-white but other positions, beit coaching positions, executive positions or media positions being of a white majority \footnote{\url{https://bit.ly/3gxzsEu}}.
+of their players being non-white but other positions, beit coaching positions, executive positions or media positions white in majority \footnote{\url{https://bit.ly/3gxzsEu}}.
 This has caused the two sports to be scrutinized more than most for bias in their respective media.
 Studies have been conducted into the language used by television announcers or commentators. They give play-by-play description of what is happening at any given
 time during the game. More often than not they are paired with an analyst, whose role is to provide expert analysis and background information about a player or team. 
@@ -295,35 +314,16 @@ but produced coherent results. 1,445 American football (both collegiate and NFL)
 susceptibility to noise ARK TweetNLP was used as it is more robust than conventional part-of-speech tagging methods. One of the outputs of this study was their {\it FOOTBALL} dataset,
 a large scale sports commentary corpus annotated with the race of the player, which is useful for any future work in bias of American football media. This paper is included here due to its
 sound technical foundations, and how it is possible to produce definitive results from processing the language associated with sport. It also only furthers the need to analyse
-scouting in this manner.
+scouting in this manner. \paragraph{}
 
-
+In this chapter, all topics integral to this thesis were discussed in detail. Sentiment analysis techniques were explored, GI dictionaries' importance were highlighted, difficulties surrounding
+text classification were discussed, and solutions to data imbalance were talked about.
 
 \chapter{Methodology}
 \label{chap:methodology}
-In this chapter, the method of sourcing the data is described. The classification and sentiment analysis experiments are also explained here ahead of their use in \hyperref[chap:experiments]{Chapter 5}.
-\section{Data Gathering}
-The data needed to perform the experiments proposed was not available from any resource online. Thus, web scraping techniques had to be implemented. It was decided upon that player data should
-be obtained from the official NFL.com website \footnote{\url{https://www.nfl.com/draft/tracker/picks?year=2021}}. Beautiful Soup \footnote{\url{https://beautiful-soup-4.readthedocs.io/en/latest/}} (BS)
-was used to obtain all player information from the most recent (2021) draft. Here is where the player in-depth profile URL link was also captured, which will also be parsed to find information to
-make up the scouting report column of the datasets. As the web page in question uses Javascript to load its content, Chromium and Selenium was used to connect to the web page and allow the content to load before obtaining the information
-needed to create the datasets. The page's Javascript loaded every player name, player position and player profile URL link under the same CSS tag, allowing for functions to iteratively grab the data. Part of the web page
-can be seen in \hyperref[fig:NFL_draft]{Figure 3.1}.
-The player scouting report was was obtained in a similar manner, using the aforementioned URL link with BS to get the player strength and weaknesses. The final column of the dataset, player race, 
-was manually added, as there is no record of it on the web pages parsed. Each row in the dataset consists of many sentences pertaining to one player. To test the the different machine learning algorithms 
-on how much information they need, the master dataset was split into 1-sentence, 2-sentence, and 5-sentence datasets. For more information on all the datasets created, see \hyperref[sec:class_data]{Chapter 4}.
+In this chapter, the classification and sentiment analysis experiments are explained here ahead of their use in \hyperref[chap:experiments]{Chapter 5}.
 
-\begin{figure}[hb]
-  \centering
-  \begin{minipage}{1\textwidth}
-    \centering
-    \includegraphics[width=1\linewidth]{Figures/NFLcom_example.png}
-    \captionof{figure}{NFL.com's 2021 draft table}
-    \label{fig:NFL_draft}
-  \end{minipage}%
-\end{figure}
-
-\section{Using the Harvard General Inquirer to produce data}
+\section{Using the Harvard General Inquirer to analyze data}
 \label{sec:GI_dict}
 The Harvard General Inquirer dictionary is available to download for use from the harvard.edu website \footnote{\url{http://www.wjh.harvard.edu/~inquirer/spreadsheet_guide.htm}}. Using this file, a Python
 dictionary of key-value pairs was created, the key being a stemmed word from the GI dictionary file and the values being each sentiment associated with it. With this dictionary, new datasets were created by 
@@ -337,7 +337,25 @@ the GI tagged version of the aforementioned datasets. This collection of dataset
 \label{sec:sci-kit_label}
 This section decribes what machine learning tools were used to implement the classification experiment. The experiment's aim is to use different algorithms on the different datasets created to try and to
 correctly classify between white and non-white instances. From this we can see what level of accuracy we can achieve, a higher score insinuating that language used can separate players by their ethnicity.
-FLOWCHART
+\paragraph{}
+
+\begin{tikzpicture}[node distance=3cm]
+  \node (start) [startstop] {Start};
+  \node(in1)[io, below of=start] {Dataset Inputted};
+  \node(pro1)[process, right of=in1, xshift=4cm] {Text Preprocessing};
+  \node(pro2)[process, below of=pro1] {Balancing Data};
+  \node(pro3)[decision, left of=pro2, xshift=-2.5cm] {ML Text Classification};
+  \node(stop)[startstop, left of=pro3, xshift=-2.5cm]{Evaluation};
+
+  \draw [arrow] (start) -- (in1);
+  \draw [arrow] (in1) -- (pro1);
+  \draw [arrow] (pro1) -- (pro2);
+  \draw [arrow] (pro2) -- (pro3);
+  \draw [arrow] (pro3) -- (stop);
+  
+\end{tikzpicture}
+
+
 \subsection{Pre-processing}
 Text pre-processing was performed on the scouting report sentences in each dataset before this experiment was performed.
 Specifically:
@@ -371,9 +389,28 @@ as {\it k}-fold cross-validation produces more accuracte results \citep{k-fold_c
 precision and recall are in ML problems. The average F1-score was taken from the output of the {\it k}-fold cross-validation to produce results for each algorithm.
 
 \section{Sentiment Analysis}
-The second experiment proposed in this paper is to perform sentiment analysis on sentences cateogized by the Harvard GI. This include the Harvard IV-4 dicitonary and the Lasswell value dictionary.
+The second experiment proposed in this paper is to perform sentiment analysis on sentences cateogized by the Harvard GI. This include the Harvard IV-4 dictionary and the Lasswell value dictionary.
 The 1-sentence dataset shall be tagged with the sentence's GI category and the players race that the sentence pertains to. There are several steps involved in this method, described below.
-FLOWCHART
+\paragraph{}
+\begin{tikzpicture}[node distance=3cm]
+  \node (start) [startstop] {Start};
+  \node(in1)[io, below of=start] {GI Data Inputted};
+  \node(pro1)[process, right of=in1, xshift=4cm] {Obtaining GI Tags};
+  \node(pro2)[decision, below of=pro1] {Tag Sentences};
+  \node(out1)[io, below of=pro2]{1-Sentence Tagged};
+  \node(in2)[io, left of=pro2, xshift=-4cm] {1-Sentence Data};
+  \node(stop)[startstop, left of=out1, xshift=-4cm]{Evaluation};
+  
+
+  \draw [arrow] (start) -- (in1);
+  \draw [arrow] (in1) -- (pro1);
+  \draw [arrow] (pro1) -- (pro2);
+  \draw [arrow] (pro2) -- (out1);
+  \draw [arrow] (out1) -- (stop);
+  \draw [arrow] (in2) -- (pro2);
+  
+\end{tikzpicture}
+
 \subsection{Obtaining all GI Tags}
 Firstly, the aforementioned \hyperref[sec:GI_dict]{GI Python dictionary} of key-value pairs is used. A dataset is then parsed through and each key occurence for both white and non-white player reports
 causes its value (its sentiment) to be kept track of. It is important to note that one word can have multiple GI tags. For example, {\it Confident} has 7 unique GI tags associated with it:
@@ -396,6 +433,28 @@ as well as the difference between them. For more information on all datasets cre
 \chapter{Data}
 \label{chap:data}
 This chapter describes all data gathered for the purpose of experimentation.
+
+\section{Data Gathering}
+The data needed to perform the experiments proposed was not available from any resource online. Thus, web scraping techniques had to be implemented. It was decided upon that player data should
+be obtained from the official NFL.com website \footnote{\url{https://www.nfl.com/draft/tracker/picks?year=2021}}. Beautiful Soup \footnote{\url{https://beautiful-soup-4.readthedocs.io/en/latest/}} (BS)
+was used to obtain all player information from the most recent (2021) draft. Here is where the player in-depth profile URL link was also captured, which will also be parsed to find information to
+make up the scouting report column of the datasets. As the web page in question uses Javascript to load its content, Chromium and Selenium was used to connect to the web page and allow the content to load before obtaining the information
+needed to create the datasets. The page's Javascript loaded every player name, player position and player profile URL link under the same CSS tag, allowing for functions to iteratively grab the data. Part of the web page
+can be seen in \hyperref[fig:NFL_draft]{Figure 3.1}.
+The player scouting report was was obtained in a similar manner, using the aforementioned URL link with BS to get the player strength and weaknesses. The final column of the dataset, player race, 
+was manually added, as there is no record of it on the web pages parsed. Each row in the dataset consists of many sentences pertaining to one player. To test the the different machine learning algorithms 
+on how much information they need, the master dataset was split into 1-sentence, 2-sentence, and 5-sentence datasets. For more information on all the datasets created, see \hyperref[sec:class_data]{Chapter 4}.
+
+\begin{figure}[hb]
+  \centering
+  \begin{minipage}{1\textwidth}
+    \centering
+    \includegraphics[width=1\linewidth]{Figures/NFLcom_example.png}
+    \captionof{figure}{NFL.com's 2021 draft table}
+    \label{fig:NFL_draft}
+  \end{minipage}%
+\end{figure}
+
 \section{Classification Data}
 \label{sec:class_data}
 For the classification experiment, 4 different datasets were created. As mentioned in the \hyperref[chap:methodology]{Methodology chapter}, each dataset has a standardized structure. Column names of:
@@ -577,9 +636,7 @@ The model produces this result for every GI tag it is given.
 
 \chapter{Results}
 \label{chap:results}
-Results first, using figures and tables, with little commentary and no interpretation.
-Then analysis and interpretation.
-The results chapter presents the findings from both experiments described in the Methodology and Experiments chapters.
+The results chapter presents the findings from both experiments that are described in the Methodology and Experiments chapters.
 \section{Classification}
 This section presents results in relation to the classification experiment. Overall, 12 different datasets were passed through the model, totaling 96 outputted results between the accuracy and f1-score. 
 Both higher accuracy and F1-Score indicates better performance of the algorithm. From our results we can interpret how much information different algorithms need to produce the best results possible.\par
@@ -776,33 +833,103 @@ dataset type for classification. This is due to the sparse nature of the dataset
 GI Tag found in all the data. Something interesting from these results was the difference in result order of the algorithms between accuracy and F1-score. Accuracy results went: SVM with the highest average, then SGD, then LR, then NB. F1-Scores was the 
 reverse of this: NB producing the highest, LR, SGD, and SVM following in that order. One of the reasons is because of NB, LR, and SGD's high recall metrics. High precision was the reason SVM was able to achieve such high accuracy. \par
 From the classification accuracy produced in this paper, it can be concluded that \textbf{W} and \textbf{NW} players can be classified to a high degree of accuracy using machine learning methods of text classification. 
+\pagebreak
 
 \section{Sentiment Analysis}
-
+This section presents results found from the sentiment analysis investigation described in \hyperref[chap:methodology]{Chapter 4.}
 \subsection{Experiment Results}
-figs and tables
-
+In Table 6.9, the sentiment analysis results can be seen. This includes the 15 GI Tags with the biggest difference in sentiment anaylsis scores between \textbf{W} and \textbf{NW} sentences with the associated GI Tag.
+\begin{table}[!h]
+  \begin{adjustbox}{center,max width=\linewidth}
+    \begin{tabular}{l|cccc}
+      \toprule
+      \bf GI Tag & \bf{W Sentiment} & \bf{NW Sentiment}& \bf{Difference}                     \\
+      \midrule
+      Try             & \textbf{0.45}              & -0.05           & 0.50                  \\
+      EnlEnds         & \textbf{0.90}              & 0.41            & 0.49                  \\
+      SV              & \textbf{0.33}              & -0.06           & 0.39                  \\
+      PowAuPt         & \textbf{0.47}              & 0.11            & 0.36                  \\
+      Persist         & \textbf{0.33}              & -0.01           & 0.35                  \\
+      RspTot          & \textbf{0.56}              & 0.23            & 0.33                  \\
+      Exprsv          & \textbf{0.47}              & 0.19            & 0.28                  \\
+      Eval@           & \textbf{0.37}              & 0.11            & 0.26                  \\
+      Work            & -0.21             & \textbf{0.02}            & 0.23                  \\
+      Goal            & \textbf{0.13}              &-0.06            & 0.19                  \\
+      IPadj           & -0.29             & \textbf{-0.10}           & 0.19                  \\
+      TrnLoss         & -0.47             & \textbf{-0.28}           & 0.19                  \\
+      Role            & \textbf{0.10}              & -0.09           & 0.18                  \\
+      Feel            & \textbf{0.62}              & 0.45            & 0.17                  \\
+      WlbPsyc         & 0.05              & \textbf{0.2}             & 0.14                  \\
+    \bottomrule
+    \end{tabular}
+  \end{adjustbox}
+  \caption{Top 15 \textbf{W} and \textbf{NW} GI Tag Sentiment Differences}
+  \label{tab:sentiment_a}
+\end{table}
+For Table 6.9 to be fully understood, the GI Tags must be explained:
+\begin{itemize}
+  \item Try - These are words that relate to activities being taken to reach a goal.
+  \item EnlEnds - Words of enlightenment, referring to the pursuit of knowledge or insight.
+  \item SV - These are verbs describing emotional state.
+  \item PowAuPt - Words for individual or collective actors in power processes.
+  \item Persist - Words relating to persistence and endurance.
+  \item RspTot - Words relating to the valuing status, honor, recognition, and prestige.
+  \item Exprsv - Words associated with sports and self-expression.
+  \item Eval@ - Words that imply judgement or evaluation.
+  \item Work - Words that are defined ways of doing work.
+  \item Goal - Words of end-states that is directe by muscular or mental striving.
+  \item IPadj - adjectives referring to relations between people.
+  \item TrnLoss - Words on not accomplishing.
+  \item Role - Words used by sociologists to refer to human behaviour patterns.
+  \item Feel - Words to describe feelings like gratitude or optimism.
+  \item WlbPsyc - Words denoting the psychological aspects of well being.
+\end{itemize}
+For each GI Tag, the highest score has been highlighted.
 
 \subsection{Interpretation}
-Remember to show examples
+From Table 6.9, sentences containing word(s) tagged as ``Try'' had the most significant difference in sentiment analysis score, with \textbf{W} sentences averaging what would be considered an average score and \textbf{NW} sentences averaging a neutral score. 
+An example of a positive \textbf{W} sentence that relates to ``Try'' is: \emph{Has experience at tackle, guard and centre (positions)}. A negative example is \emph{Missed on his last three field goal tries of 50 yards or more}. Similarily a \textbf{NW}
+positive example is \emph{Good effort in trying to stay connected to the block(er)}. A negative example was found to be \emph{Stronger cornerbacks can slow him at the top of his route}.
+\paragraph{}
+Of the top 15 Tags found, ``EnlEnds'' had the single highest sentiment score of 0.9 for \textbf{W} player sentences. In fact no negative ``EnlEnds'' sentences were found for white players. Most sentences pertaining to the tag involves describing the player in
+question's experience. This tag is important as sentences about a college players experience  does tend to matter a great deal when trying to project how well they can play at the professional level. From Table 6.9, \textbf{NW} sentiment was highest for sentences
+that were tagged as ``Feel''. Using the definition above, this relates directly to a players feel for the game or game sense. \textbf{NW} player sentence scored an average sentiment of 0.45. Despite being the \textbf{NW}'s highest score, \textbf{W} sentences still
+had a higher average for the GI Tag in question. Of the top 15 GI Tags, 11 of them had a higher score for \textbf{W} player sentences than \textbf{NW} player sentences.
+From these results, several conclusions can be made:
+\begin{itemize}
+  \item The Harvard GI dictionary is an effective tool to find words related to specific tags, and the dictionary can be incorporated into sentiment analysis techniques, and be a part of an effective model.
+  \item Due to the efficacy of the GI dictionary dictionary, specific GI tags could have sentiment analysis performed on the related sentences.
+  \item This sentiment analysis found that player scouting report sentences are found, in general, to be more positive for white players across relevant GI Tags.
+\end{itemize}
+This leads to the conclusion that player scouting reports as a whole are most positive towards white players, and less positive to non-white players.
+
+
 
 \chapter{Conclusion}
 \label{chap:conclusion}
-Here you must zoom back out to evaluate the thesis. Mention limitations and weaknesses as well as contributions.
-
+This chapter evaluates the work done in the thesis as well as potential future work that could contribute to the thesis.
 \section{Thesis Evaluation}
-What i wanted to do, and what i learned
-\subsection{Contributions}
-datasets created, 1,2,5 and 1-GI tagged. showed ML strengths.  
-\subsection{Weaknesses}
-what is a significant difference for sentiment analysis score?
-dataset small as oversampling needed.
-No DeepL methods for classification.
-choosing GI tags when filtering
+Here, the thesis contributions and weaknesses are discussed. This thesis initally proposed to use sentiment analysis and text classification to investigate whether bias existed in scouting report text. From the experiments,
+it was concluded that a high accuracy from datasets created meant that white and non-white players were seperable based on their associated report text. The results from the thesis' sentiment analysis experiment infer that 
+the reports themselves are also in general more positive in sentiment when the report is about white players in comparision to non-white players. This was seen across a selection of different GI categories.
+
+\paragraph{}
+The main contribution of this thesis is the number of datasets produced. 12 datasets were created for the classification experiment, and the resulting dataset from the sentiment analysis experiment data is also a significant contribution.
+Datasets containing player position, significant scouting report text data, and player ethnicity is nowhere to be publicly found. The dataset used for sentiment analysis (1-Sentence GI Tagged) is a unique dataset, with GI categories assigned
+to each sentence. This can provide others with the ability to perform different experiments pertaining to the GI categories. This thesis also showed the potential capability of the Harvard GI dictionary. The different ML algorithm's strength 
+were also shown. Each algorithm produced good results on different datasets, scoring highly on the 5-Sentence Raw Sentence level in particular. It shows how well it can perform given a problem in a real world domain. The use of NLP techniques
+should be seen as a major contribution to this thesis. These techniques were shown to be effective in reducing the dimensionality of data, and producing more accurate results as a product of this.
+\paragraph{}
+There were also some weaknesses associated with this thesis. With regards to the data used, most of the classification datasets were small, and had an uneven class distribution, at around 4:1 split. While the use of oversampling solved this, more
+data being collected to solve the issue of uneven class distribution would have been preferable as it avoids duplicating data. This leads to another weakness that data could be taken from more sources online. This thesis only obtained data from 
+NFL's official draft website. There are plenty of online publications who also write player scouting reports, and it could give a more accurate bias picture if data was obtained from those sources also. The final weakness of this paper is the lack
+of any deep learning algorithms used for classification. Some neural networks or long short-term memory (LSTM) network might have produced a more accurate classification score.
+
 \section{Future Work}
-DeepL methods for classification.
-Classify on GI tags of sentences
-bigger dataset
+Future work could revolve around trying to improve classification accuracy on the datasets. One way to do this would be to implement sort kind of deep neural network for text classification. An NLP technique not mentioned not mentioned here would be to
+implement word sense disambiguation to get the correct sense of words that are present in each players scouting report text. These potential implementations would produce a more true accuracy score. Another way to produce truer results would be to increase
+the dataset size with more player data from different publications.
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \bibliographystyle{plainnat}                  % to give author-year style

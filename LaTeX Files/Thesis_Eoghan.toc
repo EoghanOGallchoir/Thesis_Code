@@ -1,11 +1,11 @@
 \babel@toc {english}{}
 \contentsline {chapter}{\numberline {1}Introduction}{7}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Background}{7}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Context}{9}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Bias}{10}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Implicit Bias}{10}{subsection.1.3.1}%
+\contentsline {section}{\numberline {1.2}Context}{8}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Bias}{9}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Implicit Bias}{9}{subsection.1.3.1}%
 \contentsline {subsection}{\numberline {1.3.2}Bias in Media}{10}{subsection.1.3.2}%
-\contentsline {section}{\numberline {1.4}Thesis Structure}{11}{section.1.4}%
+\contentsline {section}{\numberline {1.4}Thesis Structure}{10}{section.1.4}%
 \contentsline {chapter}{\numberline {2}Literature Review}{13}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Sentiment Analysis}{13}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Basic Classification}{13}{subsection.2.1.1}%
@@ -15,46 +15,50 @@
 \contentsline {section}{\numberline {2.3}Dataset Imbalance}{16}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Existing Work on Sports Media}{16}{section.2.4}%
 \contentsline {paragraph}{}{17}{section*.7}%
+\contentsline {paragraph}{}{18}{section*.8}%
 \contentsline {chapter}{\numberline {3}Methodology}{19}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Data Gathering}{19}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Using the Harvard General Inquirer to produce data}{21}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Classification}{21}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Pre-processing}{22}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Data Imbalance}{22}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Algorithms}{22}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Evaluation}{23}{subsection.3.3.4}%
-\contentsline {section}{\numberline {3.4}Sentiment Analysis}{24}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Obtaining all GI Tags}{24}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Tagging the dataset}{25}{subsection.3.4.2}%
+\contentsline {section}{\numberline {3.1}Using the Harvard General Inquirer to analyze data}{19}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Classification}{20}{section.3.2}%
+\contentsline {paragraph}{}{20}{section*.9}%
+\contentsline {subsection}{\numberline {3.2.1}Pre-processing}{21}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Data Imbalance}{21}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Algorithms}{21}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Evaluation}{22}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}Sentiment Analysis}{23}{section.3.3}%
+\contentsline {paragraph}{}{23}{section*.10}%
+\contentsline {subsection}{\numberline {3.3.1}Obtaining all GI Tags}{23}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Tagging the dataset}{24}{subsection.3.3.2}%
 \contentsline {chapter}{\numberline {4}Data}{26}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Classification Data}{26}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}All Sentence Dataset}{27}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}1-Sentence Dataset}{29}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}2-Sentence Dataset}{29}{subsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.1.4}5-Sentence Dataset}{30}{subsection.4.1.4}%
-\contentsline {section}{\numberline {4.2}Sentiment Analysis Data}{30}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}The GI dictionary}{30}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}GI Tagged Dataset}{32}{subsection.4.2.2}%
-\contentsline {chapter}{\numberline {5}Experimental Settings}{34}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Classification Settings}{34}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Data Imbalance}{35}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Algorithms}{35}{subsection.5.1.2}%
-\contentsline {subsection}{\numberline {5.1.3}Evaluation}{36}{subsection.5.1.3}%
-\contentsline {section}{\numberline {5.2}Sentiment Analysis Settings}{36}{section.5.2}%
-\contentsline {chapter}{\numberline {6}Results}{38}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Classification}{38}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}1-Sentence Results}{38}{subsection.6.1.1}%
-\contentsline {subsection}{\numberline {6.1.2}2-Sentence Results}{39}{subsection.6.1.2}%
-\contentsline {subsection}{\numberline {6.1.3}5-Sentence Results}{40}{subsection.6.1.3}%
-\contentsline {subsection}{\numberline {6.1.4}All Sentence Results}{41}{subsection.6.1.4}%
-\contentsline {subsection}{\numberline {6.1.5}Results Interpretation}{42}{subsection.6.1.5}%
-\contentsline {section}{\numberline {6.2}Sentiment Analysis}{44}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Experiment Results}{44}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Interpretation}{45}{subsection.6.2.2}%
-\contentsline {chapter}{\numberline {7}Conclusion}{46}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Thesis Evaluation}{46}{section.7.1}%
-\contentsline {subsection}{\numberline {7.1.1}Contributions}{46}{subsection.7.1.1}%
-\contentsline {subsection}{\numberline {7.1.2}Weaknesses}{46}{subsection.7.1.2}%
-\contentsline {section}{\numberline {7.2}Future Work}{47}{section.7.2}%
-\contentsline {chapter}{References}{51}{chapter*.23}%
-\contentsline {chapter}{\numberline {A}Code}{52}{appendix.A}%
+\contentsline {section}{\numberline {4.1}Data Gathering}{26}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Classification Data}{27}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}All Sentence Dataset}{29}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}1-Sentence Dataset}{29}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}2-Sentence Dataset}{29}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}5-Sentence Dataset}{30}{subsection.4.2.4}%
+\contentsline {section}{\numberline {4.3}Sentiment Analysis Data}{30}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}The GI dictionary}{30}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}GI Tagged Dataset}{31}{subsection.4.3.2}%
+\contentsline {chapter}{\numberline {5}Experimental Settings}{36}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Classification Settings}{36}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Data Imbalance}{37}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Algorithms}{37}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Evaluation}{38}{subsection.5.1.3}%
+\contentsline {section}{\numberline {5.2}Sentiment Analysis Settings}{38}{section.5.2}%
+\contentsline {chapter}{\numberline {6}Results}{40}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Classification}{40}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}1-Sentence Results}{40}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}2-Sentence Results}{41}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.1.3}5-Sentence Results}{42}{subsection.6.1.3}%
+\contentsline {subsection}{\numberline {6.1.4}All Sentence Results}{43}{subsection.6.1.4}%
+\contentsline {subsection}{\numberline {6.1.5}Results Interpretation}{44}{subsection.6.1.5}%
+\contentsline {section}{\numberline {6.2}Sentiment Analysis}{47}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Experiment Results}{47}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Interpretation}{48}{subsection.6.2.2}%
+\contentsline {paragraph}{}{49}{section*.27}%
+\contentsline {chapter}{\numberline {7}Conclusion}{51}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Thesis Evaluation}{51}{section.7.1}%
+\contentsline {paragraph}{}{51}{section*.28}%
+\contentsline {paragraph}{}{52}{section*.29}%
+\contentsline {section}{\numberline {7.2}Future Work}{53}{section.7.2}%
+\contentsline {chapter}{References}{57}{chapter*.30}%
+\contentsline {chapter}{\numberline {A}Code}{58}{appendix.A}%
